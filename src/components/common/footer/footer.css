@@ -1,7 +1,7 @@
 .newletter {
-    background: linear-gradient(to right, #ef3131 50%, #6c6cea 50%);
+    background: rgb(87, 87, 189);
     padding: 50px 0;
-    color:#090606;
+    color:#f1efef;
     
    
 }
