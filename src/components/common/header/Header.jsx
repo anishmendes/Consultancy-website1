@@ -4,7 +4,7 @@ import Head from "./Head"
 import "./header.css"
 import { motion } from 'framer-motion';
 
-const Header = () => {
+const Header = () => { 
     const [click, setClick] = useState(false)
 
     return (

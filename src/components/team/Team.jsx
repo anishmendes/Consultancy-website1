@@ -12,6 +12,7 @@ const Team = () => {
       <section className='team padding'>
         <div className='container grid'>
           <TeamCard />
+          
         </div>
       </section>
       <Awrapper />

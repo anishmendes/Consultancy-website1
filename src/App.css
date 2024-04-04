@@ -12,13 +12,15 @@ body {
 }
 /* --------global------- */
 .container {
-  max-width: 85%;
+  max-width: 80%;
+  max-height: 70%;
   margin: auto ;
 
 }
 .flexSB {
   display: flex;
   justify-content: space-between;
+  
 }
 .icon {
   width: 40px;
