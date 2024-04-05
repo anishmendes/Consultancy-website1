@@ -2,6 +2,7 @@ import React from "react"
 import { price } from "../../dummydata"
 
 import { motion } from 'framer-motion';
+
 const PriceCard = () => {
   return (
     <>

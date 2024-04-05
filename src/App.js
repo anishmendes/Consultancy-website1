@@ -9,7 +9,8 @@ import {
 } from "react-router-dom";
 
 
-
+// import Login from "./components/Login"
+// import Signup from "./components/Signup"
 import About from "./components/about/About"
 import CourseHome from "./components/allcourses/CourseHome"
 import Team from "./components/team/Team"
@@ -31,6 +32,8 @@ function App() {
           <Route exact path='/pricing' component={Pricing} />
           <Route exact path='/journal' component={Blog} />
           <Route exact path='/contact' component={Contact} />
+          {/* <Route path="/" element={<Login/>}/>
+          <Route path="/signup" element={<Signup/>}/> */}
         </Switch>
         <Footer />
       </Router>
