@@ -1,8 +1,8 @@
 /*--------head------------*/
 .head {
-    padding: 20px 0;
+    padding: 10px 0;
     color: #294cd9;
-    margin-left: 20px;
+    margin-left: 10px;
     
   }
   .logo h1 {
@@ -20,10 +20,12 @@
   }
   header .nav {
     display: flex !important;
-    
+   
   }
   header li {
     margin-right: 40px;
+    
+    
   }
   header ul {
     padding: 30px 20px;

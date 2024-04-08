@@ -1,3 +1,15 @@
+
+
+
+
+.items img {
+  width: 100%; /* Ensure the cover image fills the container */
+  height: 100%; /* Ensure the cover image fills the container */
+  transition: opacity 0.3s ease; /* Add transition effect */
+}
+
+
+
 .price .items {
     padding: 40px;
     text-align: center;
@@ -19,6 +31,7 @@
     color: rgb(14, 13, 13);
     margin: 40px 0;
   }
+
   /*--------------faq-------------*/
   .faq .container {
     max-width: 70%;

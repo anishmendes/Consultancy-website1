@@ -2,9 +2,9 @@ import "./App.css"
 import Header from "./components/common/header/Header"
 import {
   BrowserRouter as Router,
-  Routes,
+ 
   Route,
-  Link,
+  
   Switch,
 } from "react-router-dom";
 

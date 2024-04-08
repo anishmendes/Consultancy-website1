@@ -32,7 +32,7 @@ const AboutCard = () => {
                 return (
                   <motion.div 
                   
-                  whileHover={{ scale: 1.1 }}
+                  whileHover={{ scale: 0.9 }}
                   className='item flexSB'>
                     <div className='img'>
                       <img src={val.cover} alt='' />

@@ -2,7 +2,7 @@ import React from "react"
 import "../blog/blog.css"
 import { blog } from "../../dummydata"
 import Heading from "../common/heading/Heading"
-
+import { motion } from 'framer-motion';
 
 
 const Hblog = () => {
@@ -13,7 +13,15 @@ const Hblog = () => {
           <Heading subtitle='OUR BLOG' title='Recent From Blog' />
           <div className='grid2'>
             {blog.slice(0, 3).map((val) => (
-              <div className='items shadow'>
+              <motion.div 
+             
+              initial={{ opacity: 0, scale: 0.4 }}
+        animate={{ opacity: 1.5, scale: 1 }}
+        transition={{ duration: 0.5 }}
+
+
+              whileHover={{ scale: 0.91, boxShadow: "2px 8px 16px rgba(0, 0, 0, 0.1)", backgroundColor: "#7c8ce6" }}
+              className='items shadow'>
                 <div className='img'>
                   <img src={val.cover} alt='' />
                 </div>
@@ -35,7 +43,7 @@ const Hblog = () => {
                   <h1>{val.title}</h1>
                   <p>{val.desc}</p>
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>

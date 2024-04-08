@@ -17,26 +17,27 @@
 }
 
 .blog h1:hover {
-    color: #221ef0;
+    color: #0d0d0e;
     cursor: pointer;
 }
 
 .blog span {
     text-transform: uppercase;
     font-weight: 500;
-    color:#111895;
+    color:#782706;
 }
 
 .blog span label {
     margin-left: 10px;
-    color: grey;
+    color: rgb(202, 28, 28);
     font-size: 14px;
 }
 
+
 .blog span:nth-last-child(1) label {
-    color:#1eb2a6;
+    color:#952626;
 
 }
 .blog p {
-    color:grey;
+    color:rgb(9, 9, 9);
 }

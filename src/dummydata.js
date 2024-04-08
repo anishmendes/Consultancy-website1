@@ -1,15 +1,15 @@
 export const homeAbout = [
     {
       id: 1,
-      cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
+      cover: "https://img.icons8.com/dotty/60/000000/storytelling.png",
       title: "Online Courses",
-      desc: "Courses may cover the various steps involved in the visa application process, including documentation requirements.",
+      desc: "Courses may cover the various steps involved in the visa application process,including documentation requirements.",
     },
     {
       id: 1,
-      cover: "https://img.icons8.com/ios/80/000000/diploma.png",
+      cover: "https://img.icons8.com/ios/40/000000/diploma.png",
       title: "Free IT Training",
-      desc: " We provide valuable opportunities for individuals to acquire new skills, advance their careers.",
+      desc: "We provide valuable opportunities for individuals to acquire new skills,advance their careers.",
     },
     {
       id: 1,
@@ -284,29 +284,7 @@ export const homeAbout = [
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
   ]
-  export const price = [
-    {
-      name: "Study In USA",
-      price: "49K",
-      content: "The USA has one of the top-ranked universities in the world. Over 4,000 schools and universities are located in the United States. In the United States",
-      "imageUrl":"./images/team/t3.webp"
-    },
-    {
-      name: "Study In Canada",
-      price: "79K",
-      content: "Since Canada is a world leader in language training. 21% of all Canadian people speak a foreign language as a native language so study in canada. ",
-    },
-    {
-      name: "Study In Australia",
-      price: "109k",
-      content: "Australia is not only a student destination but overall a dynamic  country that offers a good educational and career life to students from all over the world.",
-    },
-    {
-      name: "Study In Newsaland",
-      price: "149K",
-      content: "There are lots of reasons that you should consider going New Zealand for your abroad study. New Zealand has an international reputation as  provider of quality education.",
-    },
-  ]
+  
   export const faq = [
     {
       title: "How much will it cost to Study in the UK?",
