@@ -6,15 +6,15 @@ import Faq from "./Faq"
 
 const Pricing = () => {
   return (
-    <>
-      <Back title='Choose The Right Plan' />
+    <div  className="back-img">
+      <img src="" alt="" />
       <section className='price padding'>
         <div className='container grid'>
           <PriceCard />
         </div>
       </section>
       <Faq />
-    </>
+    </div>
   )
 }
 
