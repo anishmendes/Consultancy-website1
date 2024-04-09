@@ -17,10 +17,17 @@
   header {
     background-color: rgba(230, 218, 218, 0.2);
     margin: 0 30px;
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    margin-top: -30px;
   }
   header .nav {
     display: flex !important;
    
+  }
+  .flexSB {
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
   }
   header li {
     margin-right: 40px;
