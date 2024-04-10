@@ -2,7 +2,9 @@
 .head {
     padding: 10px 0;
     color: #294cd9;
-    margin-left: 10px;
+    margin-left: 50px;
+   
+   
     
   }
   .logo h1 {
@@ -20,6 +22,7 @@
     max-width: 1200px; /* Adjust the maximum width as needed */
     margin: 0 auto;
     margin-top: -30px;
+    margin-left: -20px;
   }
   header .nav {
     display: flex !important;
@@ -37,6 +40,7 @@
   header ul {
     padding: 30px 20px;
   }
+  
   header ul li a {
     color: #020800;
     font-weight: 500;
@@ -44,6 +48,10 @@
   }
   header ul li a:hover {
     color: #f33527;
+    text-decoration: none;
+  color: #333; /* Default text color */
+  padding: 10px;
+  position: relative
   }
   .start {
     background-color: #0f3dd3;
@@ -51,6 +59,12 @@
     color: #fff;
     clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
   }
+  div.social {
+    position: relative;
+    top: 23px;
+    margin-left: 20px;
+}
+
   
   .toggle {
     display: none;
