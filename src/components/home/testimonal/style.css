@@ -3,8 +3,18 @@
     transition: 0.5s;
     border-radius: 20px; /* Add border radius for rounded corners */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   
  
   }
+  /* .content.grid2 {
+    display: flex; 
+    flex-direction: row;
+  } */
+ 
+  
+ 
+  
+ 
   
   .testimonal .img {
     position: relative;

@@ -389,5 +389,26 @@ export const homeAbout = [
       desc: "This is the best Itetls Company in the Kathmandu here i have learned so many things about Visa prepation.",
       cover: "./images/testo/t3.webp",
     },
+    {
+      id: 3,
+      name: "Rabin Belbase",
+      post: "Manager",
+      desc: "This is the best Itetls Company in the Kathmandu here i have learned so many things about Visa prepation.",
+      cover: "./images/testo/t3.webp",
+    },
+    {
+      id: 3,
+      name: "Rabin Belbase",
+      post: "Manager",
+      desc: "This is the best Itetls Company in the Kathmandu here i have learned so many things about Visa prepation.",
+      cover: "./images/testo/t3.webp",
+    },
+    {
+      id: 3,
+      name: "Rabin Belbase",
+      post: "Manager",
+      desc: "This is the best Itetls Company in the Kathmandu here i have learned so many things about Visa prepation.",
+      cover: "./images/testo/t3.webp",
+    },
    
   ]

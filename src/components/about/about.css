@@ -9,8 +9,10 @@
 
 .aboutHome .left img {
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit:cover;
+    margin-top: 30px;
+
 }
 
 .aboutHome .right {
@@ -22,7 +24,7 @@
 }
 
 .aboutHome .item {
-    background-color: #fff;
+  
     margin-top: 30px;
     padding: 20px;
     transition: 0.5s;
@@ -31,8 +33,8 @@
     width: 150px;
 }
 .aboutHome img {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
 }
 
 .aboutHome .item h2 { 
@@ -63,7 +65,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 30vh;
+    height: 20vh;
     color: #f6f5f5;
 
 }
@@ -89,6 +91,28 @@
 
 
 /* ------------awrapper----------- */
+@media only screen and (max-width: 768px) {
+    .aboutHome .right {
+        padding: 50px 30px; /* Adjust padding for smaller screens */
+    }
+    
+    .aboutHome .item {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+    
+    .aboutHome .img {
+        width: 100px; /* Adjust image width for smaller screens */
+    }
+    
+    .aboutHome img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .aboutHome .item h2 { 
+       font-size: 18px; /* Adjust font size for smaller screens */
+    }
+}
 
  @media screen and (max-width:768px) {
     .aboutHome .container {
