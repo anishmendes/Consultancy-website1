@@ -79,19 +79,17 @@ img[src='./images/back2'] {
  
   .online {
     text-align: center;
-
-    display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Create 4 columns with equal width */
-  gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
   }
-
-
   .online .box {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
+    box-shadow: 20px 20px 20px 20px rgba(6, 6, 6, 0.06);
+    background-color: #ffffff;
+    padding: 30px;
+    transition: 0.5s;
+    color: #e0d8d8;
+    margin: 20px; /* Add margin to create gap between boxes */
   }
   .online .box:hover{
     background-color: white;
@@ -102,7 +100,6 @@ img[src='./images/back2'] {
     margin: 20px;
     position: relative;
     object-fit: cover;
-    
   }
   .online img {
     width: 100%;
@@ -116,7 +113,7 @@ img[src='./images/back2'] {
     line-height: 30px;
   }
   .online span {
-    background-color: #4b99e8;
+    background-color: #dddedf;
     padding: 5px 20px;
     font-weight: 500;
     font-size: 15px;
