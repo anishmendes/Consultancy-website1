@@ -30,7 +30,8 @@
     transition: 0.5s;
 }
 .aboutHome .img {
-    width: 150px;
+    width: 100px;
+    height:auto;
 }
 .aboutHome img {
     width: 100px;
