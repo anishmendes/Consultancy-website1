@@ -145,5 +145,53 @@ img[src='./images/back2'] {
     color: #181717;
   }
   /*-------------online---------*/
-  @media screen and (max-width: 768px) {
+ /* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+  .coursesCard {
+    padding: 30px 0;
   }
+
+  .coursesCard .items {
+    padding: 20px;
+  }
+
+  .coursesCard .img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .coursesCard .text {
+    margin-left: 10px;
+  }
+
+  .coursesCard .text h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .coursesCard .rate i {
+    font-size: 11px;
+  }
+
+  .online .box {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .online .img {
+    width: 150px;
+    height: 120px;
+    margin: 10px;
+  }
+
+  .online h1 {
+    font-size: 18px;
+    margin: 15px 0;
+    line-height: 25px;
+  }
+
+  .online span {
+    font-size: 13px;
+    padding: 3px 15px;
+  }
+}
