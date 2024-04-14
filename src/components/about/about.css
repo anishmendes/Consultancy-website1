@@ -116,14 +116,24 @@
 }
 
  @media screen and (max-width:768px) {
-    .aboutHome .container {
-        flex-direction: column-reverse;
+    .aboutHome .right {
+        padding: 50px 30px; /* Adjust padding for smaller screens */
     }
-    .aboutHome .row {
-        width:100%;
 
+    .aboutHome .item {
+        padding: 15px; /* Adjust padding for smaller screens */
     }
-    .awrapper {
-        height: 50vh;
+
+    .aboutHome .img {
+        width: 80px; /* Adjust image width for smaller screens */
     }
-} 
+
+    .aboutHome img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .aboutHome .item h2 {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+}
