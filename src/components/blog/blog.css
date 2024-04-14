@@ -42,3 +42,31 @@
 .blog p {
     color:rgb(9, 9, 9);
 }
+
+
+
+    
+   /* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .blog .text {
+        padding: 20px; /* Increase padding for smaller screens */
+        margin-bottom: 30px; /* Add more margin bottom to create larger gap */
+    }
+
+    .blog h1 {
+        font-size: 20px; /* Increase font size for smaller screens */
+        line-height: 28px; /* Increase line height for smaller screens */
+        margin: 15px 0; /* Increase margin for smaller screens */
+    }
+
+    .blog span label {
+        margin-left: 5px; /* Increase margin for smaller screens */
+        font-size: 12px; /* Increase font size for smaller screens */
+    }
+
+    /* Add margin bottom to create gap between blog items */
+    .blog .blog-item {
+        margin-bottom: 20px;
+    }
+}
+
