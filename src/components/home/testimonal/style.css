@@ -1,63 +1,74 @@
-.testimonal .items {
-    padding: 30px;
-    transition: 0.5s;
-    border-radius: 20px; /* Add border radius for rounded corners */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-   
- 
-  }
-  /* .content.grid2 {
-    display: flex; 
-    flex-direction: row;
-  } */
- 
-  
- 
-  
- 
-  
-  .testimonal .img {
-    position: relative;
-  }
-  .testimonal img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  }
-  .testimonal i {
-    position: absolute;
-    bottom: 0;
-    left: 60px;
-    background-color: #2a43cc;
-    color: #fff;
-  }
-  .testimonal .name {
-    margin: 25px;
-  }
-  .testimonal .name h2 {
-    font-size: 20px;
-    margin-bottom: 5px;
-  }
-  .testimonal .name span {
-    color: #2a41b3;
-    
-    font-weight: bold;
-  }
-  .testimonal p {
-    margin-top: 20px;
-    color: grey;
-    transition: 0.5s;
-  }
-  .testimonal .items:hover {
-    background-color: #6553dd;
-    color: #fff;
-    cursor: pointer;
-  }
-  .testimonal .items:hover span,
-  .testimonal .items:hover p {
-    color: #fff;
-  }
-  .testimonal .items:hover i {
-    background-color: #fff;
-    color: #1eb2a6;
-  }
+.testimonial .swiper-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.testimonial .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial .items {
+  padding: 40px; /* Increase padding */
+  transition: 0.5s;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonial .img {
+  position: relative;
+}
+
+.testimonial img {
+  width: 120px; /* Increase image size */
+  height: 120px; /* Increase image size */
+  border-radius: 50%;
+}
+
+.testimonial i {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2a43cc;
+  color: #fff;
+}
+
+.testimonial .name {
+  margin: 25px;
+}
+
+.testimonial .name h2 {
+  font-size: 24px; /* Increase heading font size */
+  margin-bottom: 10px; /* Increase margin */
+}
+
+.testimonial .name span {
+  color: #2a41b3;
+  font-weight: bold;
+  font-size: 18px; /* Increase span font size */
+}
+
+.testimonial p {
+  margin-top: 30px; /* Increase margin */
+  color: grey;
+  transition: 0.5s;
+}
+
+
+.testimonial .items:hover {
+  background-color: #6553dd;
+  color: #fff;
+  cursor: pointer;
+}
+
+.testimonial .items:hover span,
+.testimonial .items:hover p {
+  color: #fff;
+}
+
+.testimonial .items:hover i {
+  background-color: #fff;
+  color: #1eb2a6;
+}

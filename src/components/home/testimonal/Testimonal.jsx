@@ -6,29 +6,30 @@ import "./style.css"
 import { motion } from 'framer-motion';
 
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import {  Navigation } from 'swiper/modules';
+import "swiper/swiper-bundle.css";
 
-
-const Testimonal = () => {
+const Testimonial = () => {
   return (
-    <>
-      <section className='testimonal padding'>
-        <motion.div 
-         
-         initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 2 }}
-        
-        
-        className='container'>
-          <Heading subtitle='TESTIMONIAL' title='Our Successful Students' />
-
-          <div className='content grid2'>
-            {testimonal.map((val) => (
-              <motion.div 
-
-              whileHover={{ scale: 1.1 }}
-              
-              className='items shadow'>
+    <section className='testimonial padding'>
+      <div className='container'>
+        <Heading subtitle='TESTIMONIAL' title='Our Successful Students' />
+        <Swiper
+          modules={[ Navigation]}
+          spaceBetween={40}
+          slidesPerView={3}
+          loop={true}
+          
+          
+          navigation={true}
+        >
+          {testimonal.map((val, index) => (
+            <SwiperSlide key={index}>
+              <motion.div
+                whileHover={{ scale: 0.93 }}
+                className='items shadow'
+              >
                 <div className='box flex'>
                   <div className='img'>
                     <img src={val.cover} alt='' />
@@ -41,12 +42,12 @@ const Testimonal = () => {
                 </div>
                 <p>{val.desc}</p>
               </motion.div>
-            ))}
-          </div>
-        </motion.div>
-      </section>
-    </>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </section>
   )
 }
 
-export default Testimonal
+export default Testimonial;
