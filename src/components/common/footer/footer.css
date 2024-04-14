@@ -130,3 +130,89 @@ footer .last i {
 .legal i {
     color: #e61267;
 }
+
+@media screen and (max-width: 768px) {
+    .newletter {
+        background: rgb(87, 87, 189);
+        padding: 20px 0; /* Decrease padding */
+        color: #f1efef;
+    }
+    
+    .newletter .right,
+    .newletter .left {
+        padding-right: 15px; /* Decrease padding */
+    }
+    
+    .newletter h1 {
+        font-size: 22px; /* Decrease font size */
+        margin-bottom: 10px; /* Decrease margin */
+    }
+    
+    .newletter .right {
+        display: flex;
+        flex-direction: column; /* Change to column layout for smaller screens */
+        align-items: center;
+    }
+    
+    .newletter input {
+        width: calc(100% - 30px); /* Adjust width for padding */
+        padding: 12px; /* Decrease padding */
+        height: 36px; /* Increase height */
+    }
+    
+    .newletter i {
+        padding: 8px; /* Decrease padding */
+    }
+    
+    footer {
+        background-color: #fcfcfc;
+        color: #030202;
+        padding: 20px 0; /* Decrease padding */
+    }
+    
+    footer .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Change to 2 columns for smaller screens */
+        grid-gap: 15px; /* Decrease grid gap */
+    }
+    
+    footer .logo p {
+        margin: 10px 0; /* Decrease margin */
+    }
+    
+    footer h3 {
+        margin-bottom: 15px; /* Decrease margin */
+    }
+    
+    footer ul li {
+        margin-bottom: 10px; /* Decrease margin */
+    }
+    
+    footer .items img {
+        width: 35px; /* Decrease image width */
+        height: 35px; /* Decrease image height */
+    }
+    
+    footer .items span,
+    footer .items i {
+        font-size: 10px; /* Decrease font size */
+        margin-right: 2px; /* Decrease margin */
+    }
+    
+    footer .last ul li {
+        margin-bottom: 20px; /* Decrease margin */
+    }
+    
+    footer .last i {
+        width: 35px; /* Decrease width */
+        font-size: 14px; /* Decrease font size */
+    }
+    
+    .legal {
+        padding: 20px 0; /* Decrease padding */
+    }
+    
+    .legal p {
+        font-size: 10px; /* Decrease font size */
+    }
+}
