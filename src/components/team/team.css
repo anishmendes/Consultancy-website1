@@ -56,3 +56,21 @@
     background-color: #113ed2;
     color: #fff;
   }
+
+  @media screen and (max-width: 768px) {
+    .team .details {
+      padding: 10px; /* Decrease padding */
+    }
+  
+    .team .details h2 {
+      font-size: 16px; /* Decrease font size */
+    }
+  
+    .team .details p {
+      font-size: 12px; /* Decrease font size */
+    }
+  
+    .overlay {
+      padding: 10px; /* Decrease padding */
+    }
+  }
