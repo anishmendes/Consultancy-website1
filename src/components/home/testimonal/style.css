@@ -73,27 +73,37 @@
   color: #1eb2a6;
 }
 
-
+/* Add media query for screens smaller than 768px */
 @media only screen and (max-width: 768px) {
-  .testimonial .items {
-    padding: 20px; /* Decrease padding for smaller screens */
+  .testimonial .swiper-container {
+    padding: 10px; /* Decrease padding for smaller screens */
   }
 
-  .testimonial img {
-    width: 100px; /* Decrease image size for smaller screens */
-    height: 100px; /* Decrease image size for smaller screens */
+  .testimonial .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+
+  .testimonial .items {
+    padding: 20px; /* Decrease padding */
+    border-radius: 10px; /* Adjust border radius for smaller screens */
+  }
+
+  .testimonial .img img {
+    width: 80px; /* Decrease image size */
+    height: 80px; /* Decrease image size */
   }
 
   .testimonial .name h2 {
-    font-size: 20px; /* Decrease heading font size for smaller screens */
-    margin-bottom: 5px; /* Decrease margin for smaller screens */
+    font-size: 18px; /* Decrease font size */
+    margin-bottom: 5px; /* Decrease margin */
   }
 
   .testimonial .name span {
-    font-size: 16px; /* Decrease span font size for smaller screens */
+    font-size: 14px; /* Decrease font size */
   }
 
   .testimonial p {
-    margin-top: 20px; /* Decrease margin for smaller screens */
+    margin-top: 20px; /* Decrease margin */
   }
 }
