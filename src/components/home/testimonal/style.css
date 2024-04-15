@@ -72,3 +72,28 @@
   background-color: #fff;
   color: #1eb2a6;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .testimonial .items {
+    padding: 20px; /* Decrease padding for smaller screens */
+  }
+
+  .testimonial img {
+    width: 100px; /* Decrease image size for smaller screens */
+    height: 100px; /* Decrease image size for smaller screens */
+  }
+
+  .testimonial .name h2 {
+    font-size: 20px; /* Decrease heading font size for smaller screens */
+    margin-bottom: 5px; /* Decrease margin for smaller screens */
+  }
+
+  .testimonial .name span {
+    font-size: 16px; /* Decrease span font size for smaller screens */
+  }
+
+  .testimonial p {
+    margin-top: 20px; /* Decrease margin for smaller screens */
+  }
+}
