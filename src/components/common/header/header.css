@@ -70,35 +70,37 @@
     display: none;
   }
   /*--------header------------*/
-  @media screen and (max-width: 768px) {
-    .start {
-      clip-path: none;
-    }
-    header {
-      margin: 0;
-      background-color: #1eb2a6;
-      position: relative;
-    }
-    header ul.flexSB {
-      display: none;
-    }
-    header ul li {
-      margin-bottom: 20px;
-    }
-    .toggle {
-      display: block;
-      background: none;
-      color: #fff;
-      font-size: 30px;
-      position: absolute;
-      right: 0;
-      top: -20px;
-    }
-    .mobile-nav {
-      position: absolute;
-      top: 7vh;
-      left: 0;
-      width: 100%;
-      background-color: #1eb2a6;
-    }
+ /* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .head {
+    margin-left: 5px; /* Adjust margin for smaller screens */
+}
+
+/*--------header------------*/
+header {
+    margin: 0; /* Reset margin for smaller screens */
+    margin-top: 0; /* Reset margin-top for smaller screens */
+    margin-left: 0; /* Reset margin-left for smaller screens */
+}
+header .nav {
+    display: flex !important; /* Display navigation for smaller screens */
+    flex-direction: column; /* Change to column layout for smaller screens */
+    align-items: center; /* Center-align items in column layout */
+}
+header li {
+    margin: 5px 0; /* Adjust margin for smaller screens */
+}
+header ul {
+    padding: 0; /* Reset padding for smaller screens */
+}
+header ul li a {
+    padding: 3px 10px; /* Adjust padding for smaller screens */
+    font-size: 14px; /* Decrease font size for smaller screens */
+}
+  .start {
+      padding: 15px 30px; /* Adjust padding for smaller screens */
   }
+  div.social {
+      margin-left: 0; /* Reset margin-left for smaller screens */
+  }
+}
