@@ -71,36 +71,40 @@
   }
   /*--------header------------*/
  /* Media query for smaller screens */
-@media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 768px) {
   .head {
     margin-left: 5px; /* Adjust margin for smaller screens */
-}
+  }
 
-/*--------header------------*/
-header {
+  /*--------header------------*/
+  header {
+    position: fixed; /* Fix the header at the top of the screen */
+    top: 0; /* Align the header to the top */
+    width: 100%; /* Ensure the header spans the full width */
     margin: 0; /* Reset margin for smaller screens */
     margin-top: 0; /* Reset margin-top for smaller screens */
     margin-left: 0; /* Reset margin-left for smaller screens */
-}
-header .nav {
+    background-color: rgba(230, 218, 218, 0.2); /* Apply background color */
+  }
+  header .nav {
     display: flex !important; /* Display navigation for smaller screens */
     flex-direction: column; /* Change to column layout for smaller screens */
     align-items: center; /* Center-align items in column layout */
-}
-header li {
+  }
+  header li {
     margin: 5px 0; /* Adjust margin for smaller screens */
-}
-header ul {
+  }
+  header ul {
     padding: 0; /* Reset padding for smaller screens */
-}
-header ul li a {
+  }
+  header ul li a {
     padding: 3px 10px; /* Adjust padding for smaller screens */
     font-size: 14px; /* Decrease font size for smaller screens */
-}
+  }
   .start {
-      padding: 15px 30px; /* Adjust padding for smaller screens */
+    padding: 15px 30px; /* Adjust padding for smaller screens */
   }
   div.social {
-      margin-left: 0; /* Reset margin-left for smaller screens */
+    margin-left: 0; /* Reset margin-left for smaller screens */
   }
 }
