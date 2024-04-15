@@ -68,3 +68,29 @@
   }
   
   /*--------------faq-------------*/
+  /* Apply responsive styles for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+  .faq .container {
+    max-width: 90%; /* Decrease max-width for smaller screens */
+  }
+
+  .faq button {
+    padding: 15px; /* Add padding */
+    font-size: 14px; /* Decrease font size */
+  }
+
+  .faq h2 {
+    font-size: 18px; /* Decrease font size */
+  }
+
+  .faq p {
+    padding: 10px; /* Decrease padding */
+  }
+
+  .faq .accordion:hover {
+    background: none; /* Remove gradient on hover for smaller screens */
+    color: inherit; /* Inherit text color on hover */
+    box-shadow: none; /* Remove box shadow on hover */
+    font-weight: normal; /* Reset font weight on hover */
+  }
+}
