@@ -34,9 +34,13 @@
       height: 40vh;
     }
     .hero {
-      background-position: right;
-      padding-top: 50%;
-      height: 80vh;
+      padding-top: 50%; /* Adjust padding for smaller screens */
+      padding-right: 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .hero #heading h3 {
+      width: 100%; /* Make the width full for smaller screens */
+      font-size: 24px; /* Decrease font size for smaller screens */
     }
     .hero .row {
       width: 100%;
