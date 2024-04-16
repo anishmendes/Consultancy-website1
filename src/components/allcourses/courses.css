@@ -11,11 +11,13 @@ img[src='./images/back2'] {
 }
 .coursesCard {
     padding: 50px 0;
+    
   }
   .coursesCard .items {
     background-color: #ffffff;
     padding: 30px;
     text-align: center;
+    box-shadow: 20px 20px 20px 20px rgba(26, 81, 184, 0.06);
   }
  
   .coursesCard .img {
