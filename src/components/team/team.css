@@ -1,5 +1,6 @@
 .team .items {
     transition: 0.5s;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.06);
   }
   .team .img {
     position: relative;
