@@ -405,8 +405,8 @@ export const homeAbout = [
     },
     {
       id: 3,
-      name: "Rabin Belbase",
-      post: "Manager",
+      name: "Pragathi Dahal",
+      post: "UI UX designer",
       desc: "This is the best Itetls Company in the Kathmandu here i have learned so many things about Visa prepation.",
       cover: "./images/testo/t6",
     },
