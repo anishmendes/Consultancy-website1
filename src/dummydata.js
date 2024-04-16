@@ -394,21 +394,21 @@ export const homeAbout = [
       name: "Rabin Belbase",
       post: "Manager",
       desc: "This is the best Itetls Company in the Kathmandu here i have learned so many things about Visa prepation.",
-      cover: "./images/testo/t3.webp",
+      cover: "./images/testo/t4",
     },
     {
       id: 3,
       name: "Rabin Belbase",
       post: "Manager",
       desc: "This is the best Itetls Company in the Kathmandu here i have learned so many things about Visa prepation.",
-      cover: "./images/testo/t3.webp",
+      cover: "./images/testo/t5",
     },
     {
       id: 3,
       name: "Rabin Belbase",
       post: "Manager",
       desc: "This is the best Itetls Company in the Kathmandu here i have learned so many things about Visa prepation.",
-      cover: "./images/testo/t3.webp",
+      cover: "./images/testo/t6",
     },
    
   ]
