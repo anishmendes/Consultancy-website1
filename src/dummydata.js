@@ -100,7 +100,7 @@ export const homeAbout = [
     {
       id: 5,
       cover: "../images/courses/c5.png",
-      coursesName: "Introducing to Programming",
+      coursesName: " Programming",
       courTeacher: [
         {
           dcover: "./images/bg.1.jpg",
@@ -142,7 +142,7 @@ export const homeAbout = [
     {
       id: 8,
       cover: "../images/courses/c8.png",
-      coursesName: "Introducing to Space Science",
+      coursesName: " Space Science",
       courTeacher: [
         {
           dcover: "./images/bg.1.jpg",
