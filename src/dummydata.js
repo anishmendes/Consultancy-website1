@@ -245,23 +245,23 @@ export const homeAbout = [
   export const team = [
     {
       cover: "./images/team/t1.webp",
-      name: "Sunil Belbase",
-      work: " LEAD INSTRUCTOR",
+      name: "Saurav Paudel",
+      work: "Full Stack Dev",
     },
     {
       cover: "./images/team/t2.webp",
       name: "Rabin Belbase",
-      work: " SENIOR TUTOR",
+      work: "Manager",
     },
     {
       cover: "./images/team/t3.webp",
-      name: "Himanshi Gaire",
-      work: "MANAGER",
+      name: "Pawan Ghimire",
+      work: "MD",
     },
     {
       cover: "./images/team/t4.webp",
-      name: "Anish Mainali",
-      work: "DEVELOPER ",
+      name: "Sunil Belbase",
+      work: "CEO",
     },
     {
       cover: "./images/team/t5.webp",
@@ -270,18 +270,18 @@ export const homeAbout = [
     },
     {
       cover: "./images/team/t6.webp",
-      name: "Demo 2",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      name: "Anish Mainali",
+      work: "DEVELOPER AND INSTRUCTOR",
     },
     {
       cover: "./images/team/t7.webp",
-      name: "Demo 3",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      name: "Aditiya Shrestha",
+      work: "DEVELOPER",
     },
     {
       cover: "./images/team/t8.webp",
-      name: "Demo 4",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      name: "Pagarthi Dahal",
+      work: "UI UX Designer",
     },
   ]
   
