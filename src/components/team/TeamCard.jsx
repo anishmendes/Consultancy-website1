@@ -14,7 +14,7 @@ const TeamCard = () => {
         animate={{ opacity: 1.5, scale: 0.9 }}
         transition={{ duration: 0.5 }}
         
-        whileHover={{ scale: 1.05, boxShadow: "1px 4px 8px rgba(0, 0, 0, 0.1)" }}
+        whileHover={{ scale: 0.9, boxShadow: "1px 4px 8px rgba(0, 0, 0, 0.1)" }}
         
         whileTap={{ scale: 1.1}}
         
