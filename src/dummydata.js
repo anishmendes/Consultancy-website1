@@ -397,9 +397,9 @@ export const homeAbout = [
       cover: "./images/testo/t4",
     },
     {
-      id: 3,
-      name: "Rabin Belbase",
-      post: "Manager",
+      id: 5,
+      name: "Aditya Shrestha",
+      post: "Backend Developer",
       desc: "This is the best Itetls Company in the Kathmandu here i have learned so many things about Visa prepation.",
       cover: "./images/testo/t5",
     },
