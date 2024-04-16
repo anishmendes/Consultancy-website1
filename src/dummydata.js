@@ -390,9 +390,9 @@ export const homeAbout = [
       cover: "./images/testo/t3.webp",
     },
     {
-      id: 3,
-      name: "Rabin Belbase",
-      post: "Manager",
+      id: 4,
+      name: "Anish Mainali",
+      post: "MERN Developer",
       desc: "This is the best Itetls Company in the Kathmandu here i have learned so many things about Visa prepation.",
       cover: "./images/testo/t4",
     },
