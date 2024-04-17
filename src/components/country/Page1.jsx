@@ -11,7 +11,7 @@ const Page1 = () => {
       <div  className="usa-page">
         <h1>Study In USA</h1>
         <p>"Embark on an educational journey like no other – study in the USA and pave the way to a bright future!"</p>
-       <img src="" alt="" />
+        <img src="/images/usa page1" alt="USA Page 1" />
             
 
     </div>
