@@ -14,7 +14,7 @@ const Page1 = () => {
         <img src="/images/usa page1" alt="USA Page 1" />
 
         <div>
-            <h1>Why study in USA from Nepal?</h1>
+            <h1>Why study in  <span> USA </span>from Nepal?</h1>
         </div>
             
 
