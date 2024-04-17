@@ -1,6 +1,6 @@
 import React from "react"
 import Back from "../common/back/Back"
-import PriceCard from "./CountryCard"
+import CountryCard from "./CountryCard"
 import "./country.css"
 import Faq from "./Faq"
 
@@ -10,7 +10,7 @@ const Pricing = () => {
             <Back title='Contact us' />
       <section className='price padding'>
         <div className='container grid'>
-          <PriceCard />
+          <CountryCard />
         </div>
       </section>
       <Faq />
