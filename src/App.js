@@ -14,7 +14,7 @@ import {
 import About from "./components/about/About"
 import CourseHome from "./components/allcourses/CourseHome"
 import Team from "./components/team/Team"
-import Country from "./components/pricing/Country"
+import Country from "./components/country/Country"
 import Blog from "./components/blog/Blog"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"

@@ -1,6 +1,6 @@
 import React from "react"
 import Heading from "../common/heading/Heading"
-import PriceCard from "../pricing/CountryCard"
+import PriceCard from "../country/CountryCard"
 
 const Hprice = () => {
   return (
