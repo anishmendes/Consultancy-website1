@@ -65,6 +65,11 @@
     position: relative;
     
   }
+  .topic{
+    color: #2332b8;
+    display: flex;
+    flex-wrap: wrap;
+  }
   
   /* .buttons {
     position: absolute;
