@@ -1,0 +1,65 @@
+/* page.css */
+
+.usa-page {
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .headingc {
+    color: #b82323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .parac {
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .titlec {
+    color: #a72828;
+   
+  }
+  
+  .imgmain {
+    position: relative; /* Add relative positioning to the container */
+  }
+  
+  .buttons {
+    position: absolute; /* Position the buttons relative to the container */
+    top: 50%; /* Align the buttons vertically centered */
+    left: 50%; /* Align the buttons horizontally centered */
+    transform: translate(-50%, -50%); /* Center the buttons both horizontally and vertically */
+    display: flex;
+    flex-direction: column; /* Arrange the buttons vertically */
+    gap: 10px; /* Add some gap between buttons */
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    background-color: #ce1b1b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #0056b3;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px; /* Add margin-bottom to every heading tag */
+  }
+  
+  .parac {
+    margin-bottom: 20px; /* Add margin-bottom to every paragraph tag with class 'parac' */
+  }
+  
+  
+  
+  /* Additional CSS styles can be added as needed */
+  
