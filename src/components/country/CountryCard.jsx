@@ -40,11 +40,12 @@ const PriceCard = () => {
 
           key={index}
           className='items shadow'
-          initial={{ opacity: 0, scale: 0.4 }}
-        animate={{ opacity: 1.5, scale: 0.9 }}
-        transition={{ duration: 0.5 }}
-        
-        whileHover={{ scale: 1.05, boxShadow: "2px 8px 16px rgba(0, 0, 0, 0.1)" }}
+          whileHover={{
+            scale: 1.1,
+            backgroundColor: "#cfd3d3"
+          }}
+          transition={{ duration: 0.7, yoyo: Infinity }}
+
         
         whileTap={{ scale: 1}}
           onMouseEnter={() => setHoveredIndex(index)}
