@@ -16,6 +16,8 @@ const Page1 = () => {
 
         <div>
             <h1 className='headingc'>Why study in  <span className='titlec'> USA </span>from Nepal?</h1>
+
+            
             <p className='parac'>Studying in the USA from Nepal offers unparalleled 
             academic and personal growth opportunities, with top-ranked universities providing world-class education. Renowned for innovative teaching methods and cutting-edge research facilities, American institutions offer a vibrant campus life.
              Access to a global network of professionals enhances career prospects and fosters cultural exchange. The welcoming environment for international students, coupled with scholarship options, makes the USA an attractive destination for Nepalese
