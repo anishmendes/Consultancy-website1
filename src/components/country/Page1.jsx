@@ -53,7 +53,19 @@ const Page1 = () => {
         </div>
 
         <img src="/images/mid pic usa " alt="USA Page 2" />
+        <div class="buttons">
+    <button>About USA</button>
+     <button>Universities</button>
+     <button>Courses </button>
+     <button>Scholarship</button>
+     </div>
         
+        <div>
+            <h2>Top Universities for Nepalese Students in USA</h2>
+            <span>
+                <p>The following table presents the top 10 universities in the United States, listing each university's name, and it’s USA rank.</p>
+            </span>
+        </div>
 
 
             
