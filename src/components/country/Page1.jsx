@@ -10,9 +10,9 @@ const Page1 = () => {
   return (
 
       <div  className="usa-page">
-        <h1 className='headingc'>Study In USA</h1>
-        <p className='parac'>"Embark on an educational journey like no other – study in the USA and pave the way to a bright future!"</p>
-        <img src="/images/usa page1" alt="USA Page 1" />
+        <h1 className='heading1'><span className='span1'>Study In</span> USA</h1>
+        <p className='para1'>"Embark on an educational journey like no other – study in the USA and pave the way to a bright future!"</p>
+        <img src="/images/usa page1" alt="USA Page 1"  className='img1'/>
 
         <div>
             <h1 className='headingc'>Why study in  <span className='titlec'> USA </span>from Nepal?</h1>
@@ -53,7 +53,7 @@ const Page1 = () => {
             </div>
         </div>
 
-        <img src="/images/mid pic usa " alt="USA Page 2"  />
+        <img src="/images/mid pic usa " alt="USA Page 2"  className='img2' />
         <div class="buttons">
     <button>About USA</button>
      <button>Universities</button>
