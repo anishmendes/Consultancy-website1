@@ -26,17 +26,18 @@
 
 
 .aboutHome .item {
-  
+    background-color: #fff;
+   
     margin-top: 30px;
-    padding: 22px;
+    padding: 20px;
     transition: 0.5s;
 }
 .aboutHome .img {
-    width: 100px;
-    height:100px}
+    width: 200px;
+}
 .aboutHome img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }
 
 .aboutHome .item h2 { 
