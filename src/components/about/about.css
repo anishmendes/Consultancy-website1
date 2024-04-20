@@ -38,6 +38,7 @@
 .aboutHome img {
     width: 70px;
     height: 70px;
+    margin-left: -20px;
 }
 
 .aboutHome .item h2 { 
