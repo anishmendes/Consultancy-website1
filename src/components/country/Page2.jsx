@@ -9,8 +9,8 @@ import './page.css'; // Import CSS file
 const Page2 = () => {
   return (
     <div  className="usa-page">
-        <h1 className='heading1'><span className='span1'>Study In</span> USA</h1>
-        <p className='para1'>"Embark on an educational journey like no other – study in the USA and pave the way to a bright future!"</p>
+        <h1 className='heading1'><span className='span1'>Study In</span> CANADA</h1>
+        <p className='para1'>"Embark on an educational journey like no other – study in the CANADA and pave the way to a bright future!"</p>
         <img src="/images/usa page1" alt="USA Page 1"  className='img1'/>
 
         <div>
