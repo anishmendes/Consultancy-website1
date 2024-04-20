@@ -29,18 +29,18 @@ const Page2 = () => {
             <p className='parac'>For Nepali students, selecting the CANADA as their study abroad destination presents a distinct opportunity to not only enhance academic knowledge but also foster personal and professional development. Here are compelling reasons why opting for the USA is a strategic choice for Nepali students seeking higher education :</p>
             <div>
 
-            <p className='parac'><span className='topic'>1)Academic Distinction:</span> The CANADA is home to  numerous top-tier universities renowned for their academic rigor and pioneering teaching approaches. Enrolling in a US university guarantees access to state-of-the-art knowledge and expertise, laying a strong groundwork for forthcoming achievements.</p>
+            <p className='parac'><span className='topic'>1)Academic Distinction:</span> The CANADA is home to  numerous top-tier universities renowned for their academic rigor and pioneering teaching approaches. Enrolling in a CANADA university guarantees access to state-of-the-art knowledge and expertise, laying a strong groundwork for forthcoming achievements.</p>
              <section>
-                <p className='parac'><span className='topic'>2)Financial Aid and Scholarships:</span> While higher education in the USA can be expensive, many universities offer financial aid, scholarships, and assistantships to international students, including those from Nepal, to help alleviate the financial burden.</p>
+                <p className='parac'><span className='topic'>2)Financial Aid and Scholarships:</span> While higher education in the CANADA can be expensive, many universities offer financial aid, scholarships, and assistantships to international students, including those from Nepal, to help alleviate the financial burden.</p>
              </section>
 
              <section>
-                <p className='parac'><span className='topic'>3)Global Recognition:</span> Degrees from US universities are recognized worldwide, which can enhance career prospects and open doors to opportunities in Nepal or abroad.</p>
+                <p className='parac'><span className='topic'>3)Global Recognition:</span> Degrees from CANADA universities are recognized worldwide, which can enhance career prospects and open doors to opportunities in Nepal or abroad.</p>
              </section>
 
 
              <section>
-              <p className='parac'><span className='topic'>4)Career Opportunities:</span> Graduating from a US university can enhance employability both in Nepal and internationally, as employers often value the skills, knowledge, and cultural adaptability gained from a US education.</p>
+              <p className='parac'><span className='topic'>4)Career Opportunities:</span> Graduating from a CANADA university can enhance employability both in Nepal and internationally, as employers often value the skills, knowledge, and cultural adaptability gained from a CANADA education.</p>
              </section>
 
              <section>
