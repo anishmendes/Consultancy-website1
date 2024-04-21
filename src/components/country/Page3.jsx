@@ -25,7 +25,7 @@ const Page3 = () => {
     </div>
 
     <div>
-        <h2>Key Advantages of Pursuing Higher Education in the <span className='titlec'>CANADA</span> for Nepali Students</h2>
+        <h2>Key Advantages of Pursuing Higher Education in the <span className='titlec'>AUSTRALIA</span> for Nepali Students</h2>
         <p className='parac'>For Nepali students, selecting the CANADA as their study abroad destination presents a distinct opportunity to not only enhance academic knowledge but also foster personal and professional development. Here are compelling reasons why opting for the USA is a strategic choice for Nepali students seeking higher education :</p>
         <div>
 
