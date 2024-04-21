@@ -14,7 +14,7 @@ const Page3 = () => {
     <img src="/images/usa page1" alt="USA Page 1"  className='img1'/>
 
     <div>
-        <h1 className='headingc'>Why study in  <span className='titlec'> CANADA </span>from Nepal?</h1>
+        <h1 className='headingc'>Why study in  <span className='titlec'> AUSTRALIA</span>from Nepal?</h1>
 
 
         <p className='parac'>Studying in the CANADA from Nepal offers unparalleled 
