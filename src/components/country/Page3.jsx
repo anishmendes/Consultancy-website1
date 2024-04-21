@@ -40,7 +40,7 @@ const Page3 = () => {
 
 
          <section>
-          <p className='parac'><span className='topic'>4)Career Opportunities:</span> Graduating from a CANADA university can enhance employability both in Nepal and internationally, as employers often value the skills, knowledge, and cultural adaptability gained from a CANADA education.</p>
+          <p className='parac'><span className='topic'>4)Career Opportunities:</span> Graduating from a AUSTRALIA university can enhance employability both in Nepal and internationally, as employers often value the skills, knowledge, and cultural adaptability gained from a AUSTRALIA education.</p>
          </section>
 
          <section>
