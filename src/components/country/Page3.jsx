@@ -48,7 +48,7 @@ const Page3 = () => {
          </section>
 
           <section>
-            <p className='parac'><span className='topic'>6)Cultural Exchange:</span> Living and studying in the CANADA exposes Nepali students to different cultures, languages, and perspectives. This cultural immersion fosters personal growth, cross-cultural understanding, and tolerance.</p>
+            <p className='parac'><span className='topic'>6)Cultural Exchange:</span> Living and studying in the AUSTRALIA exposes Nepali students to different cultures, languages, and perspectives. This cultural immersion fosters personal growth, cross-cultural understanding, and tolerance.</p>
           </section>
 
         </div>
@@ -56,7 +56,7 @@ const Page3 = () => {
 
     <img src="/images/mid pic usa " alt="USA Page 2"  className='img2' />
     <div class="buttons">
-<button>About CANADA</button>
+<button>About AUSTRALIA</button>
  <button>Universities</button>
  <button>Courses </button>
  <button>Scholarship</button>
