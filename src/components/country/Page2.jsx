@@ -48,7 +48,7 @@ const Page2 = () => {
              </section>
 
               <section>
-                <p className='parac'><span className='topic'>6)Cultural Exchange:</span> Living and studying in the USA exposes Nepali students to different cultures, languages, and perspectives. This cultural immersion fosters personal growth, cross-cultural understanding, and tolerance.</p>
+                <p className='parac'><span className='topic'>6)Cultural Exchange:</span> Living and studying in the CANADA exposes Nepali students to different cultures, languages, and perspectives. This cultural immersion fosters personal growth, cross-cultural understanding, and tolerance.</p>
               </section>
 
             </div>
