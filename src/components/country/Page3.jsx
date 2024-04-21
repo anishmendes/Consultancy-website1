@@ -63,9 +63,9 @@ const Page3 = () => {
  </div>
     
     <div>
-        <h2>Top Universities for Nepalese Students in CANADA</h2>
+        <h2>Top Universities for Nepalese Students in AUSTRALIA</h2>
         <span>
-            <p>The following table presents the top 10 universities in the CANADA, listing each university's name, and it’s CANADA rank.</p>
+            <p>The following table presents the top 10 universities in the AUSTRALIA, listing each university's name, and it’s CANADA rank.</p>
         </span>
     </div>
 
