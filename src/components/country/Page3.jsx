@@ -17,9 +17,9 @@ const Page3 = () => {
         <h1 className='headingc'>Why study in  <span className='titlec'> AUSTRALIA</span>from Nepal?</h1>
 
 
-        <p className='parac'>Studying in the CANADA from Nepal offers unparalleled 
+        <p className='parac'>Studying in the AUSTRALIA from Nepal offers unparalleled 
         academic and personal growth opportunities, with top-ranked universities providing world-class education. Renowned for innovative teaching methods and cutting-edge research facilities, American institutions offer a vibrant campus life.
-         Access to a global network of professionals enhances career prospects and fosters cultural exchange. The welcoming environment for international students, coupled with scholarship options, makes the USA an attractive destination for Nepalese
+         Access to a global network of professionals enhances career prospects and fosters cultural exchange. The welcoming environment for international students, coupled with scholarship options, makes the AUSTRALIA an attractive destination for Nepalese
           students seeking to pursue academic aspirations and broaden horizons.</p>
 
     </div>
