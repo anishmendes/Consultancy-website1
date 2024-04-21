@@ -29,13 +29,13 @@ const Page3 = () => {
         <p className='parac'>For Nepali students, selecting the AUSTRALIA as their study abroad destination presents a distinct opportunity to not only enhance academic knowledge but also foster personal and professional development. Here are compelling reasons why opting for the USA is a strategic choice for Nepali students seeking higher education :</p>
         <div>
 
-        <p className='parac'><span className='topic'>1)Academic Distinction:</span> The CANADA is home to  numerous top-tier universities renowned for their academic rigor and pioneering teaching approaches. Enrolling in a CANADA university guarantees access to state-of-the-art knowledge and expertise, laying a strong groundwork for forthcoming achievements.</p>
+        <p className='parac'><span className='topic'>1)Academic Distinction:</span> The AUSTRALIA is home to  numerous top-tier universities renowned for their academic rigor and pioneering teaching approaches. Enrolling in a CANADA university guarantees access to state-of-the-art knowledge and expertise, laying a strong groundwork for forthcoming achievements.</p>
          <section>
-            <p className='parac'><span className='topic'>2)Financial Aid and Scholarships:</span> While higher education in the CANADA can be expensive, many universities offer financial aid, scholarships, and assistantships to international students, including those from Nepal, to help alleviate the financial burden.</p>
+            <p className='parac'><span className='topic'>2)Financial Aid and Scholarships:</span> While higher education in the AUSTRALIA can be expensive, many universities offer financial aid, scholarships, and assistantships to international students, including those from Nepal, to help alleviate the financial burden.</p>
          </section>
 
          <section>
-            <p className='parac'><span className='topic'>3)Global Recognition:</span> Degrees from CANADA universities are recognized worldwide, which can enhance career prospects and open doors to opportunities in Nepal or abroad.</p>
+            <p className='parac'><span className='topic'>3)Global Recognition:</span> Degrees from AUSTRALIA universities are recognized worldwide, which can enhance career prospects and open doors to opportunities in Nepal or abroad.</p>
          </section>
 
 
