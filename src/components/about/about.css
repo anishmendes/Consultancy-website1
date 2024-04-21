@@ -26,7 +26,7 @@
 
 
 .aboutHome .item {
-    background-color: #fff;
+    
    
     margin-top: 30px;
     padding: 20px;
@@ -39,6 +39,7 @@
     width: 70px;
     height: 70px;
     margin-left: -20px;
+    
 }
 
 .aboutHome .item h2 { 
