@@ -88,6 +88,9 @@ const Page1 = () => {
 
         <div className="table-s">
             <table className='table-og'>
+                <thead className='thead'>
+
+                </thead>
 
             </table>
             </div>

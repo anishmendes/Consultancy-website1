@@ -93,6 +93,13 @@
     text-align: left;
     font-size: 0.875rem;
   }
+  .thead {
+    background-color: #f7fafc;
+    color: #4a5568;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    
+  }
   
   
   
