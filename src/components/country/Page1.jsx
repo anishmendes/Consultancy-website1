@@ -57,6 +57,14 @@ const Page1 = () => {
     {name:'Doctoral Degree', des:'$28,000 to $55,000 per year'},
    ]
 
+   const expenses =[
+    {name:'Electricity', des:'$60 to $100 per month'},
+    {name:'Internet', des:'$45 to $50 per month'},
+    {name:'Transportation', des:'$45 to $100 per month'},
+    {name:'Food', des:'$400 to $600 per month'},
+    {name:'Phone', des:'$50 to $100 per month'},
+   ]
+
 
   return (
 
@@ -334,6 +342,42 @@ const Page1 = () => {
 
             </table>
             </div>
+
+
+        <p><span>Please note that </span> these figures are average estimates and may vary considerably based on the university, program, and individual circumstances. It is recommended to consult the official websites of the institutions you are considering to obtain the most current information regarding tuition fees for your selected field of study.
+ </p>
+
+ <h3>Cost of Living in the <span>USA</span></h3>
+
+      <div className="table-s">
+            <table className='table-og'>
+                <thead className='thead'>
+
+                    <tr>
+                        
+                        <th scope="col" className="th-scope">
+                            Expenses
+                        </th>
+                        <th scope="col" className="th-scope2">
+                            Cost in USD
+                        </th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    {expenses.map((expense, index) => (
+                        <tr key={expense.id} className="tr1">
+                           
+                            <td className="th-scope">{expense.name}</td>
+                            <td className="th-scope2">{expense.des}</td>
+                        </tr>
+                    ))}
+                </tbody>
+
+            </table>
+            </div>
+
        
 
 
