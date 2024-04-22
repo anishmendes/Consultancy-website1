@@ -297,6 +297,9 @@ const Page1 = () => {
         </ul>
           </div>
 
+          <h2>Cost to Study in the <span>Cost to Study in the USA</span></h2>
+          
+
 
 
 
