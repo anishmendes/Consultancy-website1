@@ -104,6 +104,16 @@ const Page1 = () => {
 
                 </thead>
 
+                <tbody>
+                    {universities.map((university, index) => (
+                        <tr key={university.id} className="tr1">
+                            <td className="th-scope">{index + 1}</td>
+                            <td className="th-scope">{university.name}</td>
+                            <td className="th-scope2">{university.rank}</td>
+                        </tr>
+                    ))}
+                </tbody>
+
             </table>
             </div>
 
