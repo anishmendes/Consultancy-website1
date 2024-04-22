@@ -280,7 +280,22 @@ const Page1 = () => {
             </div>
 
 
+            <h2>Requirements for Nepali Students to Study in the <span>USA</span></h2>
+            
+          <div className='points'>
 
+        <ul>
+
+        <li> <span>F-1 Student Visa:</span>Acquire an F-1 visa for studying in the USA</li>
+        <li><span>Admissions:</span>Apply to universities offering robust programs; review program-specific prerequisites</li>
+        <li><span>English Proficiency:</span>Demonstrate proficiency through language tests such as TOFEL or IELTS.</li>
+        <li><span>Standardized Tests:</span>Certain programs may necessitate GRE or GMAT  scores.</li>
+        <li><span>Financial Proof:</span>Present documentation of financial capability to fund tuition and living costs.</li>
+        <li><span>Letters of Recommendation:</span>Obtain compelling recommendation letters from educators or professionals</li>
+        <li><span>Health Insurance:Secure coverage, often mandatory for international students.</span></li>
+
+        </ul>
+          </div>
 
 
 
