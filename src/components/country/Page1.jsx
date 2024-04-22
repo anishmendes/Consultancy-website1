@@ -10,16 +10,16 @@ const Page1 = () => {
 
 
     const universities = [
-        { id: 1, name: 'Massachusetts Institute of Technology (MIT)', rank: 2 },
-        { id: 2, name: 'Stanford University', rank: 6 },
-        { id: 3, name: 'Harvard University', rank: 2 },
-        { id: 4, name: 'California Institute of Technology (Caltech)', rank: 9 },
-        { id: 5, name: 'Princeton University', rank: 1 },
-        { id: 6, name: 'University of Pennsylvania', rank: 8 },
-        { id: 7, name: 'University of Chicago', rank: 6 },
-        { id: 8, name: 'Columbia University', rank: 12 },
-        { id: 9, name: 'University of California, Berkeley', rank: 15 },
-        { id: 10, name: 'University of California, Los Angeles (UCLA)', rank: 15 },
+        { id: 1., name: 'Massachusetts Institute of Technology (MIT)', rank: 2 },
+        { id: 2., name: 'Stanford University', rank: 6 },
+        { id: 3., name: 'Harvard University', rank: 2 },
+        { id: 4., name: 'California Institute of Technology (Caltech)', rank: 9 },
+        { id: 5., name: 'Princeton University', rank: 1 },
+        { id: 6., name: 'University of Pennsylvania', rank: 8 },
+        { id: 7., name: 'University of Chicago', rank: 6 },
+        { id: 8., name: 'Columbia University', rank: 12 },
+        { id: 9., name: 'University of California, Berkeley', rank: 15 },
+        { id: 10., name: 'University of California, Los Angeles (UCLA)', rank: 15 },
     ];
 
 

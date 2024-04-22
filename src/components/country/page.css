@@ -94,7 +94,7 @@
     font-size: 0.875rem;
   }
   .thead {
-    background-color: #f7fafc;
+    background: rgb(206, 212, 221) ;
     color: #4a5568;
     font-size: 0.75rem;
     text-transform: uppercase;
@@ -109,7 +109,7 @@
     border-style: solid;
     border-color: #f56565;
     font-weight: bold;
-    color: #4299e1;
+    color: #171ac5;
   }
   .th-scope2 {
     padding-left: 1.5rem; /* Adjust the horizontal padding as needed */
@@ -118,12 +118,12 @@
     padding-bottom: 0.75rem;
     border-width: 1px; /* Adjust the border width as needed */
     border-style: solid;
-    border-color: #f56565; 
+    border-color: #d90d0d; 
     font-weight: bold;
-    color: #f56565;
+    color: #ee0e0e;
   }
   .tr1 {
-    background: white ;
+    background: rgb(206, 212, 221) ;
     border: black;
     
   }
