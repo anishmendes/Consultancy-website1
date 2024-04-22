@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom'; // Import Link
 
 const PriceCard = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -35,9 +36,6 @@ const PriceCard = () => {
     <>
       {price.map((val, index) => (
         <motion.div
-       
-
-
           key={index}
           className='items shadow'
           whileHover={{
@@ -45,9 +43,7 @@ const PriceCard = () => {
             backgroundColor: "#cfd3d3"
           }}
           transition={{ duration: 0.7, yoyo: Infinity }}
-
-        
-        whileTap={{ scale: 1}}
+          whileTap={{ scale: 1}}
           onMouseEnter={() => setHoveredIndex(index)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
@@ -65,7 +61,10 @@ const PriceCard = () => {
                 {val.price}
               </h1>
               <p>{val.desc}</p>
-              <button className='outline-btn'>GET STARTED</button>
+              {/* Add Link to the button */}
+              <Link to="/country/page1">
+                <button className='outline-btn'>GET STARTED</button>
+              </Link>
             </>
           )}
         </motion.div>
