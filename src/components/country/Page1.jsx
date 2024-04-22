@@ -1,6 +1,6 @@
 import React from 'react'
-import Back from "../common/back/Back"
-import CountryCard from "./CountryCard"
+// import Back from "../common/back/Back"
+// import CountryCard from "./CountryCard"
 import "./country.css"
 import Faq from "./Faq"
 import './page.css'; // Import CSS file
@@ -10,17 +10,30 @@ const Page1 = () => {
 
 
     const universities = [
-        { id: 1., name: 'Massachusetts Institute of Technology (MIT)', rank: 2 },
-        { id: 2., name: 'Stanford University', rank: 6 },
-        { id: 3., name: 'Harvard University', rank: 2 },
-        { id: 4., name: 'California Institute of Technology (Caltech)', rank: 9 },
-        { id: 5., name: 'Princeton University', rank: 1 },
-        { id: 6., name: 'University of Pennsylvania', rank: 8 },
-        { id: 7., name: 'University of Chicago', rank: 6 },
+        { id: 1. , name: 'Massachusetts Institute of Technology (MIT)', rank: 2 },
+        { id: 2. , name: 'Stanford University', rank: 6 },
+        { id: 3. , name: 'Harvard University', rank: 2 },
+        { id: 4. , name: 'California Institute of Technology (Caltech)', rank: 9 },
+        { id: 5. , name: 'Princeton University', rank: 1 },
+        { id: 6. , name: 'University of Pennsylvania', rank: 8 },
+        { id: 7. , name: 'University of Chicago', rank: 6 },
         { id: 8., name: 'Columbia University', rank: 12 },
-        { id: 9., name: 'University of California, Berkeley', rank: 15 },
-        { id: 10., name: 'University of California, Los Angeles (UCLA)', rank: 15 },
+        { id: 9. , name: 'University of California, Berkeley', rank: 15 },
+        { id: 10. , name: 'University of California, Los Angeles (UCLA)', rank: 15 },
     ];
+     
+   const courses = [
+    {name:'Computer Science', des:'Focuses on programming and technology.'},
+    {name:'Business Administration', des:'Involves management and entrepreneurship.'},
+    {name:'Engineering', des:'Includes mechanical, electrical, and computer engineering.'},
+    {name:'Data Science', des:'Deals with analyzing complex data sets.'},
+    {name:'Medicine',des:'Encompasses pre-med, nursing, and healthcare management.'},
+    {name:'Environmental Science',des:'Concentrates on sustainable development and climate studies.'},
+    {name:'Hospitality Management',des:'Covers hotel management and tourism.'},
+    {name:'Finance',des:'Involves banking and financial management.'},
+    {name:'Psychology',des:'Explores behavioral sciences and counseling.'},
+    {name:'Marketing',des:'Focuses on advertising and brand management.'},
+   ]
 
 
   return (
@@ -110,6 +123,41 @@ const Page1 = () => {
                             <td className="th-scope">{index + 1}</td>
                             <td className="th-scope">{university.name}</td>
                             <td className="th-scope2">{university.rank}</td>
+                        </tr>
+                    ))}
+                </tbody>
+
+            </table>
+            </div>
+
+
+            <h2 className=''>Top Courses for Nepalese Students in <span className=''>USA</span></h2>
+
+            <p className='p-table'>Studying in the USA offers more than just academic learning; it's an opportunity to interact with a diverse international student community akin to exploring different flavors. Programs like STEM provide practical exposure through internships, allowing students to delve into fields like science and technology. <span className='gap'>The USA empowers students to pursue their passions, whether in STEM fields or other areas, as reflected in the varied academic interests of Nepalese students, spanning from computer science and engineering to business administration and healthcare. These choices resonate with both prevailing global industry trends and the ambitions of students aspiring for a comprehensive education.</span> </p>
+
+
+             <div className="table-s">
+            <table className='table-og'>
+                <thead className='thead'>
+
+                    <tr>
+                        
+                        <th scope="col" className="th-scope2">
+                            Course
+                        </th>
+                        <th scope="col" className="th-scope">
+                            Description
+                        </th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    {courses.map((course, index) => (
+                        <tr key={course.id} className="tr1">
+                           
+                            <td className="th-scope2">{course.name}</td>
+                            <td className="th-scope">{course.des}</td>
                         </tr>
                     ))}
                 </tbody>
