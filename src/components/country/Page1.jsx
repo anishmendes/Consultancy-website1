@@ -90,6 +90,18 @@ const Page1 = () => {
             <table className='table-og'>
                 <thead className='thead'>
 
+                    <tr>
+                        <th scope='col' className='th-scope'>
+                          S.N
+                        </th>
+                        <th scope="col" className="th-scope">
+                            Universities
+                        </th>
+                        <th scope="col" className="th-scope2">
+                            USA rank (2023)
+                        </th>
+                    </tr>
+
                 </thead>
 
             </table>

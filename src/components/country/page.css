@@ -98,7 +98,29 @@
     color: #4a5568;
     font-size: 0.75rem;
     text-transform: uppercase;
-    
+
+  }
+  .th-scope {
+    padding-left: 1.5rem; /* Adjust the horizontal padding as needed */
+    padding-right: 1.5rem;
+    padding-top: 0.75rem; /* Adjust the vertical padding as needed */
+    padding-bottom: 0.75rem;
+    border-width: 1px; /* Adjust the border width as needed */
+    border-style: solid;
+    border-color: #f56565;
+    font-weight: bold;
+    color: #4299e1;
+  }
+  .th-scope2 {
+    padding-left: 1.5rem; /* Adjust the horizontal padding as needed */
+    padding-right: 1.5rem;
+    padding-top: 0.75rem; /* Adjust the vertical padding as needed */
+    padding-bottom: 0.75rem;
+    border-width: 1px; /* Adjust the border width as needed */
+    border-style: solid;
+    border-color: #f56565; 
+    font-weight: bold;
+    color: #f56565;
   }
   
   
