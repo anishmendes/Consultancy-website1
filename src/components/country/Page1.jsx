@@ -166,6 +166,32 @@ const Page1 = () => {
             </div>
 
 
+            <h2>Scholarships in <span>USA</span></h2>
+
+            <p>Despite the high cost of American degrees, numerous scholarships are accessible to assist international students. Nearly all institutions offer scholarship opportunities, many of which are open to overseas applicants. However, candidates may be required to complete SAT or ACT examinations. According to the Fulbright Commission, nearly 600 American colleges provide scholarships worth $20,000 or more to international students, often considering factors such as academic achievement, financial need, or extracurricular engagement during evaluation.</p>
+
+            <h2>Types of Scholarship</h2>
+              
+              <h3>Institutional Scholarships:  </h3>
+              <p>Most colleges offer financial assistance to international students in some capacity. Many universities have their own scholarship programs tailored for international students.</p>
+                 
+                 <div className='scholarship'>
+
+              <h3>Merit-Based Scholarships:</h3>
+              <p>These scholarships are awarded based on a student's academic excellence. They encompass various types:</p>
+               <span>a.) Academic Scholarships:</span>
+               <p>Institutions or private organizations may offer these scholarships to students with high SAT or ACT scores.</p>
+
+               <span>b.) Athletic Scholarships:</span>
+               <p>Reserved for student-athletes, these scholarships are competitive and subject to specific regulations. They present a significant opportunity for international students interested in studying in the US</p>
+
+              <span>c.) Need-Based Scholarships: </span>
+              <p>Awarded based on the recipient's financial circumstances, these scholarships are primarily available to US citizens. However, some colleges extend need-based scholarships to international students.</p>
+                 </div>
+
+
+                 <h2>Test Required to Study in <span>USA</span></h2>
+
             
 
     </div>
