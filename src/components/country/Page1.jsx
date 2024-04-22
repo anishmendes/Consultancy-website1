@@ -70,11 +70,11 @@ const Page1 = () => {
 
       <div  className="usa-page">
         <h1 className='heading1'><span className='span1'>Study In</span> USA</h1>
-        <p className='para1'>"Embark on an educational journey like no other – study in the USA and pave the way to a bright future!"</p>
+        <h3 className='para1'>"Embark on an educational journey like no other – <span className='span-red'> study in the USA and pave the way to a bright future!"</span></h3>
         <img src="/images/usa page1" alt="USA Page 1"  className='img1'/>
 
         <div>
-            <h1 className='headingc'>Why study in  <span className='titlec'> USA </span>from Nepal?</h1>
+            <h1 className='headingc'>Why study in  <span className='span-red'> USA </span>from Nepal?</h1>
 
 
             <p className='parac'>Studying in the USA from Nepal offers unparalleled 
@@ -85,30 +85,30 @@ const Page1 = () => {
         </div>
 
         <div>
-            <h2>Key Advantages of Pursuing Higher Education in the <span className='titlec'>USA</span> for Nepali Students</h2>
-            <p className='parac'>For Nepali students, selecting the USA as their study abroad destination presents a distinct opportunity to not only enhance academic knowledge but also foster personal and professional development. Here are compelling reasons why opting for the USA is a strategic choice for Nepali students seeking higher education :</p>
+            <h2 className='h2-blue'>Key Advantages of Pursuing Higher Education in the <span className='span-red'>USA</span> for Nepali Students</h2>
+            <p className='parat'>For Nepali students, selecting the USA as their study abroad destination presents a distinct opportunity to not only enhance academic knowledge but also foster personal and professional development. Here are compelling reasons why opting for the USA is a strategic choice for Nepali students seeking higher education :</p>
             <div>
 
-            <p className='parac'><span className='topic'>1)Academic Distinction:</span> The USA is home to  numerous top-tier universities renowned for their academic rigor and pioneering teaching approaches. Enrolling in a US university guarantees access to state-of-the-art knowledge and expertise, laying a strong groundwork for forthcoming achievements.</p>
+            <p className='parat'><span className='topic'><span className='span-red'>1)</span>Academic Distinction:</span> The USA is home to  numerous top-tier universities renowned for their academic rigor and pioneering teaching approaches. Enrolling in a US university guarantees access to state-of-the-art knowledge and expertise, laying a strong groundwork for forthcoming achievements.</p>
              <section>
-                <p className='parac'><span className='topic'>2)Financial Aid and Scholarships:</span> While higher education in the USA can be expensive, many universities offer financial aid, scholarships, and assistantships to international students, including those from Nepal, to help alleviate the financial burden.</p>
+                <p className='parat'><span className='topic'><span className='span-red'>2)</span>Financial Aid and Scholarships:</span> While higher education in the USA can be expensive, many universities offer financial aid, scholarships, and assistantships to international students, including those from Nepal, to help alleviate the financial burden.</p>
              </section>
 
              <section>
-                <p className='parac'><span className='topic'>3)Global Recognition:</span> Degrees from US universities are recognized worldwide, which can enhance career prospects and open doors to opportunities in Nepal or abroad.</p>
+                <p className='parat'><span className='topic'><span className='span-red'>3)</span>Global Recognition:</span> Degrees from US universities are recognized worldwide, which can enhance career prospects and open doors to opportunities in Nepal or abroad.</p>
              </section>
 
 
              <section>
-              <p className='parac'><span className='topic'>4)Career Opportunities:</span> Graduating from a US university can enhance employability both in Nepal and internationally, as employers often value the skills, knowledge, and cultural adaptability gained from a US education.</p>
+              <p className='parat'><span className='topic'><span className='span-red'>4)</span>Career Opportunities:</span> Graduating from a US university can enhance employability both in Nepal and internationally, as employers often value the skills, knowledge, and cultural adaptability gained from a US education.</p>
              </section>
 
              <section>
-                <p className='parac'><span className='topic'>5)Personal Development:</span> Studying abroad requires independence, adaptability, and resilience, all of which contribute to personal growth and self-confidence. Nepali students return home with a broader worldview and valuable life experiences.</p>
+                <p className='parat'><span className='topic'><span className='span-red'>5)</span>Personal Development:</span> Studying abroad requires independence, adaptability, and resilience, all of which contribute to personal growth and self-confidence. Nepali students return home with a broader worldview and valuable life experiences.</p>
              </section>
 
               <section>
-                <p className='parac'><span className='topic'>6)Cultural Exchange:</span> Living and studying in the USA exposes Nepali students to different cultures, languages, and perspectives. This cultural immersion fosters personal growth, cross-cultural understanding, and tolerance.</p>
+                <p className='parat'><span className='topic'><span className='span-red'>6)</span>Cultural Exchange:</span> Living and studying in the USA exposes Nepali students to different cultures, languages, and perspectives. This cultural immersion fosters personal growth, cross-cultural understanding, and tolerance.</p>
               </section>
 
             </div>
@@ -122,8 +122,8 @@ const Page1 = () => {
      <button>Scholarship</button>
      </div>
         
-        <div>
-            <h2>Top Universities for Nepalese Students in USA</h2>
+        <div className='pushdown'>
+            <h2 className='h2-blue'>Top Universities for Nepalese Students in <span className='span-red'>USA</span></h2>
             <span>
                 <p>The following table presents the top 10 universities in the United States, listing each university's name, and it’s USA rank.</p>
             </span>
@@ -161,7 +161,7 @@ const Page1 = () => {
             </div>
 
 
-            <h2 className=''>Top Courses for Nepalese Students in <span className=''>USA</span></h2>
+            <h2 className='h2-blue'>Top Courses for Nepalese Students in <span className='span-red'>USA</span></h2>
 
             <p className='p-table'>Studying in the USA offers more than just academic learning; it's an opportunity to interact with a diverse international student community akin to exploring different flavors. Programs like STEM provide practical exposure through internships, allowing students to delve into fields like science and technology. <span className='gap'>The USA empowers students to pursue their passions, whether in STEM fields or other areas, as reflected in the varied academic interests of Nepalese students, spanning from computer science and engineering to business administration and healthcare. These choices resonate with both prevailing global industry trends and the ambitions of students aspiring for a comprehensive education.</span> </p>
 
@@ -196,31 +196,35 @@ const Page1 = () => {
             </div>
 
 
-            <h2>Scholarships in <span>USA</span></h2>
+            <h2 className='h2-blue'>Scholarships in <span className='span-red'>USA</span></h2>
 
             <p>Despite the high cost of American degrees, numerous scholarships are accessible to assist international students. Nearly all institutions offer scholarship opportunities, many of which are open to overseas applicants. However, candidates may be required to complete SAT or ACT examinations. According to the Fulbright Commission, nearly 600 American colleges provide scholarships worth $20,000 or more to international students, often considering factors such as academic achievement, financial need, or extracurricular engagement during evaluation.</p>
-
-            <h2>Types of Scholarship</h2>
+             <div className='pushdown'>
+            <h2 className='h2-blue'>Types of Scholarship</h2>
               
-              <h3>Institutional Scholarships:  </h3>
+              <h3 className='h3-red'>Institutional Scholarships:  </h3>
               <p>Most colleges offer financial assistance to international students in some capacity. Many universities have their own scholarship programs tailored for international students.</p>
+                </div>
                  
-                 <div className='scholarship'>
 
-              <h3>Merit-Based Scholarships:</h3>
+                 <div className='pushdown'>
+
+              <h3 className='h3-red'>Merit-Based Scholarships:</h3>
               <p>These scholarships are awarded based on a student's academic excellence. They encompass various types:</p>
-               <span>a.) Academic Scholarships:</span>
+               <span className='span-blue'>a.) Academic Scholarships:</span>
                <p>Institutions or private organizations may offer these scholarships to students with high SAT or ACT scores.</p>
 
-               <span>b.) Athletic Scholarships:</span>
+               <span className='span-blue'>b.) Athletic Scholarships:</span>
                <p>Reserved for student-athletes, these scholarships are competitive and subject to specific regulations. They present a significant opportunity for international students interested in studying in the US</p>
 
-              <span>c.) Need-Based Scholarships: </span>
+              <span className='span-blue'>c.) Need-Based Scholarships: </span>
               <p>Awarded based on the recipient's financial circumstances, these scholarships are primarily available to US citizens. However, some colleges extend need-based scholarships to international students.</p>
                  </div>
 
+                 <div className='pushdown'>
 
-                 <h2>Test Required to Study in <span>USA</span></h2>
+                 <h2 className='h2-blue'>Test Required to Study in <span className='span-red'>USA</span></h2>
+                 </div>
 
 
             <p>Grasping the entry process is pivotal, akin to having a structured strategy to ensure seamless proceedings. This encompasses the application process and examinations like TOEFL, which play a crucial role. <span className='gap'>
@@ -256,8 +260,10 @@ const Page1 = () => {
             </table>
             </div>
        
+       <div className='pushdown'>
 
-       <h2>Intakes in the <span>USA</span> for Nepali Students</h2>
+       <h2 className='h2-blue'>Intakes in the <span className='span-red'>USA</span> for Nepali Students</h2>
+       </div>
 
        <p>For Nepali students aiming to pursue studies in the USA, comprehending the academic calendar holds significant importance. The United States presents three primary intakes – Fall, Spring, and Summer – each characterized by distinct attributes. These intake periods offer flexibility, enabling Nepali students to harmonize their academic pursuits with their schedules and inclinations. This concise overview establishes the framework for students to navigate and select the intake that best aligns with their educational aspirations in the USA.</p>
 
@@ -295,24 +301,29 @@ const Page1 = () => {
             </div>
 
 
-            <h2>Requirements for Nepali Students to Study in the <span>USA</span></h2>
+            <h2 className='h2-blue'>Requirements for Nepali Students to Study in the <span className='span-red'>USA</span></h2>
             
-          <div className='points'>
+          <div className='pushdown'>
 
-        <ul>
+        <ul className='ul-de'>
 
-        <li> <span>F-1 Student Visa:</span>Acquire an F-1 visa for studying in the USA</li>
-        <li><span>Admissions:</span>Apply to universities offering robust programs; review program-specific prerequisites</li>
-        <li><span>English Proficiency:</span>Demonstrate proficiency through language tests such as TOFEL or IELTS.</li>
-        <li><span>Standardized Tests:</span>Certain programs may necessitate GRE or GMAT  scores.</li>
-        <li><span>Financial Proof:</span>Present documentation of financial capability to fund tuition and living costs.</li>
-        <li><span>Letters of Recommendation:</span>Obtain compelling recommendation letters from educators or professionals</li>
-        <li><span>Health Insurance:Secure coverage, often mandatory for international students.</span></li>
+        <li className='li-de'> <span className='span-blue'>F-1 Student Visa:</span>Acquire an F-1 visa for studying in the USA</li>
+        <li className='li-de'><span className='span-blue'>Admissions:</span>Apply to universities offering robust programs; review program-specific prerequisites</li>
+        <li className='li-de'><span className='span-blue'>English Proficiency:</span>Demonstrate proficiency through language tests such as TOFEL or IELTS.</li>
+        <li className='li-de'><span className='span-blue'>Standardized Tests:</span>Certain programs may necessitate GRE or GMAT  scores.</li>
+        <li className='li-de'><span className='span-blue'>Financial Proof:</span>Present documentation of financial capability to fund tuition and living costs.</li>
+        <li className='li-de'><span className='span-blue'>Letters of Recommendation:</span>Obtain compelling recommendation letters from educators or professionals</li>
+        <li className='li-de'><span className='span-blue'>Health Insurance:</span>Secure coverage, often mandatory for international students.</li>
 
         </ul>
           </div>
 
-          <h2>Cost to Study in the <span>Cost to Study in the USA</span></h2>
+
+
+          <div className='pushdown'>
+
+          <h2 className='h2-blue'>Cost to Study in the <span className='span-red'>USA</span></h2>
+          </div>
 
           <div className="table-s">
             <table className='table-og'>
@@ -344,10 +355,13 @@ const Page1 = () => {
             </div>
 
 
-        <p><span>Please note that </span> these figures are average estimates and may vary considerably based on the university, program, and individual circumstances. It is recommended to consult the official websites of the institutions you are considering to obtain the most current information regarding tuition fees for your selected field of study.
+        <p className='impp'><span className='span-red'>Please note that </span> these figures are average estimates and may vary considerably based on the university, program, and individual circumstances. It is recommended to consult the official websites of the institutions you are considering to obtain the most current information regarding tuition fees for your selected field of study.
  </p>
+ 
+ <div className='pushdown'>
 
- <h3>Cost of Living in the <span>USA</span></h3>
+ <h3 className='h2-blue'>Cost of Living in the <span className='span-red'>USA</span></h3>
+ </div>
 
       <div className="table-s">
             <table className='table-og'>

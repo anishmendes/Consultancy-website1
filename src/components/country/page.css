@@ -4,8 +4,10 @@
 
 .usa-page {
     padding: 20px;
-    background-color: #f7f7f7;
+   
     font-family: "Poppins", sans-serif;
+    margin-right: 25px; /* Adds a gap of 20 pixels on the right side */
+    margin-left: 25px;
     
   }
   .img1 {
@@ -16,14 +18,19 @@
     margin: 0 auto; /* Center the container horizontally and give it a gap from the right and left sides */
     top: 60px; /* Move the container 60 pixels downward */
   }
-  .span1{
-   color: blue;
-  }
   
+  .span1 {
+   color: rgb(45, 63, 200);
+  }
+   
+
+  .span-red {
+    color: red;
+  }
   
   .heading1 {
     position: absolute;
-    color: #b82323;
+    color: #e6302d;
     top: 15%; /* Move the text 20% from the top of the container */
     left: 50%;
     transform: translate(-50%, -50%);
@@ -32,28 +39,29 @@
    
   }
   
+  
   .para1 {
+    display: inline;
     position: absolute;
+   
     top: 22%; /* Move the text 27% from the top of the container */
     left: 50%;
-    color: red;
+    color: rgb(30, 62, 165);
     transform: translate(-50%, -50%);
     margin: 20px auto 0; /* Add margin-top to move the paragraph downward */
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
   }
   
   .headingc {
     color: #2332b8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70px; /* Add margin-top to move the heading downward */
+    font-size: 20px;
+    margin-top: 80px; /* Add margin-top to move the heading downward */
   }
   
   .parac {
-    color: #6c757d;
+    color: #0e0f0f;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,15 +71,73 @@
   .titlec {
     color: #a72828;
   }
-  
-  .img2 {
-    position: relative;
-    
-  }
-  .topic{
+  .h2-blue {
     color: #2332b8;
-    display: flex;
-    flex-wrap: wrap;
+    font-size: 20px;
+  }
+  .img2 {
+    position: relative; /* Set the position of the image container to relative */
+    display: flex; /* Display the image container as a flex container */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .buttons {
+    position: absolute; /* Set the position of the buttons container to absolute */
+    top: 230%; /* Align the buttons vertically in the middle */
+    right: 20%; /* Align the buttons to the right side of the image */
+    transform: translateY(-50%); /* Move the buttons up by half of its height */
+    display: flex; /* Display the buttons container as a flex container */
+    flex-direction: column; 
+    /* Arrange the buttons vertically */
+  }
+  
+  .buttons button {
+    margin-top: 70px; /* Add margin to the top of each button for spacing */
+    padding: 10px 40px; /* Add padding to the buttons */
+    background-color: #d83e26; /* Set the background color of the buttons */
+    color: #fff; /* Set the text color of the buttons */
+    border: none; /* Remove border from the buttons */
+    border-radius: 15px; /* Add border radius to the buttons */
+    cursor: pointer; /* Set cursor to pointer for buttons */
+  }
+  
+  .buttons button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  .pushdown {
+    margin-top: 25px;
+  }
+  .parat {
+    margin-bottom: 20px; /* Add margin bottom to create space between paragraphs */
+  }
+  
+.h3-red {
+ color: rgb(237, 71, 71);
+}
+.span-blue {
+  color: #2332b8;
+}
+
+.ui-de {
+ list-style: circle;
+}
+
+.li-de {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.impp {
+  color:  #2332b8;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+  .topic {
+    font-weight: 500;
+    color: #2332b8;
+    
   }
   
   /* .buttons {
