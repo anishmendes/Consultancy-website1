@@ -22,7 +22,7 @@ const Page1 = () => {
         { id: 10, name: 'University of California, Los Angeles (UCLA)', rank: 15 },
     ];
 
-    
+
   return (
 
       <div  className="usa-page">
@@ -85,6 +85,10 @@ const Page1 = () => {
                 <p>The following table presents the top 10 universities in the United States, listing each university's name, and it’s USA rank.</p>
             </span>
         </div>
+
+        <div className="table-s">
+            
+            </div>
 
 
             
