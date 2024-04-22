@@ -50,6 +50,13 @@ const Page1 = () => {
     {name:'Summer (May/June)', des:'Less commonly selected', des1:'Facilitates accelerated academic progress for students seeking to expedite their studies'},
    ]
 
+   const programs =[
+    {name:'Community Colleges', des:'$6,000 to $20,000 per year'},
+    {name:'Undergraduate Programs', des:'$20,000 to $40,000 per year'},
+    {name:'Graduate Programs', des:'$20,000 to $45,000 per year'},
+    {name:'Doctoral Degree', des:'$28,000 to $55,000 per year'},
+   ]
+
 
   return (
 
@@ -298,8 +305,36 @@ const Page1 = () => {
           </div>
 
           <h2>Cost to Study in the <span>Cost to Study in the USA</span></h2>
-          
 
+          <div className="table-s">
+            <table className='table-og'>
+                <thead className='thead'>
+
+                    <tr>
+                        
+                        <th scope="col" className="th-scope">
+                            Program
+                        </th>
+                        <th scope="col" className="th-scope2">
+                            Fee(USD)
+                        </th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    {programs.map((program, index) => (
+                        <tr key={program.id} className="tr1">
+                           
+                            <td className="th-scope">{program.name}</td>
+                            <td className="th-scope2">{program.des}</td>
+                        </tr>
+                    ))}
+                </tbody>
+
+            </table>
+            </div>
+       
 
 
 
