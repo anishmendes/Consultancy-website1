@@ -87,6 +87,12 @@
      width: 70%;
      overflow-x: auto;
   }
+  .table-og {
+    width: 100%;
+    color: #718096;
+    text-align: left;
+    font-size: 0.875rem;
+  }
   
   
   

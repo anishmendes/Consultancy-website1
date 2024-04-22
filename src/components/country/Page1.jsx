@@ -87,7 +87,9 @@ const Page1 = () => {
         </div>
 
         <div className="table-s">
-            
+            <table className='table-og'>
+
+            </table>
             </div>
 
 
