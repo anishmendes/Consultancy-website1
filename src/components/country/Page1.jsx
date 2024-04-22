@@ -35,6 +35,21 @@ const Page1 = () => {
     {name:'Marketing',des:'Focuses on advertising and brand management.'},
    ]
 
+   const tests = [
+    {name:'TOEFL (Test of English as a Foreign Language)' , des:'Evaluates the proficiency of non-native English speakers in comprehending and utilizing English within an academic context.'},
+    {name:'IELTS (International English Language Testing System)' , des:'Assesses the language competency of individuals aspiring to study or work in English-speaking environments.'},
+    {name:'PTE Academic (Pearson Test of English Academic)' , des:'Computer-based assessment measuring the speaking, writing, reading, and listening proficiencies of non-native English speakers.'},
+    {name:'Duolingo English Test' , des:'Online proficiency examination gauging English language skills for admission to English-speaking universities.'},
+    {name:'SAT (Scholastic Assessment Test)' , des:"College entrance exam featuring an optional Essay section to evaluate a student's English comprehension."},
+
+   ]
+
+   const intakes =[
+    {name:'Fall (August/September)', des:'Preferred by over 70% of Nepali students', des1:'Offers a vibrant university experience with bustling campus life'},
+    {name:'Spring (January/February)', des:'Chosen by approximately 20% of Nepali students', des1:'Provides a fresh beginning in the new year, suitable for individuals with adjusted timelines'},
+    {name:'Summer (May/June)', des:'Less commonly selected', des1:'Facilitates accelerated academic progress for students seeking to expedite their studies'},
+   ]
+
 
   return (
 
@@ -195,6 +210,81 @@ const Page1 = () => {
 
             <p>Grasping the entry process is pivotal, akin to having a structured strategy to ensure seamless proceedings. This encompasses the application process and examinations like TOEFL, which play a crucial role. <span className='gap'>
                 The table offers a thorough examination of different English proficiency assessments utilized for university admissions in the USA. It comprises essential details such as test names, descriptions, and their significance in evaluating language proficiency for academic pursuits.</span> </p>
+
+
+                <div className="table-s">
+            <table className='table-og'>
+                <thead className='thead'>
+
+                    <tr>
+                        
+                        <th scope="col" className="th-scope2">
+                            Tests
+                        </th>
+                        <th scope="col" className="th-scope">
+                            Description
+                        </th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    {tests.map((test, index) => (
+                        <tr key={test.id} className="tr1">
+                           
+                            <td className="th-scope2">{test.name}</td>
+                            <td className="th-scope">{test.des}</td>
+                        </tr>
+                    ))}
+                </tbody>
+
+            </table>
+            </div>
+       
+
+       <h2>Intakes in the <span>USA</span> for Nepali Students</h2>
+
+       <p>For Nepali students aiming to pursue studies in the USA, comprehending the academic calendar holds significant importance. The United States presents three primary intakes – Fall, Spring, and Summer – each characterized by distinct attributes. These intake periods offer flexibility, enabling Nepali students to harmonize their academic pursuits with their schedules and inclinations. This concise overview establishes the framework for students to navigate and select the intake that best aligns with their educational aspirations in the USA.</p>
+
+       <div className="table-s">
+            <table className='table-og'>
+                <thead className='thead'>
+
+                    <tr>
+                        
+                        <th scope="col" className="th-scope">
+                            Intakes
+                        </th>
+                        <th scope="col" className="th-scope2">
+                        Preference among Nepali Student
+                        </th>
+                        <th scope="col" className="th-scope">
+                        Distinctive Aspects
+                        </th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    {intakes.map((intake, index) => (
+                        <tr key={intake.id} className="tr1">
+                           
+                            <td className="th-scope">{intake.name}</td>
+                            <td className="th-scope2">{intake.des}</td>
+                            <td className="th-scope">{intake.des1}</td>
+                        </tr>
+                    ))}
+                </tbody>
+
+            </table>
+            </div>
+
+
+
+
+
+
+
     </div>
 )
   
