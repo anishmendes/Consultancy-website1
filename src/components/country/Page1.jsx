@@ -192,8 +192,9 @@ const Page1 = () => {
 
                  <h2>Test Required to Study in <span>USA</span></h2>
 
-            
 
+            <p>Grasping the entry process is pivotal, akin to having a structured strategy to ensure seamless proceedings. This encompasses the application process and examinations like TOEFL, which play a crucial role. <span className='gap'>
+                The table offers a thorough examination of different English proficiency assessments utilized for university admissions in the USA. It comprises essential details such as test names, descriptions, and their significance in evaluating language proficiency for academic pursuits.</span> </p>
     </div>
 )
   
