@@ -36,7 +36,8 @@
     transform: translate(-50%, -50%);
     margin: 20px auto 0; /* Add margin-top to move the heading downward */
     text-align: center;
-    font-size: 20px;
+    font-size: 23px;
+   
    
   }
   
@@ -51,7 +52,7 @@
     transform: translate(-50%, -50%);
     margin: 20px auto 0; /* Add margin-top to move the paragraph downward */
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
   }
   
@@ -66,7 +67,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px; /* Add margin-top to move the paragraph downward */
+    margin-top: 20px; 
+    font-weight: 500;
   }
   
   .titlec {
@@ -110,7 +112,8 @@
     margin-top: 25px;
   }
   .parat {
-    margin-bottom: 20px; /* Add margin bottom to create space between paragraphs */
+    margin-bottom: 20px; 
+    font-weight: 500;/* Add margin bottom to create space between paragraphs */
   }
   
 .h3-red {

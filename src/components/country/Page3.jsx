@@ -24,10 +24,10 @@ const Page3 = () => {
 
         <div>
             <h2 className='h2-blue'>Key Advantages of Pursuing Higher Education in the <span className='span-red'>Australia</span> for Nepali Students</h2>
-            <p className='parat'>For Nepali students, selecting the CANADA as their study abroad destination presents a distinct opportunity to not only enhance academic knowledge but also foster personal and professional development. Here are compelling reasons why opting for the CANADA is a strategic choice for Nepali students seeking higher education :</p>
+            <p className='parat'>For Nepali students, opting for Australia as their study abroad destination offers a distinctive chance to enhance academic knowledge while fostering personal and professional development. Here are compelling reasons why choosing Australia is a strategic decision for Nepali students seeking higher education:</p>
             <div>
  
-            <p className='parat'><span className='topic'><span className='span-red'>1)</span>High-Quality Education</span>           Canadian universities are renowned for their academic excellence and rigorous standards, offering Nepali students access to top-quality education and research opportunities..</p>
+            <p className='parat'><span className='topic'><span className='span-red'>1)</span>Academic Excellence:</span>  Australia boasts world-renowned universities known for their high academic standards and innovative teaching methods, providing Nepali students with quality education and research opportunities.</p>
              <section>
                 <p className='parat'><span className='topic'><span className='span-red'>2)</span>Diverse Program Offerings:</span>  Canada boasts a wide range of programs and courses across various disciplines, providing Nepali students with diverse academic options to pursue their interests and career goals.</p>
              </section>
