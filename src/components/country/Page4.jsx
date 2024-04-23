@@ -253,7 +253,7 @@ The UK nurtures an environment where students can pursue their interests, be it 
 </div>
 
 
-<p>Understanding the entry process is crucial for studying in the UK, similar to having a well-structured strategy for seamless proceedings. This involves navigating through the application process and undertaking examinations like IELTS or PTE, which play a vital role. <span className='gap'>
+<p className='p-table'>Understanding the entry process is crucial for studying in the UK, similar to having a well-structured strategy for seamless proceedings. This involves navigating through the application process and undertaking examinations like IELTS or PTE, which play a vital role. <span className='gap'>
 
 The table provides a comprehensive overview of various English proficiency assessments used for university admissions in the UK. It includes essential details such as test names, descriptions, and their significance in evaluating language proficiency for academic pursuits.</span> </p>
 
@@ -293,11 +293,11 @@ The table provides a comprehensive overview of various English proficiency asses
 <h2 className='h2-blue'>Intakes in the <span className='span-red'>UK</span> for  Nepalese Students</h2>
 </div>
 
-<p>For Nepali students planning to study in the UK, understanding the academic calendar is vital. Unlike Australia and Canada, the UK typically follows a different structure with regards to intake periods. In the UK, most universities operate on a two-semester system, with variations depending on the institution and the specific program of study.</p>
+<p className='p-table'>For Nepali students planning to study in the UK, understanding the academic calendar is vital. Unlike Australia and Canada, the UK typically follows a different structure with regards to intake periods. In the UK, most universities operate on a two-semester system, with variations depending on the institution and the specific program of study.</p>
 
 <span className='gap'>
   <h2 className="h2-blue">Intake Period</h2>
-  <p>
+  <p className='p-table'>
   In the UK, there isn't a standardized intake period like in some other countries such as Australia or Canada. However, the most common intake periods for international students, including Nepali students, are typically in September/October and January. These coincide with the beginning of the autumn and spring terms, respectively.
   </p>
 </span>
