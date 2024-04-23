@@ -205,31 +205,31 @@ The UK nurtures an environment where students can pursue their interests, be it 
 
 
   <li className="li-de"><span className='span-red'>5)<span className='span-blue'>IPBA Scholarship</span></span>
-  <span className='gap'>The Chevening Scholarship is awarded to students with exceptional academic accomplishments and leadership abilities. Recipients are chosen by British Embassies worldwide. The scholarship covers financial assistance for a one-year Master's degree at any prominent UK university of their choosing. Over 1500 students are awarded this scholarship globally each year.</span>
+  <span className='gap'>TThe IPBA Scholarship is a partial funding opportunity available internationally, provided by the Inter-Pacific Bar Association. Eligible candidates include citizens from Laos, Cambodia, Myanmar, Mongolia, Bangladesh, and the Pacific Islands.</span>
   
   </li>
 
 
   <li className="li-de"><span className='span-red'>6)<span className='span-blue'>Rhodes Trust Scholarships</span></span>
-  <span className='gap'>The Chevening Scholarship is awarded to students with exceptional academic accomplishments and leadership abilities. Recipients are chosen by British Embassies worldwide. The scholarship covers financial assistance for a one-year Master's degree at any prominent UK university of their choosing. Over 1500 students are awarded this scholarship globally each year.</span>
+  <span className='gap'>The Rhodes Trust Scholarships, offered by the University of Oxford, are highly esteemed awards. Recipients receive full tuition fees coverage along with an allowance of £15,900. These scholarships are awarded to 95 students from more than 64 countries.</span>
   
   </li>
 
   <li className="li-de"><span className='span-red'>7)<span className='span-blue'>University of Bradford Global Development Scholarships</span></span>
-  <span className='gap'>The Chevening Scholarship is awarded to students with exceptional academic accomplishments and leadership abilities. Recipients are chosen by British Embassies worldwide. The scholarship covers financial assistance for a one-year Master's degree at any prominent UK university of their choosing. Over 1500 students are awarded this scholarship globally each year.</span>
+  <span className='gap'>The University of Bradford Global Development Scholarships cover full tuition fees and provide an accommodation allowance to recipients. These scholarships are specifically designed for students facing financial challenges from developing countries. They are available to students pursuing a Master's degree, excluding MBA programs, at the University of Bradford.</span>
   
   
   </li>
 
 
   <li className="li-de"><span className='span-red'>8)<span className='span-blue'>University of London Varadi Distance Learning Scholarship</span></span>
-  <span className='gap'>The Chevening Scholarship is awarded to students with exceptional academic accomplishments and leadership abilities. Recipients are chosen by British Embassies worldwide. The scholarship covers financial assistance for a one-year Master's degree at any prominent UK university of their choosing. Over 1500 students are awarded this scholarship globally each year.</span>
+  <span className='gap'>This scholarship is available to applicants demonstrating exceptional academic achievements and leadership qualities. It covers the full tuition fees for studying at the University of London, and is open to students worldwide.</span>
   
   </li>
 
 
   <li className="li-de"><span className='span-red'>9)<span className='span-blue'>International Excellence Scholarship in the UK</span></span>
-  <span className='gap'>The Chevening Scholarship is awarded to students with exceptional academic accomplishments and leadership abilities. Recipients are chosen by British Embassies worldwide. The scholarship covers financial assistance for a one-year Master's degree at any prominent UK university of their choosing. Over 1500 students are awarded this scholarship globally each year.</span>
+  <span className='gap'>The University of Roehampton offers this scholarship to international students, providing an award of up to £4000 annually. Students who have achieved excellent results in both postgraduate and undergraduate studies are eligible for this scholarship.</span>
   
   
   </li>
