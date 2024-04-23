@@ -16,7 +16,7 @@
     height: 100%;
     width: 95%;
     margin: 0 auto; /* Center the container horizontally and give it a gap from the right and left sides */
-    top: 60px; /* Move the container 60 pixels downward */
+    top: 65px; /* Move the container 60 pixels downward */
   }
   
   .span1 {
@@ -36,6 +36,7 @@
     transform: translate(-50%, -50%);
     margin: 20px auto 0; /* Add margin-top to move the heading downward */
     text-align: center;
+    font-size: 20px;
    
   }
   
