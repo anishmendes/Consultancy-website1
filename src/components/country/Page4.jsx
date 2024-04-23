@@ -1,6 +1,45 @@
 import React from 'react'
 
 const Page4 = () => {
+
+  const universities = [
+    { id: 1. , name: 'University of Oxford', rank: 1 },
+    { id: 2. , name: 'University of Cambridge', rank: 2 },
+    { id: 3. , name: 'University College London(UCL)', rank: 2 },
+    { id: 4. , name: 'Imperial College London', rank: 3},
+    { id: 5. , name: 'London School of Economics and Plitical Science(LSE)', rank: 4},
+    { id: 6. , name: 'University of Manchester', rank: 6 },
+    { id: 7. , name: 'University of Edinburgh', rank: 12 },
+    { id: 8., name: ' University of Warwick', rank: "top 10" },
+    { id: 9., name: 'University of Bristol', rank: "top 10" },
+    { id: 10., name: ' University of Glasgow', rank: "top 10"},
+    
+];
+
+const courses = [
+  {name:'Accounting', des:'Involves the systematic recording, analysis, and interpretation of financial transactions, crucial for businesses financial management and decision-making processes.'},
+
+  {name:'Business Administration and Management', des:'Programs in business administration and management offer Nepalese students the opportunity to develop essential skills in leadership, strategic planning, and organizational management, preparing them for roles in various industries.'},
+
+  {name:'Computer Science & IT', des:'Explores the theory, design, development, and application of computer systems and software, essential for innovation and technological advancement.'},
+
+  {name:'Marketing and Advertising', des:'Courses in marketing and advertising equip Nepalese students with skills in market research, branding, digital marketing, and advertising strategy, preparing them for roles in marketing agencies, media companies, and corporate marketing departments.'},
+
+  {name:'Psychology',des:'Studies human behavior and mental processes, aiming to understand and address individual and societal issues through research, assessment, and therapy.'},
+
+  {name:'Engineering',des:'Involves the application of scientific principles and mathematical methods to design, develop, and maintain structures, machines, systems, and processes.'},
+
+  {name:'Environmental Science and Sustainability',des:'Programs in environmental science and sustainability offer Nepalese students the opportunity to study environmental issues, climate change, and sustainable development, preparing them for careers in environmental consultancy,'},
+
+  {name:'Health & Medicine',des:'Encompasses various disciplines dedicated to maintaining and improving human health, including medical diagnosis, treatment, research, and public health initiatives.'},
+
+  {name:'Law',des:'Law programs in the UK provide Nepalese students with a comprehensive understanding of legal principles and practices, offering opportunities to specialize in areas such as international law, commercial law, and human rights law.'},
+
+  {name:'Social Work',des:'Focuses on helping individuals, families, and communities overcome challenges and improve their well-being through advocacy, counseling, and support services.'},
+ ]
+
+
+
   return (
     
        <div  className="usa-page">
@@ -63,6 +102,143 @@ const Page4 = () => {
      <button>Courses </button>
      <button>Scholarship</button>
      </div>
+     
+     <div className='pushdown'>
+            <h2 className='h2-blue'>Top Universities for Nepalese Students in <span className='span-red'>UK</span></h2>
+            <span>
+                <p>The following table presents the top universities in the Australia, listing each university's name, and it’s UK rank.</p>
+            </span>
+        </div>
+        
+        <div className="table-s">
+            <table className='table-og'>
+                <thead className='thead'>
+
+                    <tr>
+                        <th scope='col' className='th-scope'>
+                          S.N
+                        </th>
+                        <th scope="col" className="th-scope">
+                            Universities
+                        </th>
+                        <th scope="col" className="th-scope2">
+                        UK rank (2023)
+                        </th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    {universities.map((university, index) => (
+                        <tr key={university.id} className="tr1">
+                            <td className="th-scope">{index + 1}</td>
+                            <td className="th-scope">{university.name}</td>
+                            <td className="th-scope2">{university.rank}</td>
+                        </tr>
+                    ))}
+                </tbody>
+
+            </table>
+            </div>
+
+
+
+            <h2 className='h2-blue'>Top Courses for Nepalese Students in <span className='span-red'>UK</span></h2>
+
+<p className='p-table'>Studying in the UK goes beyond academic enrichment; it offers an opportunity to engage with a diverse student community, akin to exploring a spectrum of cultures. Programs like STEM provide practical exposure through internships, enabling students to delve into fields such as science and technology. <span className='gap'>
+The UK nurtures an environment where students can pursue their interests, be it in STEM disciplines or other fields, evident in the diverse academic pursuits of Nepali students, ranging from computer science and engineering to business administration and healthcare. These choices align with global industry trends and reflect the aspirations of students seeking a well-rounded education.</span> </p>
+
+
+ <div className="table-s">
+<table className='table-og'>
+    <thead className='thead'>
+
+        <tr>
+            
+            <th scope="col" className="th-scope2">
+                Course
+            </th>
+            <th scope="col" className="th-scope">
+                Description
+            </th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {courses.map((course, index) => (
+            <tr key={course.id} className="tr1">
+               
+                <td className="th-scope2">{course.name}</td>
+                <td className="th-scope">{course.des}</td>
+            </tr>
+        ))}
+    </tbody>
+
+</table>
+</div>
+
+<h2 className='h2-blue'>Scholarships in <span className='span-red'>UK</span></h2>
+
+<p>The United Kingdom boasts one of the world's finest higher education systems, offering various financial aids to alleviate the financial strain on international students. If you have excellent grades and believe you merit a scholarship to study in the UK, consider exploring these scholarships provided by the UK government.</p>
+
+<div className='pushdown'>
+ <ul className="ul-de">
+  <li className="li-de"><span className='span-red'>1)<span className='span-blue'>Chevening Scholarship</span></span>
+  <span className='gap'>The Chevening Scholarship is awarded to students with exceptional academic accomplishments and leadership abilities. Recipients are chosen by British Embassies worldwide. The scholarship covers financial assistance for a one-year Master's degree at any prominent UK university of their choosing. Over 1500 students are awarded this scholarship globally each year.</span>
+  </li>
+
+  <li className="li-de"><span className='span-red'>2)<span className='span-blue'>Erasmus Mundus Scholarship</span></span>
+  <span className='gap'>The Erasmus Mundus Scholarship is esteemed for its prestige, with a highly competitive acceptance rate of less than 5%. Successful recipients are awarded €31,000 annually for a duration of two years.</span>
+  </li>
+
+
+  <li className="li-de"><span className='span-red'>3)<span className='span-blue'>Commonwealth Split-site PhD. Scholarships</span></span>
+  <span className='gap'>The Commonwealth Split-site PhD Scholarships are fully funded scholarships provided by the government of the United Kingdom to international students. Recipients have their tuition fees covered and receive allowances, as well as air travel expenses.</span>
+  </li>
+
+
+  <li className="li-de"><span className='span-red'>4)<span className='span-blue'>Ministry of Defense Competition for High-Resolution Imaging Scholarships</span> </span>
+  <span className='gap'>The Ministry of Defense Competition for High-Resolution Imaging offers partial funding for international students. The scholarship award totals £500,000 and is applicable at multiple institutions worldwide..</span>
+  
+  </li>
+
+
+  <li className="li-de"><span className='span-red'>5)<span className='span-blue'>IPBA Scholarship</span></span>
+  <span className='gap'>The Chevening Scholarship is awarded to students with exceptional academic accomplishments and leadership abilities. Recipients are chosen by British Embassies worldwide. The scholarship covers financial assistance for a one-year Master's degree at any prominent UK university of their choosing. Over 1500 students are awarded this scholarship globally each year.</span>
+  
+  </li>
+
+
+  <li className="li-de"><span className='span-red'>6)<span className='span-blue'>Rhodes Trust Scholarships</span></span>
+  <span className='gap'>The Chevening Scholarship is awarded to students with exceptional academic accomplishments and leadership abilities. Recipients are chosen by British Embassies worldwide. The scholarship covers financial assistance for a one-year Master's degree at any prominent UK university of their choosing. Over 1500 students are awarded this scholarship globally each year.</span>
+  
+  </li>
+
+  <li className="li-de"><span className='span-red'>7)<span className='span-blue'>University of Bradford Global Development Scholarships</span></span>
+  <span className='gap'>The Chevening Scholarship is awarded to students with exceptional academic accomplishments and leadership abilities. Recipients are chosen by British Embassies worldwide. The scholarship covers financial assistance for a one-year Master's degree at any prominent UK university of their choosing. Over 1500 students are awarded this scholarship globally each year.</span>
+  
+  
+  </li>
+
+
+  <li className="li-de"><span className='span-red'>8)<span className='span-blue'>University of London Varadi Distance Learning Scholarship</span></span>
+  <span className='gap'>The Chevening Scholarship is awarded to students with exceptional academic accomplishments and leadership abilities. Recipients are chosen by British Embassies worldwide. The scholarship covers financial assistance for a one-year Master's degree at any prominent UK university of their choosing. Over 1500 students are awarded this scholarship globally each year.</span>
+  
+  </li>
+
+
+  <li className="li-de"><span className='span-red'>9)<span className='span-blue'>International Excellence Scholarship in the UK</span></span>
+  <span className='gap'>The Chevening Scholarship is awarded to students with exceptional academic accomplishments and leadership abilities. Recipients are chosen by British Embassies worldwide. The scholarship covers financial assistance for a one-year Master's degree at any prominent UK university of their choosing. Over 1500 students are awarded this scholarship globally each year.</span>
+  
+  
+  </li>
+ 
+ </ul>
+</div>
+
+
+
     </div>
   )
 }
