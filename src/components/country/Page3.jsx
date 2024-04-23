@@ -22,6 +22,19 @@ const Page3 = () => {
     
 ];
 
+const courses = [
+  {name:'Accounting', des:'Involves the systematic recording, analysis, and interpretation of financial transactions, crucial for businesses financial management and decision-making processes.'},
+  {name:'Architecture', des:'Focuses on the design, planning, and construction of buildings and structures, integrating creativity, aesthetics, and functionality.'},
+  {name:'Computer Science & IT', des:'Explores the theory, design, development, and application of computer systems and software, essential for innovation and technological advancement.'},
+  {name:'Tourism & Hospitality Management', des:'Covers the management and operation of hospitality and tourism businesses, emphasizing customer service, marketing, and sustainability in the hospitality industry.'},
+  {name:'Psychology',des:'Studies human behavior and mental processes, aiming to understand and address individual and societal issues through research, assessment, and therapy.'},
+  {name:'Engineering',des:'Involves the application of scientific principles and mathematical methods to design, develop, and maintain structures, machines, systems, and processes.'},
+  {name:'Nursing',des:'Focuses on promoting health, preventing illness, and providing care to individuals, families, and communities, addressing physical, emotional, and social needs.'},
+  {name:'Health & Medicine',des:'Encompasses various disciplines dedicated to maintaining and improving human health, including medical diagnosis, treatment, research, and public health initiatives.'},
+  {name:'Education',des:'Prepares individuals to become educators and instructional leaders, emphasizing teaching methods, curriculum development, and educational psychology.'},
+  {name:'Social Work',des:'Focuses on helping individuals, families, and communities overcome challenges and improve their well-being through advocacy, counseling, and support services.'},
+ ]
+
   return (
     <div  className="usa-page">
      <h1 className='heading1'><span className='span1'>STUDY IN</span>  AUSTRALIA</h1>
@@ -124,6 +137,41 @@ const Page3 = () => {
             </div>
 
 
+            <h2 className='h2-blue'>Top Courses for Nepalese Students in <span className='span-red'> Australia</span></h2>
+
+<p className='p-table'>Studying in Australia offers more than just academic development; it's an opportunity to immerse oneself in a multicultural student community, akin to experiencing a variety of flavors. Programs like STEM provide hands-on experience through internships, allowing students to delve into fields such as science and technology. <span className='gap'>Australia fosters an environment where students can pursue their passions, whether in STEM disciplines or other areas, as evidenced by the diverse academic interests of Nepali students, spanning from computer science and engineering to business administration and healthcare. These choices resonate with global industry trends and mirror the aspirations of students seeking a comprehensive education.</span> </p>
+
+
+ <div className="table-s">
+<table className='table-og'>
+    <thead className='thead'>
+
+        <tr>
+            
+            <th scope="col" className="th-scope2">
+                Course
+            </th>
+            <th scope="col" className="th-scope">
+                Description
+            </th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {courses.map((course, index) => (
+            <tr key={course.id} className="tr1">
+               
+                <td className="th-scope2">{course.name}</td>
+                <td className="th-scope">{course.des}</td>
+            </tr>
+        ))}
+    </tbody>
+
+</table>
+</div>
+
+    
         
 
 </div>
