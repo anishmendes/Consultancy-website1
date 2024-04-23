@@ -166,7 +166,7 @@
   .table-og {
     width: 100%;
     
-    color: #718096;
+    color: #3729E126;
     text-align: left;
     font-size: 0.875rem;
   }
@@ -237,4 +237,19 @@
   }
   
   /* Additional CSS styles can be added as needed */
-  
+  .cont {
+    display: flex;
+    gap: 50px; /* Adjust the gap as needed */
+  }
+
+  .cont ul {
+    list-style-type: disc;
+    margin: 5px;
+    padding: 0;
+  }
+
+  .cont ul li {
+    margin-bottom: 7px;
+    color: #0910cf;
+    font-weight: 600;
+  }

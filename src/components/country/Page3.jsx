@@ -35,6 +35,36 @@ const courses = [
   {name:'Social Work',des:'Focuses on helping individuals, families, and communities overcome challenges and improve their well-being through advocacy, counseling, and support services.'},
  ]
 
+ const tests = [
+  {name:'PTE Academic (Pearson Test of English Academic)' , des:'Computer-based assessment measuring the speaking, writing, reading, and listening proficiencies of non-native English speakers.'},
+  {name:'IELTS (International English Language Testing System)' , des:'Assesses the language competency of individuals aspiring to study or work in English-speaking environments.'},
+  {name:'TOEFL (Test of English as a Foreign Language)' , des:'Evaluates the proficiency of non-native English speakers in comprehending and utilizing English within an academic context.'},
+  {name:' OET (Occupational English Test)' , des:'The Occupational English Test (OET) is a language proficiency test specifically designed for healthcare professionals. It assesses the English language skills of healthcare professionals who seek to register and practice in English-speaking environments, including Australia.'},
+  {name:'Cambridge English Exams (e.g., Cambridge English: Advanced)' , des:"Cambridge English Exams, including the Cambridge English: Advanced (CAE), are internationally recognized proficiency tests designed to assess English language skills for academic and professional purposes."},
+
+ ]
+ const intakes =[
+  {name:'Fall (February/March)', des:'High', des1:'Commences the academic year; offers a wide range of programs and courses.'},
+  {name:'Spring (July/August)', des:'Moderate', des1:'Ideal for students with adjusted timelines or seeking a mid-year start; provides a fresh academic beginning.'},
+  {name:'Summer (November/December)', des:'Low', des1:'Less common intake; may offer shorter-term or specialized programs.'},
+ ]
+
+ const programs =[
+  {name:'Undergraduate Courses', des:'$20,000 – $45,000'},
+  {name:'Postgraduate Courses', des:'$22,000 – $50,000'},
+  {name:'PhD Courses', des:'$22,000 – $50,000'},
+  {name:'Doctoral Degree', des:'$18,000 – $42,000'},
+ ]
+
+ const expenses =[
+  {name:'Accommodation', des:'$800 – $1,500'},
+  {name:'Personal Care', des:'$50 – $100'},
+  {name:'Transportation', des:'$100 – $200'},
+  {name:'Food', des:'$200 – $400'},
+  {name:'Internet and Phone', des:'$50 – $100'},
+ ]
+
+
   return (
     <div  className="usa-page">
      <h1 className='heading1'><span className='span1'>STUDY IN</span>  AUSTRALIA</h1>
@@ -170,6 +200,265 @@ const courses = [
 
 </table>
 </div>
+
+
+<h2 className='h2-blue'>Scholarships in <span className='span-red'>Australia</span></h2>
+
+<p>Despite the costs associated with Australian degrees, there are numerous scholarships available to support international students, including those from Nepal. Most institutions offer scholarship opportunities, many of which are open to overseas applicants. However, candidates may need to meet specific requirements such as academic assessments or English proficiency tests like PTE or IELTS.</p>
+
+<div className='pushdown'>
+            <h2 className='h2-blue'>Types of Scholarships:</h2>
+            </div>
+            <ul className='ul-de'>
+
+  <li className='li-de'> <span className='span-blue'>Australian Government Scholarships:</span> These cover full tuition fees, travel expenses, and living expenses for undergraduate, postgraduate, and research students. They are highly competitive and awarded based on academic merit, leadership potential, and community contribution.</li>
+
+
+  <li className='li-de'><span className='span-blue'>  University Scholarships:</span> Many Australian universities provide scholarships covering full or partial tuition fees, and sometimes living expenses, based primarily on academic merit but may also consider factors like leadership potential or financial need.</li>
+
+
+   
+
+  <li className='li-de'><span className='span-blue'>Private Scholarships:</span> Offered by organizations, these scholarships can cover tuition fees, living expenses, or both, with specific eligibility criteria such as nationality or course of study</li>
+
+   
+ <li className='li-de'><span className='span-blue'>Merit-Based Scholarships:</span>Awarded based on academic performance and achievements.</li>
+</ul>
+
+
+ <div className='pushdown'>
+<h2 className='h2-blue'>Some major scholarships available for Nepalese students include:</h2>
+ </div>
+
+ <div class="cont">
+
+ <ul className='ul-1'>
+  <li className='li-blue'>ECU Scholarship</li>
+  <li className='li-blue'>
+   ATMC USC Scholarship</li>
+  <li className='li-blue'>
+UTS Insearch Scholarship</li>
+  <li className='li-blue'>
+CQU University Scholarship</li>
+  <li className='li-blue'>CSU Study Centre Scholarship</li>
+  <li className='li-blue'>Victoria University Scholarship</li>
+  <li className='li-blue'>University of Wollongong Scholarship</li>
+ </ul>
+
+ <ul className='ul-2'>
+  <li className='li-blue'>ECU Scholarship</li>
+  <li className='li-blue'>
+   ATMC USC Scholarship</li>
+  <li className='li-blue'>
+UTS Insearch Scholarship</li>
+  <li className='li-blue'>
+CQU University Scholarship</li>
+  <li className='li-blue'>CSU Study Centre Scholarship</li>
+  <li className='li-blue'>Victoria University Scholarship</li>
+  <li className='li-blue'>University of Wollongong Scholarship</li>
+ </ul>
+
+
+ <ul className='ul-3'>
+  <li className='li-blue'>ECU Scholarship</li>
+  <li className='li-blue'>
+   ATMC USC Scholarship</li>
+  <li className='li-blue'>
+UTS Insearch Scholarship</li>
+  <li className='li-blue'>
+CQU University Scholarship</li>
+  <li className='li-blue'>CSU Study Centre Scholarship</li>
+  <li className='li-blue'>Victoria University Scholarship</li>
+  <li className='li-blue'>University of Wollongong Scholarship</li>
+ </ul>
+ </div>
+   
+
+ <div className='pushdown'>
+
+<h2 className='h2-blue'>Test Required to Study in <span className='span-red'>Australia</span></h2>
+</div>
+
+
+<p>Comprehending the entry process is pivotal for studying in Australia, akin to having a well-defined strategy for smooth proceedings. This encompasses the application process and examinations like PTE or IELTS, which are integral. <span className='gap'>
+
+The table offers a thorough examination of different English proficiency assessments utilized for university admissions in Australia. It comprises essential details such as test names, descriptions, and their significance in evaluating language proficiency for academic pursuits.</span> </p>
+
+
+<div className="table-s">
+<table className='table-og'>
+<thead className='thead'>
+
+   <tr>
+       
+       <th scope="col" className="th-scope2">
+           Tests
+       </th>
+       <th scope="col" className="th-scope">
+           Description
+       </th>
+   </tr>
+
+</thead>
+
+<tbody>
+   {tests.map((test, index) => (
+       <tr key={test.id} className="tr1">
+          
+           <td className="th-scope2">{test.name}</td>
+           <td className="th-scope">{test.des}</td>
+       </tr>
+   ))}
+</tbody>
+
+</table>
+</div>
+
+<div className='pushdown'>
+
+<h2 className='h2-blue'>Intakes in the <span className='span-red'>Australia</span> for  Nepalese Students</h2>
+</div>
+
+<p>For Nepali students aiming to study in Australia, comprehending the academic calendar is crucial. Australia, like Canada, follows three main intake periods – Fall, Spring, and Summer – each with its distinct features. These intake periods offer flexibility, enabling Nepali students to align their academic pursuits with their schedules and preferences. This concise overview provides students with essential information to navigate and select the intake period that aligns best with their educational aspirations in Australia.</p>
+
+<div className="table-s">
+<table className='table-og'>
+<thead className='thead'>
+
+   <tr>
+       
+       <th scope="col" className="th-scope">
+           Intakes
+       </th>
+       <th scope="col" className="th-scope2">
+       Preference among Nepalese Student
+       </th>
+       <th scope="col" className="th-scope">
+       Distinctive Aspects
+       </th>
+   </tr>
+
+</thead>
+
+<tbody>
+   {intakes.map((intake, index) => (
+       <tr key={intake.id} className="tr1">
+          
+           <td className="th-scope">{intake.name}</td>
+           <td className="th-scope2">{intake.des}</td>
+           <td className="th-scope">{intake.des1}</td>
+       </tr>
+   ))}
+</tbody>
+
+</table>
+</div>
+
+
+<h2 className='h2-blue'>Requirements for Nepali Students to Study in the <span className='span-red'>Canada</span></h2>
+
+<div className='pushdown'>
+
+<ul className='ul-de'>
+
+<li className='li-de'> <span className='span-blue'>Academic Qualifications:</span>Nepali students must meet the academic requirements set by Canadian universities or colleges for the program they wish to pursue. This typically includes a high school diploma or equivalent for undergraduate studies and a bachelor's degree for graduate studies.</li>
+<li className='li-de'><span className='span-blue'>English Language Proficiency:</span> Nepali students need to demonstrate proficiency in English by taking standardized tests such as IELTS or TOEFL. Some institutions may also accept other English proficiency tests like PTE Academic or CAEL</li>
+
+<li className='li-de'><span className='span-blue'>
+Standardized Admission Tests (if required):</span> Depending on the program and institution, Nepali students may need to take standardized admission tests such as the SAT, ACT, GRE, or GMAT.
+</li>
+
+<li className='li-de'><span className='span-blue'>
+Application Process:</span>Nepali students must complete the application process for their chosen institution, which typically includes submitting an online application, providing academic transcripts, letters of recommendation, a statement of purpose, and paying the application fee.</li>
+
+<li className='li-de'><span className='span-blue'>Study Permit:</span>Nepali students require a study permit to study in Canada. To obtain a study permit, they need to provide a letter of acceptance from a designated learning institution (DLI), proof of financial support to cover tuition fees and living expenses, and satisfy other immigration requirements.</li>
+
+
+<li className='li-de'><span className='span-blue'>
+Health Insurance:</span>Nepali students are required to have health insurance coverage while studying in Canada. Some provinces may have specific health insurance requirements for international students.</li>
+
+<li className='li-de'><span className='span-blue'>Financial Proof:</span>Nepali students must demonstrate their ability to cover tuition fees, living expenses, and other costs associated with studying in Canada. This may include providing bank statements, scholarship letters, or sponsorship letters.</li>
+
+<li className='li-de'><span className='span-blue'>Biometrics:</span>Nepali students may need to provide biometric information as part of their study permit application process. This involves providing fingerprints and a photograph at a designated biometric collection center.</li>
+
+</ul>
+</div>
+
+
+
+<div className='pushdown'>
+
+<h2 className='h2-blue'>Cost to Study in the <span className='span-red'>Australia</span></h2>
+</div>
+
+<div className="table-s">
+<table className='table-og'>
+<thead className='thead'>
+
+   <tr>
+       
+       <th scope="col" className="th-scope">
+           Level of Study
+       </th>
+       <th scope="col" className="th-scope2">
+       Average Annual Tuition Fees (in AUD)
+       </th>
+   </tr>
+
+</thead>
+
+<tbody>
+   {programs.map((program, index) => (
+       <tr key={program.id} className="tr1">
+          
+           <td className="th-scope">{program.name}</td>
+           <td className="th-scope2">{program.des}</td>
+       </tr>
+   ))}
+</tbody>
+
+</table>
+</div>
+
+
+<p className='impp'><span className='span-red'>Please note that </span>  these figures are average estimates and may vary considerably based on the university, program, and individual circumstances. It is recommended to consult the official websites of the institutions you are considering to obtain the most current information regarding tuition fees for your selected field of study.
+</p>
+
+<div className='pushdown'>
+
+<h3 className='h2-blue'>Cost of Living in the <span className='span-red'>Australia</span></h3>
+</div>
+
+<div className="table-s">
+<table className='table-og'>
+<thead className='thead'>
+
+   <tr>
+       
+       <th scope="col" className="th-scope">
+           Expenses
+       </th>
+       <th scope="col" className="th-scope2">
+       Average Monthly Cost (in AUD)
+       </th>
+   </tr>
+
+</thead>
+
+<tbody>
+   {expenses.map((expense, index) => (
+       <tr key={expense.id} className="tr1">
+          
+           <td className="th-scope">{expense.name}</td>
+           <td className="th-scope2">{expense.des}</td>
+       </tr>
+   ))}
+</tbody>
+
+</table>
+</div>
+  
+
 
     
         
