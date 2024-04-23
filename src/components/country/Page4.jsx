@@ -38,6 +38,15 @@ const courses = [
   {name:'Social Work',des:'Focuses on helping individuals, families, and communities overcome challenges and improve their well-being through advocacy, counseling, and support services.'},
  ]
 
+ const tests = [
+  {name:'IELTS (International English Language Testing System)' , des:'Assesses the language competency of individuals aspiring to study or work in English-speaking environments.'},
+  {name:'TOEFL (Test of English as a Foreign Language)' , des:'Evaluates the proficiency of non-native English speakers in comprehending and utilizing English within an academic context.'},
+  {name:'PTE Academic (Pearson Test of English Academic)' , des:'Computer-based assessment measuring the speaking, writing, reading, and listening proficiencies of non-native English speakers.'},
+  
+  {name:'Cambridge English Exams (e.g., Cambridge English: Advanced)' , des:"Cambridge English Exams, including the Cambridge English: Advanced (CAE), are internationally recognized proficiency tests designed to assess English language skills for academic and professional purposes."},
+
+ ]
+
 
 
   return (
@@ -236,6 +245,62 @@ The UK nurtures an environment where students can pursue their interests, be it 
  
  </ul>
 </div>
+
+
+<div className='pushdown'>
+
+<h2 className='h2-blue'>Test Required to Study in <span className='span-red'>UK</span></h2>
+</div>
+
+
+<p>Understanding the entry process is crucial for studying in the UK, similar to having a well-structured strategy for seamless proceedings. This involves navigating through the application process and undertaking examinations like IELTS or PTE, which play a vital role. <span className='gap'>
+
+The table provides a comprehensive overview of various English proficiency assessments used for university admissions in the UK. It includes essential details such as test names, descriptions, and their significance in evaluating language proficiency for academic pursuits.</span> </p>
+
+
+<div className="table-s">
+<table className='table-og'>
+<thead className='thead'>
+
+   <tr>
+       
+       <th scope="col" className="th-scope2">
+           Tests
+       </th>
+       <th scope="col" className="th-scope">
+           Description
+       </th>
+   </tr>
+
+</thead>
+
+<tbody>
+   {tests.map((test, index) => (
+       <tr key={test.id} className="tr1">
+          
+           <td className="th-scope2">{test.name}</td>
+           <td className="th-scope">{test.des}</td>
+       </tr>
+   ))}
+</tbody>
+
+</table>
+</div>
+
+
+<div className='pushdown'>
+
+<h2 className='h2-blue'>Intakes in the <span className='span-red'>UK</span> for  Nepalese Students</h2>
+</div>
+
+<p>For Nepali students planning to study in the UK, understanding the academic calendar is vital. Unlike Australia and Canada, the UK typically follows a different structure with regards to intake periods. In the UK, most universities operate on a two-semester system, with variations depending on the institution and the specific program of study.</p>
+
+<span className='gap'>
+  <h2 className="h2-blue">Intake Period</h2>
+  <p>
+  In the UK, there isn't a standardized intake period like in some other countries such as Australia or Canada. However, the most common intake periods for international students, including Nepali students, are typically in September/October and January. These coincide with the beginning of the autumn and spring terms, respectively.
+  </p>
+</span>
 
 
 
