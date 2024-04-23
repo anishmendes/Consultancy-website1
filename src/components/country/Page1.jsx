@@ -4,6 +4,7 @@ import React from 'react'
 import "./country.css"
 import Faq from "./Faq"
 import './page.css'; // Import CSS file
+import { motion } from 'framer-motion';
 
 
 const Page1 = () => {
@@ -73,7 +74,20 @@ const Page1 = () => {
         <h3 className='para1'>"Embark on an educational journey like no other – <span className='span-red'> study in the USA and pave the way to a bright future!"</span></h3>
         <img src="/images/usa page1" alt="USA Page 1"  className='img1'/>
 
-        <div>
+        <motion.div
+         initial={{
+            opacity:0,
+         }
+
+         }
+         whileInView={{
+            opacity:1,
+         }}
+
+         viewport={{
+            amount:"all",
+         }}
+        >
             <h1 className='headingc'>Why study in  <span className='span-red'> USA </span>from Nepal?</h1>
 
 
@@ -82,9 +96,25 @@ const Page1 = () => {
              Access to a global network of professionals enhances career prospects and fosters cultural exchange. The welcoming environment for international students, coupled with scholarship options, makes the USA an attractive destination for Nepalese
               students seeking to pursue academic aspirations and broaden horizons.</p>
 
-        </div>
+        </motion.div>
 
-        <div>
+        <motion.div
+         
+         initial={{
+            opacity:0,
+         }
+
+         }
+         whileInView={{
+            opacity:1,
+         }}
+
+         viewport={{
+           margin:"-200px"
+         }}
+        
+        
+        >
             <h2 className='h2-blue'>Key Advantages of Pursuing Higher Education in the <span className='span-red'>USA</span> for Nepali Students</h2>
             <p className='parat'>For Nepali students, selecting the USA as their study abroad destination presents a distinct opportunity to not only enhance academic knowledge but also foster personal and professional development. Here are compelling reasons why opting for the USA is a strategic choice for Nepali students seeking higher education :</p>
             <div>
@@ -112,9 +142,22 @@ const Page1 = () => {
               </section>
 
             </div>
-        </div>
+        </motion.div>
 
-        <img src="/images/mid pic usa " alt="USA Page 2"  className='img2' />
+        <motion.img
+         initial={{
+            opacity:0,
+         }
+
+         }
+         whileInView={{
+            opacity:1,
+         }}
+
+         viewport={{
+           margin:"-200px"
+         }}
+        src="/images/mid pic usa " alt="USA Page 2"  className='img2' />
         <div class="buttons">
     <button>About USA</button>
      <button>Universities</button>
@@ -122,14 +165,41 @@ const Page1 = () => {
      <button>Scholarship</button>
      </div>
         
-        <div className='pushdown'>
+        <motion.div 
+         initial={{
+            opacity:0,
+         }
+
+         }
+         whileInView={{
+            opacity:1,
+         }}
+
+         viewport={{
+           margin:"-200px"
+         }}
+        className='pushdown'>
             <h2 className='h2-blue'>Top Universities for Nepalese Students in <span className='span-red'>USA</span></h2>
             <span>
                 <p>The following table presents the top 10 universities in the United States, listing each university's name, and it’s USA rank.</p>
             </span>
-        </div>
+        </motion.div>
 
-        <div className="table-s">
+        <motion.div
+         initial={{
+            opacity:0,
+         }
+
+         }
+         whileInView={{
+            opacity:1,
+         }}
+
+         viewport={{
+           margin:"-200px"
+         }}
+        
+        className="table-s">
             <table className='table-og'>
                 <thead className='thead'>
 
@@ -158,7 +228,7 @@ const Page1 = () => {
                 </tbody>
 
             </table>
-            </div>
+            </motion.div>
 
 
             <h2 className='h2-blue'>Top Courses for Nepalese Students in <span className='span-red'>USA</span></h2>
