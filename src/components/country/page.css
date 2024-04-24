@@ -12,12 +12,12 @@
   }
   .img1 {
    
-      position: relative; /* Make the container a positioning context */
-      display: block; /* Change to block for better responsiveness */
-      height: auto; /* Remove fixed height */
-      width: 95%;
-      margin: 0 auto; /* Center the container horizontally and give it a gap from the right and left sides */
-      top: 0; /* Reset top */
+    position: relative; /* Make the container a positioning context */
+    display: inline-block; /* Ensure it only takes up the space it needs */
+    height: 100%;
+    width: 95%;
+    margin: 0 auto; /* Center the container horizontally and give it a gap from the right and left sides */
+    top: 65px; /* Move the container 60 pixels downward */
   
   }
   
@@ -273,4 +273,18 @@
       font-size: 5px; /* Adjust font size for smaller screens */
       left: 50%
   }
+
+  .th-scope,
+    .th-scope2 {
+        padding: 0.5rem; /* Adjust padding for smaller screens */
+    }
+    
+    .thead {
+        font-size: 8px; /* Further adjust font size for smaller screens */
+    }
+    
+    .table-s {
+        padding: 0.5rem; 
+        font-size: 8px; /* Adjust padding for smaller screens */
+    }
 }
