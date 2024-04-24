@@ -11,12 +11,14 @@
     
   }
   .img1 {
-    position: relative; /* Make the container a positioning context */
-    display: inline-block; /* Ensure it only takes up the space it needs */
-    height: 100%;
-    width: 95%;
-    margin: 0 auto; /* Center the container horizontally and give it a gap from the right and left sides */
-    top: 65px; /* Move the container 60 pixels downward */
+   
+      position: relative; /* Make the container a positioning context */
+      display: block; /* Change to block for better responsiveness */
+      height: auto; /* Remove fixed height */
+      width: 95%;
+      margin: 0 auto; /* Center the container horizontally and give it a gap from the right and left sides */
+      top: 0; /* Reset top */
+  
   }
   
   .span1 {
@@ -254,3 +256,14 @@
     color: #0910cf;
     font-weight: 600;
   }
+
+
+
+  /* ---------------------mobile view---------------------------------------- */
+
+
+  @media only screen and (max-width: 768px) {
+    .img1 {
+        width: 100%; /* Make image container full width on smaller screens */
+    }
+}
