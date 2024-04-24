@@ -266,4 +266,11 @@
     .img1 {
         width: 100%; /* Make image container full width on smaller screens */
     }
+
+    .heading1 {
+       /* Change position to static for better flow in small screens */
+      margin-top: -30px; /* Adjust margin-top for smaller screens */
+      font-size: 5px; /* Adjust font size for smaller screens */
+      left: 50%
+  }
 }
