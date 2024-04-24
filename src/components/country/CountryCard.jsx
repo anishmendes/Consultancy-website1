@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom'; // Import Link
+import { Link } from 'react-router-dom'; 
 
 const PriceCard = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -61,8 +61,7 @@ const PriceCard = () => {
                 {val.price}
               </h1>
               <p>{val.desc}</p>
-              {/* Add Link to the button */}
-              <Link to="/country/page1">
+              <Link to={`/country/page${index + 1}`}>
                 <button className='outline-btn'>GET STARTED</button>
               </Link>
             </>

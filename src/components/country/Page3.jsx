@@ -355,31 +355,31 @@ The table offers a thorough examination of different English proficiency assessm
 </div>
 
 
-<h2 className='h2-blue'>Requirements for Nepali Students to Study in the <span className='span-red'>Canada</span></h2>
+<h2 className='h2-blue'>Requirements for Nepali Students to Study in the <span className='span-red'>Australia</span></h2>
 
 <div className='pushdown'>
 
 <ul className='ul-de'>
 
-<li className='li-de'> <span className='span-blue'>Academic Qualifications:</span>Nepali students must meet the academic requirements set by Canadian universities or colleges for the program they wish to pursue. This typically includes a high school diploma or equivalent for undergraduate studies and a bachelor's degree for graduate studies.</li>
-<li className='li-de'><span className='span-blue'>English Language Proficiency:</span> Nepali students need to demonstrate proficiency in English by taking standardized tests such as IELTS or TOEFL. Some institutions may also accept other English proficiency tests like PTE Academic or CAEL</li>
+<li className='li-de'> <span className='span-blue'>Academic Qualifications:</span>Nepalese students must meet the academic requirements specified by Australian universities or colleges for the program they wish to pursue. This typically includes a high school diploma or equivalent for undergraduate studies and a bachelor's degree for graduate studies.</li>
+<li className='li-de'><span className='span-blue'>English Language Proficiency:</span>Nepalese students need to demonstrate proficiency in English by taking standardized tests such as IELTS, TOEFL, PTE Academic, or other accepted English proficiency tests. The required score may vary depending on the institution and program.</li>
 
 <li className='li-de'><span className='span-blue'>
-Standardized Admission Tests (if required):</span> Depending on the program and institution, Nepali students may need to take standardized admission tests such as the SAT, ACT, GRE, or GMAT.
+Admissions Process:</span> Nepalese students must complete the application process for their chosen institution, which usually involves submitting an online application, academic transcripts, letters of recommendation, a statement of purpose, and paying the application fee.
 </li>
 
 <li className='li-de'><span className='span-blue'>
 Application Process:</span>Nepali students must complete the application process for their chosen institution, which typically includes submitting an online application, providing academic transcripts, letters of recommendation, a statement of purpose, and paying the application fee.</li>
 
-<li className='li-de'><span className='span-blue'>Study Permit:</span>Nepali students require a study permit to study in Canada. To obtain a study permit, they need to provide a letter of acceptance from a designated learning institution (DLI), proof of financial support to cover tuition fees and living expenses, and satisfy other immigration requirements.</li>
+<li className='li-de'><span className='span-blue'>Visa Requirements:</span>Nepalese students require an Australian student visa (subclass 500) to study in Australia. To obtain a student visa, they must provide a Confirmation of Enrolment (CoE) from a registered Australian institution, proof of financial capacity to cover tuition fees and living expenses, and meet health and character requirements.</li>
 
 
 <li className='li-de'><span className='span-blue'>
-Health Insurance:</span>Nepali students are required to have health insurance coverage while studying in Canada. Some provinces may have specific health insurance requirements for international students.</li>
+Health Insurance:</span>Nepalese students are required to have Overseas Student Health Cover (OSHC) for the duration of their stay in Australia. OSHC provides medical and hospital insurance and is a mandatory requirement for all international students.</li>
 
-<li className='li-de'><span className='span-blue'>Financial Proof:</span>Nepali students must demonstrate their ability to cover tuition fees, living expenses, and other costs associated with studying in Canada. This may include providing bank statements, scholarship letters, or sponsorship letters.</li>
+<li className='li-de'><span className='span-blue'>Financial Proof:</span>Nepalese students must demonstrate their ability to cover tuition fees, living expenses, and other costs associated with studying in Australia. This may include providing bank statements, scholarship letters, or sponsorship letters.</li>
 
-<li className='li-de'><span className='span-blue'>Biometrics:</span>Nepali students may need to provide biometric information as part of their study permit application process. This involves providing fingerprints and a photograph at a designated biometric collection center.</li>
+<li className='li-de'><span className='span-blue'>Biometrics:</span>Nepalese students may need to provide biometric information as part of their visa application process. This involves providing fingerprints and a photograph at a designated biometric collection center.</li>
 
 </ul>
 </div>

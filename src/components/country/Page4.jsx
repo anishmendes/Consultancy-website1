@@ -47,6 +47,21 @@ const courses = [
 
  ]
 
+ const programs =[
+  {name:'Undergraduate Courses', des:'£10,000 - £30,000'},
+  {name:'Postgraduate Courses', des:'£10,000 - £40,000 or more'},
+  {name:'PhD Courses', des:'£4,000 - £40,000 or more'},
+  {name:'Doctoral Degree', des:'£10,000 - £40,000 or more'},
+ ]
+
+ const expenses =[
+  {name:'Accommodation', des:'£500 - £1,000'},
+  {name:'Personal Care', des:'£20 - £50'},
+  {name:'Transportation', des:'£50 - £100'},
+  {name:'Food', des:'£100 - £200'},
+  {name:'Internet and Phone', des:'$£20 - £40'},
+ ]
+
 
 
   return (
@@ -301,8 +316,128 @@ The table provides a comprehensive overview of various English proficiency asses
   In the UK, there isn't a standardized intake period like in some other countries such as Australia or Canada. However, the most common intake periods for international students, including Nepali students, are typically in September/October and January. These coincide with the beginning of the autumn and spring terms, respectively.
   </p>
 </span>
+ 
+ <span className='gap'>
+  <h3 className="h3-red">Popularity Among Nepali Students </h3>
+  <p className="p-table">The September/October intake period tends to be highly popular among Nepali students for several reasons. Firstly, it aligns well with the academic calendar in Nepal, where the academic year usually starts in April. This allows Nepali students to complete their high school or undergraduate studies and seamlessly transition to UK universities without a long break. Additionally, starting in September/October provides ample time for visa processing, accommodation arrangements, and other preparations.</p>
+ </span>
+
+ <span className='gap'>
+  <h2 className="h2-blue">
+  Key Feature for UK
+  </h2>
+   <p className='p-table'>
+    One key feature of studying in the UK that appeals to Nepali students is the flexibility in program start dates. While the main intake periods are in September/October and January, many universities offer multiple entry points throughout the year for postgraduate programs. This flexibility allows students to choose the start date that best suits their academic and personal circumstances. Whether they prefer to begin their studies immediately after completing their previous qualification or they need more time to prepare, the UK's varied start dates cater to a wide range of preferences.
+    </p>
+ </span>
+
+ <div className='pushdown'>
 
 
+ <h2 className='h2-blue'>Requirements for Nepali Students to Study in the <span className='span-red'>UK</span></h2>
+ </div>
+
+<div className='pushdown'>
+
+<ul className='ul-de'>
+
+<li className='li-de'> <span className='span-blue'>Academic Qualifications:</span>Nepalese students must meet the academic requirements specified by Australian universities or colleges for the program they wish to pursue. This typically includes a high school diploma or equivalent for undergraduate studies and a bachelor's degree for graduate studies.</li>
+<li className='li-de'><span className='span-blue'>English Language Proficiency:</span>Nepalese students need to demonstrate proficiency in English by taking standardized tests such as IELTS, TOEFL, PTE Academic, or other accepted English proficiency tests. The required score may vary depending on the institution and program.</li>
+
+<li className='li-de'><span className='span-blue'>
+Admissions Process:</span> Nepalese students must complete the application process for their chosen institution, which usually involves submitting an online application, academic transcripts, letters of recommendation, a statement of purpose, and paying the application fee.
+</li>
+
+<li className='li-de'><span className='span-blue'>
+Application Process:</span>Nepali students must complete the application process for their chosen institution, which typically includes submitting an online application, providing academic transcripts, letters of recommendation, a statement of purpose, and paying the application fee.</li>
+
+<li className='li-de'><span className='span-blue'>Visa Requirements:</span>Nepalese students require an Australian student visa (subclass 500) to study in Australia. To obtain a student visa, they must provide a Confirmation of Enrolment (CoE) from a registered Australian institution, proof of financial capacity to cover tuition fees and living expenses, and meet health and character requirements.</li>
+
+
+<li className='li-de'><span className='span-blue'>
+Health Insurance:</span>Nepalese students are required to have Overseas Student Health Cover (OSHC) for the duration of their stay in Australia. OSHC provides medical and hospital insurance and is a mandatory requirement for all international students.</li>
+
+<li className='li-de'><span className='span-blue'>Financial Proof:</span>Nepalese students must demonstrate their ability to cover tuition fees, living expenses, and other costs associated with studying in Australia. This may include providing bank statements, scholarship letters, or sponsorship letters.</li>
+
+<li className='li-de'><span className='span-blue'>Biometrics:</span>Nepalese students may need to provide biometric information as part of their visa application process. This involves providing fingerprints and a photograph at a designated biometric collection center.</li>
+
+</ul>
+</div>
+
+
+
+<div className='pushdown'>
+
+<h2 className='h2-blue'>Cost to Study in the <span className='span-red'>UK</span></h2>
+</div>
+
+<div className="table-s">
+<table className='table-og'>
+<thead className='thead'>
+
+   <tr>
+       
+       <th scope="col" className="th-scope">
+           Level of Study
+       </th>
+       <th scope="col" className="th-scope2">
+       Average Annual Tuition Fees (in GBP)
+       </th>
+   </tr>
+
+</thead>
+
+<tbody>
+   {programs.map((program, index) => (
+       <tr key={program.id} className="tr1">
+          
+           <td className="th-scope">{program.name}</td>
+           <td className="th-scope2">{program.des}</td>
+       </tr>
+   ))}
+</tbody>
+
+</table>
+</div>
+
+
+<p className='impp'><span className='span-red'>Please note that </span>  these figures are average estimates and may vary considerably based on the university, program, and individual circumstances. It is recommended to consult the official websites of the institutions you are considering to obtain the most current information regarding tuition fees for your selected field of study.
+</p>
+
+<div className='pushdown'>
+
+<h3 className='h2-blue'>Cost of Living in the <span className='span-red'>UK</span></h3>
+</div>
+
+<div className="table-s">
+<table className='table-og'>
+<thead className='thead'>
+
+   <tr>
+       
+       <th scope="col" className="th-scope">
+           Expenses
+       </th>
+       <th scope="col" className="th-scope2">
+       Average Monthly Cost (in GBP)
+       </th>
+   </tr>
+
+</thead>
+
+<tbody>
+   {expenses.map((expense, index) => (
+       <tr key={expense.id} className="tr1">
+          
+           <td className="th-scope">{expense.name}</td>
+           <td className="th-scope2">{expense.des}</td>
+       </tr>
+   ))}
+</tbody>
+
+</table>
+</div>
+  
 
     </div>
   )

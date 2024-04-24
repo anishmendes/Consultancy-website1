@@ -117,10 +117,11 @@
   }
   
 .h3-red {
- color: rgb(237, 71, 71);
+ color: rgb(232, 16, 16);
 }
 .span-blue {
-  color: #2332b8;
+  color: #0f20b2;
+  font-weight: 600;
 }
 
 .ui-de {
