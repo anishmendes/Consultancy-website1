@@ -1,3 +1,7 @@
+Consulatancy website that is build using react js swiper js framer motion 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
