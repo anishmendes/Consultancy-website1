@@ -2,6 +2,10 @@ Consulatancy website that is build using react js swiper js framer motion
 
 
 
+tasks to be done 
+1.Creating a transparent pop up feature in home section including toggle function 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
