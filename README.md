@@ -5,6 +5,7 @@ Consulatancy website that is build using react js swiper js framer motion
 tasks to be done 
 1.Creating a transparent pop up feature in home section including toggle function 
 2.on pop up feature putting all country section 
+3. After rendering to country section creating consuling section on down 
 
 
 
