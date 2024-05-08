@@ -1,0 +1,54 @@
+.popupmain {
+    position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+  backdrop-filter: blur(20px);
+}
+.popbutton {
+    position: absolute;
+  font-size: 2.25rem; /* Equivalent to text-4xl in Tailwind CSS */
+  color: #fff; /* Equivalent to text-white in Tailwind CSS */
+  right: 1rem; /* Equivalent to right-4 in Tailwind CSS */
+  top: 1rem;
+}
+
+.popdiv {
+    display: flex;
+    align-items: center;
+    height:100%;
+    width: 3000px
+  
+
+  }
+  
+  @media (min-width: 640px) {
+    .popdiv {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .popdiv {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+  }
+  
+  .popdiv {
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .poph1 {
+    font-size: 4rem; /* Equivalent to text-6xl in Tailwind CSS */
+    color: #000;
+  }

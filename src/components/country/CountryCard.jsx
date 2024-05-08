@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 
 const PriceCard = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+  const routeTo = () => {
+    window.scrollTo({
+      top:0,
+  
+    })
+  }
 
   const price = [
     {
@@ -61,7 +67,7 @@ const PriceCard = () => {
                 {val.price}
               </h1>
               <p>{val.desc}</p>
-              <Link to={`/country/page${index + 1}`}>
+              <Link onClick={routeTo} to={`/country/page${index + 1}`}>
                 <button className='outline-btn'>GET STARTED</button>
               </Link>
             </>

@@ -19,7 +19,7 @@ import Page1 from "./components/country/Page1"
 import Page2 from "./components/country/Page2"
 import Page3 from "./components/country/Page3"
 import Page4 from "./components/country/Page4"
-
+import Popup from "./components/popup/Popup"
 import Blog from "./components/blog/Blog"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
@@ -28,6 +28,7 @@ function App() {
   return (
     <>
       <Router>
+         <Popup/>
         <Header />
         <Switch>
           <Route exact path='/' component={Home} />
