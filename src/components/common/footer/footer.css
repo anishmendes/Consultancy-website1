@@ -96,6 +96,10 @@ footer .items img{
     margin-right: 20px;
     object-fit: cover;
 }
+.headingcar {
+    font-size: 20px;
+    color: #3363e4;
+}
 footer .items span,
 footer .items i {
     font-size: 12px;

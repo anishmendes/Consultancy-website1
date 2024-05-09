@@ -21,7 +21,7 @@ const Footer = () => {
       <footer>
         <div className='container padding'>
           <div className='box logo'>
-            <h1>CARRER CONSULT</h1>
+            <h1 className="headingcar">CARRER CONSULT</h1>
             <span>ONLINE VISA SERVICES</span>
             <p>The Consultancy has a long-standing reputation for being one of the best educational consultancy in Nepal for studying abroad.</p>
 
