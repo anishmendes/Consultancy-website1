@@ -6,7 +6,8 @@
   width: 100%; /* Ensure the cover image fills the container */
   height: 100%; /* Ensure the cover image fills the container */
   transition: opacity 0.3s ease; /* Add transition effect */
-  box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.06)
+  box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.06);
+  
 }
 
 

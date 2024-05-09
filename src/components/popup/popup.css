@@ -14,9 +14,11 @@
 .popbutton {
     position: absolute;
   font-size: 2.25rem; /* Equivalent to text-4xl in Tailwind CSS */
-  color: blue; /* Equivalent to text-white in Tailwind CSS */
+  color: rgb(255, 0, 0); /* Equivalent to text-white in Tailwind CSS */
   right: 1rem; /* Equivalent to right-4 in Tailwind CSS */
   top: 1rem;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+ 
 }
 
 .popdiv {
@@ -24,9 +26,67 @@
     align-items: center;
     height:100%;
     width: 3000px
-  
+    
 
   }
+  .allpop {
+    display: flex;
+  flex-direction: column; /* Change the direction to column */
+  align-items: flex-start; /* Align items to the start of the column */
+  margin-bottom: 20px;
+  margin: 10px; 
+  margin-left: 30px;
+  max-width: auto;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+  .headingcoun {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0; /* Adjust as needed */
+
+    z-index: 1; /* Ensure it's above other content */
+  }
+  
+  .allpop img {
+    width: 180px;
+    height: 400px;
+    margin-bottom: 15px;
+  }
+  
+  .allpop h4 {
+     padding-top: 18px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    margin-left: 45px;
+    padding-right: 3px;
+ 
+  }
+  
+  .allpop h1 {
+    margin-bottom: 35px;
+    font-size: 14px;
+    color: rgb(43, 7, 245);
+    margin-left: 70px;
+ 
+  }
+  
+  .allpop p {
+    font-size: 14px; 
+    margin-bottom: 35px;
+    margin-left: 30px;
+    padding-right: 8px;
+   
+  }
+  
+  .allpop button {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    }
+  
   
   @media (min-width: 640px) {
     .popdiv {

@@ -30,25 +30,25 @@ const Popup = () => {
     const price = [
         {
           name: "Study In USA",
-          price: "49K",
+          price: "Click Below",
           desc: "The USA has one of the top-ranked universities in the world. Over 4,000 schools and universities are located in the United States. In the United States",
           cover: "./images/usa",
         },
         {
           name: "Study In Canada",
-          price: "79K",
+          price: "Click Below",
           desc: "Since Canada is a world leader in language training. 21% of all Canadian people speak a foreign language as a native language so study in canada. ",
           cover: "./images/canada", 
         },
         {
           name: "Study In Australia",
-          price: "109k",
+          price: "Click Below",
           desc: "Australia is not only a student destination but overall a dynamic  country that offers a good educational and career life to students from all over the world.",
           cover: "./images/aus",
         },
         {
           name: "Study In UK",
-          price: "149K",
+          price: "Click Below",
           desc: "There are lots of reasons that you should consider going UK for your abroad study. UK has an international reputation as  provider of quality education.",
           cover: "./images/uk", 
         },
@@ -60,10 +60,11 @@ const Popup = () => {
         <div data-aos='fade' className='popupmain' >
             <button onClick={() => setPopup(!popup)} className='popbutton'><i class="fas fa-times"></i></button>
             <div  className='popdiv'>
+            <h1 className="headingcoun">Your Dream Country Is Down Below</h1>
             {price.map((val, index) => (
         <div
           key={index}
-          className='items shadow'
+          className='allpop'
           
           transition={{ duration: 0.7, yoyo: Infinity }}
           whileTap={{ scale: 1}}
@@ -80,7 +81,7 @@ const Popup = () => {
             <>
               <h4>{val.name}</h4>
               <h1>
-                <span>$</span>
+                
                 {val.price}
               </h1>
               <p>{val.desc}</p>
