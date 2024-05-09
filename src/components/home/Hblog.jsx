@@ -1,6 +1,6 @@
 import React from "react"
-import "../blog/blog.css"
-import { blog } from "../../dummydata"
+import "../journel/journel.css"
+import { journel } from "../../dummydata"
 import Heading from "../common/heading/Heading"
 import { motion } from 'framer-motion';
 
@@ -12,7 +12,7 @@ const Hblog = () => {
         <div className='container'>
           <Heading subtitle='OUR BLOG' title='Recent From Blog' />
           <div className='grid2'>
-            {blog.slice(0, 3).map((val) => (
+            {journel.slice(0, 3).map((val) => (
               <motion.div 
              
               initial={{ opacity: 0, scale: 0.4 }}

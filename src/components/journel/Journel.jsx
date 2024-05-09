@@ -1,26 +1,25 @@
 import React from "react"
 import Back from "../common/back/Back"
-import BlogCard from "./BlogCard"
-import "./blog.css"
+import JournelCard from "./JournelCard"
+import "./journel.css"
 
 import { motion } from 'framer-motion';
 
 
 
-const Blog = () => {
+const Journel = () => {
   return (
     <>
       <Back title='Blog Posts' />
       <section className='blog padding'>
         <motion.div
          
-        
         className='container grid2'>
-          <BlogCard />
+          <JournelCard />
         </motion.div>
       </section>
     </>
   )
 }
 
-export default Blog
+export default Journel

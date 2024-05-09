@@ -1,16 +1,16 @@
 import React from "react"
-import {blog} from "../../dummydata"
+import {journel} from "../../dummydata"
 
 // import { motion } from 'framer-motion';
 
-const BlogCard = () => {
+const JournelCard = () => {
     return (
         <>
         
       
         
         
-        {blog.map((val) => (
+        {journel.map((val) => (
             <div  className="items shadow">
                 <div  className="img">
                     <img  src={val.cover} alt="" />
@@ -43,4 +43,4 @@ const BlogCard = () => {
 }
 
 
-export default BlogCard
+export default JournelCard

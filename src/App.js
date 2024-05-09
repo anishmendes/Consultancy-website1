@@ -20,7 +20,7 @@ import Page2 from "./components/country/Page2"
 import Page3 from "./components/country/Page3"
 import Page4 from "./components/country/Page4"
 import Popup from "./components/popup/Popup"
-import Blog from "./components/blog/Blog"
+import Journel from "./components/journel/Journel"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
@@ -40,7 +40,7 @@ function App() {
            <Route path='/country/page2' component={Page2} />
           <Route path='/country/page3' component={Page3} />
           <Route path='/country/page4' component={Page4} />
-          <Route exact path='/journal' component={Blog} />
+          <Route exact path='/journel' component={Journel} />
           <Route exact path='/contact' component={Contact} />
           {/* <Route path="/" element={<Login/>}/>
           <Route path="/signup" element={<Signup/>}/> */}

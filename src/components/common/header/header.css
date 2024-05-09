@@ -19,12 +19,10 @@
   header {
     background-color: rgba(230, 218, 218, 0.2);
     margin: 0 30px;
-    max-width: 1000px; /* Adjust the maximum width as needed */
-    
-    
+    max-width: 1200px; /* Adjust the maximum width as needed */
 
     margin-top: 10px;
-    margin-left: 230px;
+    margin-left: 200px;
   }
   header .nav {
     display: flex !important;
@@ -63,9 +61,8 @@
   }
   div.social {
     position: relative;
-    top: 3px;
-    margin-right: 20px;
-    border: 2px solid black;
+    top: 23px;
+    margin-left: 20px;
 }
 
   

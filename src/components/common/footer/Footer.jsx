@@ -1,6 +1,7 @@
 import React from "react"
-import { blog } from "../../../dummydata"
+import { journel } from "../../../dummydata"
 import "./footer.css"
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -24,18 +25,24 @@ const Footer = () => {
             <span>ONLINE VISA SERVICES</span>
             <p>The Example  Consultancy has a long-standing reputation for being one of the best educational consultancy in Nepal for studying abroad.</p>
 
-            <i className='fab fa-facebook-f icon'></i>
-            <i className='fab fa-twitter icon'></i>
-            <i className='fab fa-instagram icon'></i>
+            <a href="https://www.facebook.com">
+    <i className='fab fa-facebook-f icon'></i>
+</a>
+<a href="https://twitter.com">
+    <i className='fab fa-twitter icon'></i>
+</a>
+<a href="https://www.instagram.com">
+    <i className='fab fa-instagram icon'></i>
+</a>
           </div>
           <div className='box link'>
             <h3>Explore</h3>
             <ul>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Courses</li>
-              <li>Blog</li>
-              <li>Contact us</li>
+            <li><a href="/about">About Us</a></li>
+              <li><a href="/team">Teams </a> </li>
+              <li><a href="/course">Courses</a></li>
+              <li><a href="/journel">Blog</a></li>
+              <li><a href="/contact">Contact us</a></li>
             </ul>
           </div>
           <div className='box link'>
@@ -50,10 +57,12 @@ const Footer = () => {
           </div>
           <div className='box'>
             <h3>Recent Post</h3>
-            {blog.slice(0, 3).map((val) => (
+            {journel.slice(0, 3).map((val) => (
               <div className='items flexSB'>
                 <div className='img'>
-                  <img src={val.cover} alt='' />
+                <a href="/journel">
+        <img src={val.cover} alt='' />
+    </a>
                 </div>
                 <div className='text'>
                   <span>
@@ -74,7 +83,7 @@ const Footer = () => {
             <ul>
               <li>
                 <i className='fa fa-map'></i>
-                203 Fake St. Mountain View, San Francisco, California, USA
+                 San Francisco, California, USA
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>

@@ -311,7 +311,7 @@ export const homeAbout = [
       desc: "The guide is aimed at individuals who are interested in pursuing an MBA in Canada and want to understand the various opportunities and benefits that come with an MBA degree. It provides an in-depth analysis of the Canadian MBA landscape and helps individuals make informed decisions regarding their MBA studies.",
     },
   ]
-  export const blog = [
+  export const journel = [
     {
       id: 1,
       type: "admin",
