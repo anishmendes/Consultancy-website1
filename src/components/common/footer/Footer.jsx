@@ -23,7 +23,7 @@ const Footer = () => {
           <div className='box logo'>
             <h1>CARRER CONSULT</h1>
             <span>ONLINE VISA SERVICES</span>
-            <p>The Example  Consultancy has a long-standing reputation for being one of the best educational consultancy in Nepal for studying abroad.</p>
+            <p>The Consultancy has a long-standing reputation for being one of the best educational consultancy in Nepal for studying abroad.</p>
 
             <a href="https://www.facebook.com">
     <i className='fab fa-facebook-f icon'></i>
