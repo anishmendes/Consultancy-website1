@@ -83,11 +83,11 @@ const Footer = () => {
             <ul>
               <li>
                 <i className='fa fa-map'></i>
-                 San Francisco, California, USA
+                 New Baneswor,Kathmandu,Nepal
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
-                +2 392 3929 210
+                +977980457676
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
