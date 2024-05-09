@@ -100,6 +100,7 @@ img[src='./images/back2'] {
     width: 200px;
     height: 150px;
     margin: 20px;
+  margin-left: 40px;
     position: relative;
     object-fit: cover;
   }
