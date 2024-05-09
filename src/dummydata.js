@@ -6,13 +6,13 @@ export const homeAbout = [
       desc: "Courses may cover the various steps involved in the visa application process,including documentation requirements.",
     },
     {
-      id: 1,
+      id: 2,
       cover: "https://img.icons8.com/ios/40/000000/diploma.png",
       title: "Free IT Training",
       desc: "We provide valuable opportunities for individuals to acquire new skills,advance their careers.",
     },
     {
-      id: 1,
+      id: 3,
       cover: "https://img.icons8.com/ios/80/000000/athlete.png",
       title: "Expert Counceling",
       desc: "Expert counseling aims to promote mental health and well-being, enhance personal and professional development.",
