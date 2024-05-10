@@ -14,30 +14,36 @@
     height: 85%;
     object-fit:cover;
     margin-top: 65px;
-   
+  
 
 }
 
 
 .aboutHome .right {
     padding: 80px 50px;
+  
+    
 }
 
 .aboutHome .items { 
     margin-top: 50px;
     margin-left: 15px; /* Adjust the value as needed */
+   
 }
 
 
 .aboutHome .item {
     
    
-    margin-top: 30px;
+ 
     padding: 20px;
     transition: 0.5s;
 }
 .aboutHome .img {
-    width: 200px;
+    width: 100px;
+    background-color:none;
+    padding-left: 20px;
+  
     
 }
 .aboutHome img {
@@ -50,7 +56,7 @@
 
 .aboutHome .item h2 { 
    font-size: 20px;
-   margin-bottom: 15px;
+   margin-bottom: 5px;
 }
 
 .aboutHome .item p {
@@ -59,7 +65,7 @@
 
 .aboutHome .item:hover {
     background-color: #2a43cc;
-    color:#fff;
+    
     cursor: pointer;
     border-radius: 20px; /* Add border radius for rounded corners */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
