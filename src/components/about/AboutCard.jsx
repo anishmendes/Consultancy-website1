@@ -5,6 +5,7 @@ import { homeAbout } from "../../dummydata"
 import Awrapper from "./Awrapper"
 //motion
 import {motion} from 'framer-motion';
+import { Link } from "react-router-dom"
 
 //varients
 
@@ -13,6 +14,12 @@ import {motion} from 'framer-motion';
 
 
 const AboutCard = () => {
+  const routeTo = () => {
+    window.scrollTo({
+      top:0,
+  
+    })
+  }
   return (
     <>
       <section className='aboutHome'>
@@ -34,20 +41,20 @@ const AboutCard = () => {
               {homeAbout.map((val) => {
                 return (
                   <motion.div 
-                  
+                  key={val.id} // Add a key prop to each element in the map function
                   whileHover={{ scale: 0.9 }}
                   className='item flexSB'>
+                    <Link onClick={routeTo} to={val.link} className='linkabout'>
+                      
                     <div className='img'>
                       <img src={val.cover} alt='' />
                     </div>
                     <div 
-                    
-                   
-                    
                     className='text'>
                       <h2>{val.title}</h2>
                       <p>{val.desc}</p>
                     </div>
+                   </Link>
                   </motion.div>
                 )
               })}
