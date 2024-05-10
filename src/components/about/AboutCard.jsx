@@ -28,6 +28,9 @@ const AboutCard = () => {
           <div className='right row'>
             <Heading subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' />
             <div className='items'>
+
+              {/* About us section mapping elements  */}
+
               {homeAbout.map((val) => {
                 return (
                   <motion.div 
