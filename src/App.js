@@ -24,6 +24,7 @@ import Journel from "./components/journel/Journel"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
+import Form from './components/form/Form'
 function App() {
   return (
     <>
@@ -42,6 +43,7 @@ function App() {
           <Route path='/country/page4' component={Page4} />
           <Route exact path='/journel' component={Journel} />
           <Route exact path='/contact' component={Contact} />
+          <Route exact path='/form' component={Form} />
           {/* <Route path="/" element={<Login/>}/>
           <Route path="/signup" element={<Signup/>}/> */}
         </Switch>

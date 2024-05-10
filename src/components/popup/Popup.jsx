@@ -1,11 +1,30 @@
 import "./popup.css"
 import React, { useState, useEffect } from 'react'
-import { IoClose } from "react-icons/io5";
+import { IoClose, IoHandRight } from "react-icons/io5";
 import CountryCard from "../country/CountryCard"
 
 import { Link } from 'react-router-dom'; 
 
 const Popup = () => {
+  const buttonStyle = {
+    position: 'relative',
+    top: 0,
+    left: 0,
+    width: '100%',
+    textAlign: 'center',
+    padding: '20px 0',
+    zIndex: 1,
+    textDecoration: 'none', // Ensure link default style is removed
+    color: '#fff', // Match button text color
+    backgroundColor: '#007bff',
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer',
+ 
+  
+  
+};
+
     const [popup, setPopup] = useState(true);
     const [hoveredIndex, setHoveredIndex] = useState(null);
 
@@ -59,6 +78,11 @@ const Popup = () => {
         popup ?
         <div data-aos='fade' className='popupmain' >
             <button onClick={() => setPopup(!popup)} className='popbutton'><i class="fas fa-times"></i></button>
+
+            {/* <div className="headingcoun2">
+      <Link to="/form" style={buttonStyle}>REGISTER NOW</Link>
+        </div> */}
+        
             <div  className='popdiv'>
             <h1 className="headingcoun">Your Dream Country Is Down Below</h1>
             {price.map((val, index) => (

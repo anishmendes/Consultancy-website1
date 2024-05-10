@@ -5,6 +5,17 @@ import "./header.css"
 import { motion } from 'framer-motion';
 
 const Header = () => { 
+
+    const buttonStyle = {
+       
+        color: '#fff',
+        padding: '10px 20px',
+        border: 'none',
+        borderRadius: '5px',
+        cursor: 'pointer',
+        textDecoration: 'none',
+    };
+
     const [click, setClick] = useState(false)
 
     return (
@@ -42,18 +53,15 @@ const Header = () => {
                   }}
                   transition={{ duration: 0.7, yoyo: Infinity }}
                 className="start">
-                    <div 
-                    
-                    className="button">
-                       REGISTER NOW
-                    </div>
+                   <div className="button">
+      <Link to="/form" style={buttonStyle}>REGISTER NOW</Link>
+        </div>
                     <button className="toggle onClick={() => setClick(!click)}">
                     {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
                     </button>
                 </motion.div>
             </nav>
         </header>
-        
         
         
         </>
