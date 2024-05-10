@@ -3,7 +3,8 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div>
+    <div className='mainform'>
+           <img src="/images/signup.gif" alt="gif"  className='gifform'/>
  
     </div>
   )

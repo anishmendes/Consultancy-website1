@@ -1,0 +1,16 @@
+.mainform {
+    margin-top: 100px;
+    display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+  
+}
+.gifform {
+    height: 600px;
+    width: 500px; /* Adjust as needed */
+    height: auto;
+    margin-left: -700px;
+}
+  
+  
+  
