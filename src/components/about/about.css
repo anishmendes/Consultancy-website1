@@ -1,5 +1,7 @@
 .aboutHome {
     height: auto;
+   
+    padding-top: 30px;
 }
 
 .aboutHome #heading {
@@ -11,7 +13,7 @@
     width: 100%;
     height: 85%;
     object-fit:cover;
-    margin-top: 55px;
+    margin-top: 65px;
    
 
 }
