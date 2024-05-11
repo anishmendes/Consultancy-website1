@@ -225,22 +225,20 @@ const Form = () => {
             >
                 Select your Ans
             </option>
-            <optgroup label="Beginers">
-                <option value="1">HTML</option>
-                <option value="2">CSS</option>
+            <optgroup label="For USA">
+                <option value="1">ITETLS</option>
+                <option value="2">GRE</option>
                 <option value="3">
-                    JavaScript
+                    TOFEL
                 </option>
             </optgroup>
-            <optgroup label="Advance">
-                <option value="4">React</option>
-                <option value="5">Node</option>
+            <optgroup label="FOR AUS">
+                <option value="4">ITETLS</option>
+                <option value="5">PTE</option>
                 <option value="6">
-                    Express
+                    other
                 </option>
-                <option value="t">
-                    MongoDB
-                </option>
+               
             </optgroup>
         </select>
         <label for="about">About</label>
