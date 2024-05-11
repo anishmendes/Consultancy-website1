@@ -12,7 +12,7 @@ import { fadeIn } from './../../variants';
 
 const Awrapper = () => {
   return (
-    <>
+    <section className="mainwrapper">
       <section className='awrapper'>
         <motion.div 
         variants={fadeIn("up", 0.2)}
@@ -38,7 +38,7 @@ const Awrapper = () => {
           })}
         </motion.div>
       </section>
-    </>
+    </section>
   )
 }
 

@@ -84,15 +84,20 @@
     background-position: center;
     height: 20vh;
     color: #f6f5f5;
+   
 
+}
+.mainwrapper {
+    background-color: #1607e9;
 }
 .awrapper .box {
     padding: 70px 0;
+    
 
 }
 .awrapper img {
     margin-right: 30px;
-    background-color: rgba(244, 244, 244, 0.252);
+      
    
     box-shadow: #999999 1px;
     
