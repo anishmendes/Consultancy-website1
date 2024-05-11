@@ -250,7 +250,7 @@ const Form = () => {
             onChange={(e) =>
                 setAbout(e.target.value)
             }
-            placeholder="About your self"
+            placeholder="About yourself"
             required
         ></textarea>
         <button
