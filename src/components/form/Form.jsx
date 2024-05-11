@@ -11,6 +11,7 @@ const Form = () => {
         english: true,
         maths: false,
         physics: false,
+        nepali:true,
     });
     const [resume, setResume] = useState("");
     const [url, setUrl] = useState();
