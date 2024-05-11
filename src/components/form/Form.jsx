@@ -207,7 +207,7 @@ const Form = () => {
             placeholder="Enter url"
             required
         />
-        <label>Select your choice</label>
+        <label>Select your course</label>
         <select
             name="select"
             id="select"
