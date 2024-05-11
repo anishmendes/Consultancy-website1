@@ -186,6 +186,16 @@ const Form = () => {
             }
         />
         UK
+        <input
+            type="checkbox"
+            name="lang"
+            id="nepali"
+            checked={subjects.nepali === true}
+            onChange={(e) =>
+                handleSubjectChange("nepali")
+            }
+        />
+        Aus
         <label for="file">Upload Your Photo*</label>
         <input
             type="file"
