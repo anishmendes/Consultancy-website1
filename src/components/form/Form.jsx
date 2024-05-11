@@ -185,7 +185,7 @@ const Form = () => {
             }
         />
         UK
-        <label for="file">Upload Resume*</label>
+        <label for="file">Upload Your Photo*</label>
         <input
             type="file"
             name="file"
