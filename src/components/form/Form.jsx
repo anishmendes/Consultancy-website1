@@ -63,10 +63,9 @@ const Form = () => {
     <div className='mainform'>
            <img src="/images/signup.gif" alt="gif"  className='gifform'/>
  
-    </div>
 
-<div className="App">
-<h1>Form in React</h1>
+           <div className="App">
+<h1>Register Here</h1>
 <fieldset>
     <form action="#" method="get">
         <label for="firstname">
@@ -119,7 +118,7 @@ const Form = () => {
             placeholder="Enter Mobile number"
             required
         />
-        <label for="gender">Gender*</label>
+        <label for="gender">Score*</label>
         <input
             type="radio"
             name="gender"
@@ -130,7 +129,7 @@ const Form = () => {
                 setGender(e.target.value)
             }
         />
-        Male
+        6.5/more
         <input
             type="radio"
             name="gender"
@@ -141,7 +140,7 @@ const Form = () => {
                 setGender(e.target.value)
             }
         />
-        Female
+        6.5/less
         <input
             type="radio"
             name="gender"
@@ -152,9 +151,9 @@ const Form = () => {
                 setGender(e.target.value)
             }
         />
-        Other
+        Gap Year
         <label for="lang">
-            Your best Subject
+            Your Destination
         </label>
         <input
             type="checkbox"
@@ -165,7 +164,7 @@ const Form = () => {
                 handleSubjectChange("english")
             }
         />
-        English
+        USA
         <input
             type="checkbox"
             name="lang"
@@ -175,7 +174,7 @@ const Form = () => {
                 handleSubjectChange("maths")
             }
         />
-        Maths
+        Canada
         <input
             type="checkbox"
             name="lang"
@@ -185,7 +184,7 @@ const Form = () => {
                 handleSubjectChange("physics")
             }
         />
-        Physics
+        UK
         <label for="file">Upload Resume*</label>
         <input
             type="file"
@@ -273,6 +272,9 @@ const Form = () => {
     </form>
 </fieldset>
 </div>
+    </div>
+
+
 
   )
 }
