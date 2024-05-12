@@ -6,7 +6,7 @@ const Form = () => {
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
     const [contact, setContact] = useState("");
-    const [gender, setGender] = useState("male");
+    const [score, setScore] = useState("6.5");
     const [subjects, setSubjects] = useState({
         english: true,
         maths: false,
@@ -26,7 +26,7 @@ const Form = () => {
             lastName,
             email,
             contact,
-            gender,
+            score,
             selectedOption,
             subjects,
             resume,
@@ -48,7 +48,7 @@ const Form = () => {
         setLastName("");
         setEmail("");
         setContact("");
-        setGender("male");
+        setScore("6.5");
         setSubjects({
             english: true,
             maths: false,
@@ -119,37 +119,37 @@ const Form = () => {
             placeholder="Enter Mobile number"
             required
         />
-        <label for="gender">Score*</label>
+        <label for="score">Score*</label>
         <input
             type="radio"
-            name="gender"
-            value="male"
-            id="male"
-            checked={gender === "male"}
+            name="score"
+            value="6.5/more"
+            id="6.5/more"
+            checked={score === "6.5/more"}
             onChange={(e) =>
-                setGender(e.target.value)
+                setScore(e.target.value)
             }
         />
         6.5/more
         <input
             type="radio"
-            name="gender"
-            value="female"
-            id="female"
-            checked={gender === "female"}
+            name="score"
+            value="6.5/less"
+            id="6.5/less"
+            checked={score === "6.5/less"}
             onChange={(e) =>
-                setGender(e.target.value)
+                setScore(e.target.value)
             }
         />
         6.5/less
         <input
             type="radio"
-            name="gender"
-            value="other"
-            id="other"
-            checked={gender === "other"}
+            name="score"
+            value="gap"
+            id="gap"
+            checked={score === "gap"}
             onChange={(e) =>
-                setGender(e.target.value)
+                setScore(e.target.value)
             }
         />
         Gap Year
