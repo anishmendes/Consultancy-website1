@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 const PriceCard = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+  
   const routeTo = () => {
     window.scrollTo({
       top:0,
