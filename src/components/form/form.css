@@ -6,7 +6,7 @@
   
 }
 .gifform {
-    height: 650px;
+    height: 700px;
     width: 500px; /* Adjust as needed */
    
     margin-left: 100px;
@@ -19,12 +19,13 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     padding: 10px 20px;
     transition: transform 0.2s;
-    width: 700px;
-    height: 1000px;
+   
+   
     text-align: center;
   display: flex;
   justify-content: flex-end;
   margin-left: 200px;
+  margin-right: 100px;
     margin-top: 20px;
     margin-bottom: 200px;
 }
@@ -67,7 +68,7 @@ label {
     margin-top: 8px;
     margin-bottom: 5px;
     text-align: left;
-    color: #555;
+    color: #360be0;
     font-weight: bold;
 }
 
@@ -83,6 +84,8 @@ button {
     font-size: 16px;
 }
 textarea {
+    border-radius: 10px;
+    border: 3px solid rgb(50, 48, 48);
     resize: none;
     width: 98%;
     min-height: 100px;
