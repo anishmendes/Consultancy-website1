@@ -7,7 +7,7 @@ const Form = () => {
     const [email, setEmail] = useState("");
     const [contact, setContact] = useState("");
     const [score, setScore] = useState("6.5");
-    const [subjects, setSubjects] = useState({
+    const [country, setCountry] = useState({
         english: true,
         maths: false,
         physics: false,
@@ -28,7 +28,7 @@ const Form = () => {
             contact,
             score,
             selectedOption,
-            subjects,
+            country,
             resume,
             url,
             about
@@ -37,7 +37,7 @@ const Form = () => {
     };
 
     const handleSubjectChange = (sub) => {
-        setSubjects((prev) => ({
+        setCountry((prev) => ({
             ...prev,
             [sub]: !prev[sub],
         }));
@@ -49,10 +49,11 @@ const Form = () => {
         setEmail("");
         setContact("");
         setScore("6.5");
-        setSubjects({
-            english: true,
-            maths: false,
-            physics: false,
+        setCountry({
+            usa: true,
+            canada: false,
+            uk: false,
+            aus: false,
         });
         setResume("");
         setUrl("");
@@ -159,40 +160,40 @@ const Form = () => {
         <input
             type="checkbox"
             name="lang"
-            id="english"
-            checked={subjects.english === true}
+            id="usa"
+            checked={country.usa === true}
             onChange={(e) =>
-                handleSubjectChange("english")
+                handleSubjectChange("usa")
             }
         />
         USA
         <input
             type="checkbox"
             name="lang"
-            id="maths"
-            checked={subjects.maths === true}
+            id="canada"
+            checked={country.canada === true}
             onChange={(e) =>
-                handleSubjectChange("maths")
+                handleSubjectChange("canada")
             }
         />
         Canada
         <input
             type="checkbox"
             name="lang"
-            id="physics"
-            checked={subjects.physics === true}
+            id="uk"
+            checked={country.uk === true}
             onChange={(e) =>
-                handleSubjectChange("physics")
+                handleSubjectChange("uk")
             }
         />
         UK
         <input
             type="checkbox"
             name="lang"
-            id="nepali"
-            checked={subjects.nepali === true}
+            id="aus"
+            checked={country.aus === true}
             onChange={(e) =>
-                handleSubjectChange("nepali")
+                handleSubjectChange("aus")
             }
         />
         Aus
