@@ -65,8 +65,8 @@ const Form = () => {
            <img src="/images/signup.gif" alt="gif"  className='gifform'/>
  
 
-           <div className="Appf">
-<h1>Register Here</h1>
+           <div className="App">
+{/* <h1>Register Here</h1> */}
 <fieldset>
     <form action="#" method="get">
         <label for="firstname">

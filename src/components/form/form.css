@@ -6,29 +6,30 @@
   
 }
 .gifform {
-    height: 600px;
+    height: 500px;
     width: 500px; /* Adjust as needed */
-    height: auto;
-    margin-left: -700px;
+   
+    margin-left: 100px;
+
 }
 
-.Appf {
+.App {
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     padding: 10px 20px;
     transition: transform 0.2s;
-    width: 500px;
+    width: 700px;
+    height: 1000px;
     text-align: center;
-    margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 200px;
     margin-top: 20px;
+    margin-bottom: 200px;
 }
 
-h1 {
-    font-size: x-large;
-    text-align: center;
-    color: #327c35;
-}
+
 
 fieldset {
     border: none;
