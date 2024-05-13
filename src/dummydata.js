@@ -23,23 +23,23 @@ export const homeAbout = [
   ]
   export const awrapper = [
     {
-      cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
+      cover: "https://img.icons8.com/dotty/80/ffffff/storytelling.png",
       data: "3,000",
       title: "SUCCESS STORIES",
     },
   
     {
-      cover: "https://img.icons8.com/ios/80/000000/athlete.png",
+      cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
       data: "320",
       title: "TRUSTED TUTORS",
     },
     {
-      cover: "https://img.icons8.com/ios/80/000000/diploma.png",
+      cover: "https://img.icons8.com/ios/80/ffffff/diploma.png",
       data: "1,000",
       title: "SCHEDULES",
     },
     {
-      cover: "https://img.icons8.com/ios/80/macbook-idea--v3.png",
+      cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
       data: "587",
       title: "COURSES",
     },
