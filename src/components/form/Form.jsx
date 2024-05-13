@@ -15,7 +15,7 @@ const Form = () => {
     });
     const [photo, setPhoto] = useState("");
     const [url, setUrl] = useState();
-    const [selectedOption, setSelectedOption] =
+    const [course, setCourse] =
         useState("");
     const [about, setAbout] = useState("");
 
@@ -27,7 +27,7 @@ const Form = () => {
             email,
             number,
             score,
-            selectedOption,
+           course,
             destination,
             photo,
             url,
@@ -57,7 +57,7 @@ const Form = () => {
         });
         setPhoto("");
         setUrl("");
-        setSelectedOption("");
+        setCourse("");
         setAbout("");
     };
 
@@ -225,9 +225,9 @@ const Form = () => {
         <select
             name="select"
             id="select"
-            value={selectedOption}
+            value={course}
             onChange={(e) =>
-                setSelectedOption(
+                setCourse(
                     e.target.value
                 )
             }
@@ -235,7 +235,7 @@ const Form = () => {
             <option
                 value=""
                 disabled
-                selected={selectedOption === ""}
+                selected={course === ""}
             >
                 Select your Ans
             </option>
