@@ -8,10 +8,10 @@ const Form = () => {
     const [number, setNumber] = useState("");
     const [score, setScore] = useState("6.5");
     const [destination, setDestination] = useState({
-        english: true,
-        maths: false,
-        physics: false,
-        nepali:true,
+        usa: true,
+        canada: false,
+        uk: false,
+        aus:true,
     });
     const [photo, setPhoto] = useState("");
     const [url, setUrl] = useState();
