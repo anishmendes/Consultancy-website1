@@ -269,6 +269,7 @@ const Form = () => {
             type="reset"
             value="reset"
             onClick={() => handleReset()}
+            className='buttonform'
         >
             Reset
         </button>

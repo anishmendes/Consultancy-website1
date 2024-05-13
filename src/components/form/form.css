@@ -62,7 +62,7 @@ select {
     border-radius: 5px;
 }
 
-label {
+.labelform {
     font-size: 15px;
     display: block;
     width: 100%;
@@ -73,7 +73,7 @@ label {
     font-weight: bold;
 }
 
-button {
+.buttonform {
     padding: 15px;
     border-radius: 10px;
     margin: 15px;
