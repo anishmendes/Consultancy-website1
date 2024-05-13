@@ -50,7 +50,18 @@
     z-index: 1; /* Ensure it's above other content */
   }
  
-  
+   
+.headtop {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(250, 11, 11);
+}
+.parapop {
+  font-weight: 500;
+ display: flex;
+ align-items: center;
+}
+
   .allpop img {
     width: 180px;
     height: 400px;

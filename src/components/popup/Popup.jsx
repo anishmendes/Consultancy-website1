@@ -103,12 +103,12 @@ const Popup = () => {
           {/* Display other elements only if hovered */}
           {hoveredIndex === index && (
             <>
-              <h4>{val.name}</h4>
+              <h4 className="headtop">{val.name}</h4>
               <h1>
                 
                 {val.price}
               </h1>
-              <p>{val.desc}</p>
+              <p className="parapop">{val.desc}</p>
               <Link onClick={routeTo} to={`/country/page${index + 1}`}>
                 <button className='outline-btn'>GET STARTED</button>
               </Link>
