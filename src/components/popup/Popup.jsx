@@ -84,7 +84,7 @@ const Popup = () => {
         </div> */}
         
             <div  className='popdiv'>
-            <h1 className="headingcoun">Your Dream Country Is Down Below</h1>
+            {/* <h1 className="headingcoun">Your Dream Country Is Down Below</h1> */}
             {price.map((val, index) => (
         <div
           key={index}

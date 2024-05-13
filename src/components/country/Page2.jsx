@@ -7,6 +7,30 @@ import Faq from "./Faq"
 import './page.css'; // Import CSS file
 
 const Page2 = () => {
+    const routeTo = () => {
+        window.scrollTo({
+          top:400,
+      
+        })
+      }
+    const routeTo2 = () => {
+        window.scrollTo({
+          top:2200,
+      
+        })
+      }
+    const routeTo3 = () => {
+        window.scrollTo({
+          top:3200,
+      
+        })
+      }
+    const routeTo4 = () => {
+        window.scrollTo({
+          top:4100,
+      
+        })
+      }
   const universities = [
     { id: 1. , name: 'University of Toronto', rank: 1 },
     { id: 2. , name: 'University of British Columbia', rank: 2 },
@@ -117,10 +141,10 @@ const courses = [
 
         <img src="/images/mid pic canada " alt="CANADA Page 2"  className='img2' />
         <div class="buttons">
-    <button>About CANADA</button>
-     <button>Universities</button>
-     <button>Courses </button>
-     <button>Scholarship</button>
+    <button onClick={routeTo}>About CANADA</button>
+     <button onClick={routeTo2}>Universities</button>
+     <button onClick={routeTo3}>Courses </button>
+     <button onClick={routeTo4}>Scholarship</button>
      </div>
         
      <div className='pushdown'>

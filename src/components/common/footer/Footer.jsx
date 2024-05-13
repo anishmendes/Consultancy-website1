@@ -4,6 +4,12 @@ import "./footer.css"
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  const routeTo = () => {
+    window.scrollTo({
+      top:0,
+  
+    })
+  }
   return (
     <>
       {/* <section className='newletter'>
@@ -38,12 +44,13 @@ const Footer = () => {
           <div className='box link'>
             <h3>Explore</h3>
             <ul>
-            <li><a href="/about">About Us</a></li>
-              <li><a href="/team">Teams </a> </li>
-              <li><a href="/course">Courses</a></li>
-              <li><a href="/journel">Blog</a></li>
-              <li><a href="/contact">Contact us</a></li>
-            </ul>
+      <li><Link onClick={routeTo} to="/about">About Us</Link></li>
+      <li><Link onClick={routeTo} to="/team">Teams</Link></li>
+      <li><Link onClick={routeTo} to="/course">Courses</Link></li>
+      <li><Link onClick={routeTo} to="/journel">Blog</Link></li>
+      <li><Link onClick={routeTo} to="/contact">Contact us</Link></li>
+    </ul>
+
           </div>
           <div className='box link'>
             <h3>Quick Links</h3>
@@ -60,9 +67,9 @@ const Footer = () => {
             {journel.slice(0, 3).map((val) => (
               <div className='items flexSB'>
                 <div className='img'>
-                <a href="/journel">
+                <Link onClick={routeTo} to="/journel">
         <img src={val.cover} alt='' />
-    </a>
+    </Link>
                 </div>
                 <div className='text'>
                   <span>

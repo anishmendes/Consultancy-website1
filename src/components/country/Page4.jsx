@@ -1,6 +1,30 @@
 import React from 'react'
 
 const Page4 = () => {
+    const routeTo = () => {
+        window.scrollTo({
+          top:400,
+      
+        })
+      }
+    const routeTo2 = () => {
+        window.scrollTo({
+          top:2200,
+      
+        })
+      }
+    const routeTo3 = () => {
+        window.scrollTo({
+          top:3300,
+      
+        })
+      }
+    const routeTo4 = () => {
+        window.scrollTo({
+          top:4500,
+      
+        })
+      }
 
   const universities = [
     { id: 1. , name: 'University of Oxford', rank: 1 },
@@ -121,10 +145,10 @@ const courses = [
 
         <img src="/images/mid pic uk " alt="CANADA Page 2"  className='img2' />
         <div class="buttons">
-    <button>About UK</button>
-     <button>Universities</button>
-     <button>Courses </button>
-     <button>Scholarship</button>
+    <button onClick={routeTo}>About UK</button>
+     <button onClick={routeTo2}>Universities</button>
+     <button onClick={routeTo3}>Courses </button>
+     <button onClick={routeTo4}> Scholarship</button>
      </div>
      
      <div className='pushdown'>

@@ -17,14 +17,14 @@
   color: rgb(255, 0, 0); /* Equivalent to text-white in Tailwind CSS */
   right: 1rem; /* Equivalent to right-4 in Tailwind CSS */
   top: 1rem;
-  background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+  background: none; /* Black background with 50% opacity */
  
 }
 
 .popdiv {
     display: flex;
     align-items: center;
-    height:100%;
+    height:85%;
     width: 3000px
     
 
@@ -39,16 +39,18 @@
   max-width: auto;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   }
-  .headingcoun {
-    position: absolute;
+  /* .headingcoun {
+   position: absolute;
     top: 0;
+    margin-top: 40px;
     left: 0;
     width: 100%;
     text-align: center;
-    padding: 20px 0; /* Adjust as needed */
-
-    z-index: 1; /* Ensure it's above other content */
-  }
+    padding: 20px 0; 
+     color: blue;
+     font-family:'Times New Roman', Times, serif;
+    z-index: 1; 
+  } */
  
    
 .headtop {

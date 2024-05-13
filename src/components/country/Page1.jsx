@@ -8,6 +8,30 @@ import { motion } from 'framer-motion';
 
 
 const Page1 = () => {
+    const routeTo = () => {
+        window.scrollTo({
+          top:400,
+      
+        })
+      }
+    const routeTo2 = () => {
+        window.scrollTo({
+          top:2200,
+      
+        })
+      }
+    const routeTo3 = () => {
+        window.scrollTo({
+          top:3200,
+      
+        })
+      }
+    const routeTo4 = () => {
+        window.scrollTo({
+          top:4100,
+      
+        })
+      }
 
 
     const universities = [
@@ -159,10 +183,10 @@ const Page1 = () => {
          }}
         src="/images/mid pic usa " alt="USA Page 2"  className='img2' />
         <div class="buttons">
-    <button>About USA</button>
-     <button>Universities</button>
-     <button>Courses </button>
-     <button>Scholarship</button>
+    <button onClick={routeTo}>About USA</button>
+     <button onClick={routeTo2}>Universities</button>
+     <button onClick={routeTo3}>Courses </button>
+     <button onClick={routeTo4}>Scholarship</button>
      </div>
         
         <motion.div 
