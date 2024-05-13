@@ -10,6 +10,7 @@ const Footer = () => {
   
     })
   }
+  
   return (
     <>
       {/* <section className='newletter'>
@@ -90,7 +91,7 @@ const Footer = () => {
             <ul>
               <li>
                 <i className='fa fa-map'></i>
-                 New Baneswor,Kathmandu,Nepal
+                  Baneswor,Kathmandu,Nepal
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
