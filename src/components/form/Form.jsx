@@ -7,7 +7,7 @@ const Form = () => {
     const [email, setEmail] = useState("");
     const [number, setNumber] = useState("");
     const [score, setScore] = useState("6.5");
-    const [country, setCountry] = useState({
+    const [destination, setDestination] = useState({
         english: true,
         maths: false,
         physics: false,
@@ -28,7 +28,7 @@ const Form = () => {
             number,
             score,
             selectedOption,
-            country,
+            destination,
             photo,
             url,
             about
@@ -37,7 +37,7 @@ const Form = () => {
     };
 
     const handleSubjectChange = (sub) => {
-        setCountry((prev) => ({
+        setDestination((prev) => ({
             ...prev,
             [sub]: !prev[sub],
         }));
@@ -49,7 +49,7 @@ const Form = () => {
         setEmail("");
         setNumber("");
         setScore("6.5");
-        setCountry({
+        setDestination({
             usa: true,
             canada: false,
             uk: false,
@@ -163,7 +163,7 @@ const Form = () => {
             type="checkbox"
             name="lang"
             id="usa"
-            checked={country.usa === true}
+            checked={destination.usa === true}
             onChange={(e) =>
                 handleSubjectChange("usa")
             }
@@ -173,7 +173,7 @@ const Form = () => {
             type="checkbox"
             name="lang"
             id="canada"
-            checked={country.canada === true}
+            checked={destination.canada === true}
             onChange={(e) =>
                 handleSubjectChange("canada")
             }
@@ -183,7 +183,7 @@ const Form = () => {
             type="checkbox"
             name="lang"
             id="uk"
-            checked={country.uk === true}
+            checked={destination.uk === true}
             onChange={(e) =>
                 handleSubjectChange("uk")
             }
@@ -193,7 +193,7 @@ const Form = () => {
             type="checkbox"
             name="lang"
             id="aus"
-            checked={country.aus === true}
+            checked={destination.aus === true}
             onChange={(e) =>
                 handleSubjectChange("aus")
             }
