@@ -70,7 +70,9 @@ const Form = () => {
 {/* <h1>Register Here</h1> */}
 <fieldset>
     <form action="#" method="get">
-        <label for="firstname">
+        <label for="firstname"
+        className='labelform'
+        >
             First Name*
         </label>
         <input
@@ -84,7 +86,7 @@ const Form = () => {
             placeholder="Enter First Name"
             required
         />
-        <label for="lastname">Last Name*</label>
+        <label for="lastname" className='labelform'>Last Name*</label>
         <input
             type="text"
             name="lastname"
@@ -96,7 +98,7 @@ const Form = () => {
             placeholder="Enter Last Name"
             required
         />
-        <label for="email">Enter Email* </label>
+        <label for="email" className='labelform'>Enter Email* </label>
         <input
             type="email"
             name="email"
@@ -108,7 +110,7 @@ const Form = () => {
             placeholder="Enter email"
             required
         />
-        <label for="tel">Contact*</label>
+        <label for="tel" className='labelform'>Contact*</label>
         <input
             type="tel"
             name="contact"
@@ -120,7 +122,7 @@ const Form = () => {
             placeholder="Enter Mobile number"
             required
         />
-        <label for="score">Score*</label>
+        <label for="score" className='labelform'>Score*</label>
         <input
             type="radio"
             name="score"
@@ -154,7 +156,7 @@ const Form = () => {
             }
         />
         Gap Year
-        <label for="lang">
+        <label for="lang" className='labelform'>
             Your Destination
         </label>
         <input
@@ -197,7 +199,7 @@ const Form = () => {
             }
         />
         Aus
-        <label for="file">Upload Your Photo*</label>
+        <label for="file" className='labelform'>Upload Your Photo*</label>
         <input
             type="file"
             name="file"
@@ -208,7 +210,7 @@ const Form = () => {
             placeholder="Enter Upload File"
             required
         />
-        <label for="url">Enter URL*</label>
+        <label for="url" className='labelform'>Enter URL*</label>
         <input
             type="url"
             name="url"
@@ -219,7 +221,7 @@ const Form = () => {
             placeholder="Enter url"
             required
         />
-        <label>Select your course</label>
+        <label className='labelform'>Select your course</label>
         <select
             name="select"
             id="select"
@@ -253,7 +255,7 @@ const Form = () => {
                
             </optgroup>
         </select>
-        <label for="about">About</label>
+        <label for="about" className='labelform'>About</label>
         <textarea
             name="about"
             id="about"
