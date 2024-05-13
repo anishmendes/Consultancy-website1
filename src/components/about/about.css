@@ -98,17 +98,19 @@
 .awrapper img {
     margin-right: 30px;
       
-   
+  background: #eae7e7;
     box-shadow: #999999 1px;
     
   border-radius: 5px;
 }
 .awrapper h1 {
     font-size: 50px;
+    color: #f6f5f5;
 }
 .awrapper h3 {
     font-size:20px;
     font-weight: 500;
+    color: #f6f5f5;
 }
 
 
