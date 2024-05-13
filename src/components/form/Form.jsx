@@ -5,7 +5,7 @@ const Form = () => {
   const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
-    const [contact, setContact] = useState("");
+    const [number, setNumber] = useState("");
     const [score, setScore] = useState("6.5");
     const [country, setCountry] = useState({
         english: true,
@@ -25,7 +25,7 @@ const Form = () => {
             firstName,
             lastName,
             email,
-            contact,
+            number,
             score,
             selectedOption,
             country,
@@ -47,7 +47,7 @@ const Form = () => {
         setFirstName("");
         setLastName("");
         setEmail("");
-        setContact("");
+        setNumber("");
         setScore("6.5");
         setCountry({
             usa: true,
@@ -115,9 +115,9 @@ const Form = () => {
             type="tel"
             name="contact"
             id="contact"
-            value={contact}
+            value={number}
             onChange={(e) =>
-                setContact(e.target.value)
+                setNumber(e.target.value)
             }
             placeholder="Enter Mobile number"
             required
