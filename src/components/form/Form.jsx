@@ -13,7 +13,7 @@ const Form = () => {
         physics: false,
         nepali:true,
     });
-    const [resume, setResume] = useState("");
+    const [photo, setPhoto] = useState("");
     const [url, setUrl] = useState();
     const [selectedOption, setSelectedOption] =
         useState("");
@@ -29,7 +29,7 @@ const Form = () => {
             score,
             selectedOption,
             country,
-            resume,
+            photo,
             url,
             about
         );
@@ -55,7 +55,7 @@ const Form = () => {
             uk: false,
             aus: false,
         });
-        setResume("");
+        setPhoto("");
         setUrl("");
         setSelectedOption("");
         setAbout("");
@@ -205,7 +205,7 @@ const Form = () => {
             name="file"
             id="file"
             onChange={(e) =>
-                setResume(e.target.files[0])
+                setPhoto(e.target.files[0])
             }
             placeholder="Enter Upload File"
             required
