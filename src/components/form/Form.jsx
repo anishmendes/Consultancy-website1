@@ -279,6 +279,7 @@ const Form = () => {
             type="submit"
             value="Submit"
             onClick={(e) => handleSubmit(e)}
+            className='buttonform'
         >
             Submit
         </button>
