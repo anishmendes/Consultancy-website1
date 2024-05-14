@@ -11,7 +11,12 @@ import {
 
 // import Login from "./components/Login"
 // import Signup from "./components/Signup"
+
+
 import About from "./components/about/About"
+import Freeit  from "./components/freeit/Freeit";
+import Onlinecourse from "./components/onlinecourse/Onlinecourse";
+import Expertc from "./components/expertc/Expertc";
 import CourseHome from "./components/allcourses/CourseHome"
 import Team from "./components/team/Team"
 import Country from "./components/country/Country"
@@ -34,8 +39,12 @@ function App() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
+          <Route exact path='/freeit' component={Freeit} />
+          <Route exact path='/onlinecourse' component={Onlinecourse} />
+          <Route exact path='/expertc' component={Expertc} />
           <Route exact path='/courses' component={CourseHome} />
           <Route exact path='/team' component={Team} />
+
           <Route exact path='/country' component={Country} />
            <Route path='/country/page1' component={Page1} />
            <Route path='/country/page2' component={Page2} />
