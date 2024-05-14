@@ -5,7 +5,12 @@ import React from 'react'
 const Onlinecourse = () => {
   return (
     <div className='onlinec'>
-      <h1>This is online course section</h1>
+     
+
+       <div className='onlineimg'>
+       <img src="/images/onlinecourse.png" alt="gif"  className='gifform'/>
+       </div>
+
     </div>
   )
 }
