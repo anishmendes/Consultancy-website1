@@ -16,14 +16,19 @@ const Hero = () => {
             {/* <p>We Provide You The Best Visa Services and Education.</p> */}
             <div className='button'>
 
-            <Link to="/contact">
+            <Link to="/form">
               <button className='primary-btn'>
                 GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
               </button>
                </Link>
+
+
+
+               <Link to="/courses">
               <button>
                 VIEW CLASSES <i className='fa fa-long-arrow-alt-right'></i>
               </button>
+               </Link>
             </div>
           </div>
         </div>
