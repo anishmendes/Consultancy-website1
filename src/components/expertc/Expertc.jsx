@@ -1,7 +1,7 @@
-import "./expertc.css"
-import React from 'react'
+import './expertc.css'
 
-const expertc = () => {
+
+const Expertc = () => {
   return (
     <div className="expertc">
       <h1>This is the expert concling section</h1>
@@ -9,4 +9,4 @@ const expertc = () => {
   )
 }
 
-export default expertc
+export default Expertc
