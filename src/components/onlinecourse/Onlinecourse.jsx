@@ -8,7 +8,7 @@ const Onlinecourse = () => {
      
 
        <div className='onlineimg'>
-       <img src="/onlinecourse.png" alt="online"  />
+       <img src="/onlinecourse.png" alt="onlineimg1"   className='onlineimg1'/>
        </div>
 
     </div>
