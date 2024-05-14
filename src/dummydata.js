@@ -283,7 +283,7 @@ export const homeAbout = [
     },
     {
       cover: "./images/team/t8.webp",
-      name: "Pagarthi Dahal",
+      name: "Pragati Dahal",
       work: "UI UX Designer",
     },
   ]
@@ -408,7 +408,7 @@ export const homeAbout = [
     },
     {
       id: 3,
-      name: "Pragathi Dahal",
+      name: "Pragati Dahal",
       post: "UI UX designer",
       desc: "This is the best Itetls Company in the Kathmandu here i have learned so many things about Visa prepation.",
       cover: "./images/testo/t6",
