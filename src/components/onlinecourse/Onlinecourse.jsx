@@ -8,7 +8,7 @@ const Onlinecourse = () => {
      
 
        <div className='onlineimg'>
-       <img src="/images/onlinecourse.png" alt="gif"  className='gifform'/>
+       <img src="/onlinecourse.png" alt="online"  />
        </div>
 
     </div>
