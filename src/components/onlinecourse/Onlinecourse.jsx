@@ -11,7 +11,7 @@ const Onlinecourse = () => {
        <img src="/onlinecourse.png" alt="onlineimg1"   className='onlineimg1'/>
 
          <div className='onlinein'> 
-         <div>
+         <div >
           <h1>  Learn Anywhere, Anytime, at Your Own Pace.</h1>
          </div>
          <div>
