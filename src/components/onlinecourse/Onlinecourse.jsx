@@ -104,6 +104,12 @@ Certificate issued
         </div>
         </div>
 
+
+      
+        <div className='lecture'>
+         
+        </div>
+
     </div>
    
     
