@@ -46,20 +46,61 @@ const Onlinecourse = () => {
 
           </div>
           <div className='boxp'>
-          <img src="/images/popular1.png" alt="pop"   className='pop1img'/>
-          <h2>CMAT</h2>
-          <p>CMAT: Streamlining Talent Acquisition through Comprehensive Management Assessment Tools.</p>
+         
 
           </div>
           <div className='boxp'>
-          <img src="/images/popular1.png" alt="pop"   className='pop1img'/>
-          <h2>CMAT</h2>
-          <p>CMAT: Streamlining Talent Acquisition through Comprehensive Management Assessment Tools.</p>
+          
 
           </div>
         </div>
         <button className='onlineb'>See More</button>
       </div>
+
+      <div className='explorep'>
+          <div className='explorep1'>
+          <span className='exploreh'>Explore
+Our Course</span><br></br>
+         
+          <p className='explorepara '> Embark on a journey of knowledge and discovery with our course offerings. From unlocking new skills to delving into fascinating subjects, our curated selection of courses provides an opportunity to explore diverse topics tailored to your interests and goals. Dive into the depths of learning and let curiosity be your guide as you embark on an enriching educational experience.</p>
+
+
+         
+          <button type="button" className="onlineb">
+          Our Team
+          </button>
+          
+          </div>
+      
+          <div className='exploreimg'>
+          <img className='explore1' src='/images/explore1.png' alt="explore1" />
+          </div>
+
+          
+        </div>
+        <div className='data'>
+          <img src="/images/dataimg.png" alt="data1"  className='dataimg' />
+        <div className='datacon'>
+          <h2 className='datah'>Data
+        Analysis</h2>
+        <p className='datap'>Check out our odds statistics and join our team yourself</p>
+        <div className='numbers'>
+          <div className='firstn'>
+            <h2>500+</h2>
+            <h3>Employed course graduate</h3>
+          </div>
+          <div className='secondn'>
+          <h2>20+</h2>
+            <h3>
+lecturers</h3>
+          </div>
+          <div className='thirdn'>
+          <h2>500+</h2>
+            <h3>Employed course graduate</h3>
+          </div>
+        </div>
+        </div>
+        </div>
 
     </div>
    

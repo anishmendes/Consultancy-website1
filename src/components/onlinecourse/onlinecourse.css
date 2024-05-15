@@ -2,6 +2,7 @@
 
 .onlinec {
     font-family: "Poppins", sans-serif;
+    overflow: hidden;
 }
 .onlineimg {
     display: flex;
@@ -107,7 +108,97 @@ flex-direction: column; /* Display children elements vertically */
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
+ 
     margin-left: 400px; /* Increase the right margin */
  margin-top: -200px;
+}
+.explorep {
+    width: 2200px;
+    height: full;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    
+    background: rgba(55, 41, 225, 0.15);
+ 
+}
+.explorep1 {
+    flex-direction: column;
+    
+    top: 0.875rem;
+    max-height: 400px;
+    margin-left: 80px;
+}
+.exploreh {
+    font-size: 22px;
+    font-weight: 700;
+    color: #3729E1;
+    margin-bottom: 20px;
+   
+}
+.explorepara {
+    width: 500px;
+    margin-top: 20px;
+   
+}
+.exploreimg {
+     
+    display: flex ;
+    margin-left: 200px;
+    top:40px;
+   
+    height: 390px;
+    width:466px;
+}
+.data {
+    width: 2200px;
+    background: rgba(55, 41, 225, 0.15);
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+.dataimg {
+    height:367px ;
+    width: 506px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.datacon {
+display: flex;
+flex-direction: column;
+margin-top: 90px;
+margin-left: 90px;
+
+border: 2px solid black;
+}
+.datah {
+    font-size: 22px;
+    font-weight: 700;
+    color: #3729E1;
+    margin-bottom: 20px;
+}
+.datap {
+    margin-top: 20px;
+      margin-bottom: 20px;                                                            
+}
+.numbers {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+.firstn {
+border: 1px solid red;
+
+
+}
+.secondn {
+    border: 1px solid red;
+}
+.thirdn {
+    border: 1px solid red;
 }
