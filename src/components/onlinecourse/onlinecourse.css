@@ -64,23 +64,50 @@
 .popular {
 border: 2px solid black;
 margin-top: 100px;
+display: flex;
+flex-direction: column; /* Display children elements vertically */
+  align-items: center;
 }
 .headingpopu {
     margin-top: 10px;
-    display: flex;
-    align-items:center ;
-    justify-content: center;
+ 
     color: #3729E1;
+    text-align: center;
+    
 }
 .leftsidep {
-  margin-left: 30px;
+  margin-left: -1080px;
 
 }
 .h3p {
     color: #D72222;
+    margin-left: 5px;
+    font-size: 23px
 }
 .leftbox {
     background-color: #D9D9D9;
-    width: 150px;
+    width: 180px;
     height: auto;
+    font-family: "Poppins", sans-serif;
+    color: #3729E1;
+}
+.ulleft {
+ margin-left: 23px;
+ margin-bottom: 20px;
+ font-weight: bold;
+ 
+}
+.lileft {
+    padding-bottom: 20px;
+    margin-right: 5px;
+}
+.rightsidep {
+    border: 1px solid black;
+    width: 973px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    margin-left: 400px; /* Increase the right margin */
+ margin-top: -200px;
 }

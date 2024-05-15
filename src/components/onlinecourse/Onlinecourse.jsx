@@ -25,19 +25,40 @@ const Onlinecourse = () => {
         <div className='leftsidep'>
             <h3 className='h3p'>All categories</h3>
             <div className='leftbox'>
-              <ul>
-                <li>CMAT</li>
-                <li>KUMAT</li>
-                <li>Bsc.CSIT</li>
-                <li>PTE</li>
-                <li>GMAT</li>
-                <li>Bridge  Course</li>
-                <li>SAT</li>
-                <li>Graphics design</li>
+              <ul className='ulleft' >
+                <li className='lileft'>CMAT</li>
+                <li className='lileft'>KUMAT</li>
+                <li className='lileft'>Bsc.CSIT</li>
+                <li className='lileft'>PTE</li>
+                <li className='lileft'>GMAT</li>
+                <li className='lileft'>Bridge  Course</li>
+                <li className='lileft'>SAT</li>
+                <li className='lileft'>Graphics design</li>
               </ul>
             </div>
 
         </div>
+        <div className='rightsidep'>
+          <div className='boxp'>
+          <img src="/images/popular1.png" alt="pop"   className='pop1img'/>
+          <h2>CMAT</h2>
+          <p>CMAT: Streamlining Talent Acquisition through Comprehensive Management Assessment Tools.</p>
+
+          </div>
+          <div className='boxp'>
+          <img src="/images/popular1.png" alt="pop"   className='pop1img'/>
+          <h2>CMAT</h2>
+          <p>CMAT: Streamlining Talent Acquisition through Comprehensive Management Assessment Tools.</p>
+
+          </div>
+          <div className='boxp'>
+          <img src="/images/popular1.png" alt="pop"   className='pop1img'/>
+          <h2>CMAT</h2>
+          <p>CMAT: Streamlining Talent Acquisition through Comprehensive Management Assessment Tools.</p>
+
+          </div>
+        </div>
+        <button className='onlineb'>See More</button>
       </div>
 
     </div>
