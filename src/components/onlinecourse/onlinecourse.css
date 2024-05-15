@@ -193,13 +193,14 @@ border: 2px solid black;
 
 .firstn {
 border: 3px solid red;
-
+margin-left: 10px;
 padding: 4px;
 
 
 }
 .firstn h2 {
     color: #3729E1;
+
 }
 .first p {
     font-family: 16px;
