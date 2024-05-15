@@ -6,7 +6,6 @@ const Onlinecourse = () => {
   return (
     <div className='onlinec'>
      
-
        <div className='onlineimg'>
        <img src="/onlinecourse.png" alt="onlineimg1"   className='onlineimg1'/>
 
@@ -20,6 +19,27 @@ const Onlinecourse = () => {
          
          </div>
        </div>
+
+      <div className='popular'>
+        <h1 className='headingpopu'>OUR  POPULAR COURSES</h1>
+        <div className='leftsidep'>
+            <h3 className='h3p'>All categories</h3>
+            <div className='leftbox'>
+              <ul>
+                <li>CMAT</li>
+                <li>KUMAT</li>
+                <li>Bsc.CSIT</li>
+                <li>PTE</li>
+                <li>GMAT</li>
+                <li>Bridge  Course</li>
+                <li>SAT</li>
+                <li>Graphics design</li>
+              </ul>
+            </div>
+
+        </div>
+      </div>
+
     </div>
    
     
