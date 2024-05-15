@@ -87,18 +87,18 @@ Our Course</span><br></br>
         <div className='numbers'>
           <div className='firstn'>
             <h2>500+</h2>
-            <h3>Employed course graduate</h3>
+            <p>Employed course graduate</p>
           </div>
           <div className='secondn'>
           <h2>400+</h2>
-            <h3>
+            <p>
             
 Certificate issued
-</h3>
+</p>
           </div>
           <div className='thirdn'>
           <h2>20+</h2>
-            <h3>lecturers</h3>
+            <p>lecturers</p>
           </div>
         </div>
         </div>

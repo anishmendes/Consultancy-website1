@@ -192,13 +192,31 @@ border: 2px solid black;
 }
 
 .firstn {
-border: 1px solid red;
+border: 3px solid red;
+
+padding: 4px;
 
 
+}
+.firstn h2 {
+    color: #3729E1;
+}
+.first p {
+    font-family: 16px;
+   
+   
 }
 .secondn {
-    border: 1px solid red;
+    border: 3px solid red;
+    padding: 4px;
+}
+.secondn  h2 {
+    color: #3729E1;
+}
+.secondn p {
+    font-family: 16px;
 }
 .thirdn {
-    border: 1px solid red;
+    border: 3px solid red;
+    padding: 4px;
 }
