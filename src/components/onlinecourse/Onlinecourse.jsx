@@ -90,13 +90,15 @@ Our Course</span><br></br>
             <h3>Employed course graduate</h3>
           </div>
           <div className='secondn'>
-          <h2>20+</h2>
+          <h2>400+</h2>
             <h3>
-lecturers</h3>
+            
+Certificate issued
+</h3>
           </div>
           <div className='thirdn'>
-          <h2>500+</h2>
-            <h3>Employed course graduate</h3>
+          <h2>20+</h2>
+            <h3>lecturers</h3>
           </div>
         </div>
         </div>
