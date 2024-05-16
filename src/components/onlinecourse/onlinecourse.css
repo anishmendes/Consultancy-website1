@@ -223,7 +223,8 @@ border-radius: 10px;
 }
 .thirdn {
     border: 3px solid rgb(239, 37, 37);
-    padding: 4px;
+    
+    padding: 15px;
     margin-left: 10px; /* Adjust as needed */
     margin-right: 10px;
 }
