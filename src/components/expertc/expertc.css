@@ -22,7 +22,43 @@
 }
 .servicehead {
     display: flex;
+  padding-top: 50px;
     align-items: center;
     justify-content: center;
-    color:#D72222 ;
+    color:#D72222;
+}
+.service1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.rightservice {
+    display: flex;
+  
+  justify-self:flex-start;
+    flex-direction: column;
+}
+.rightservice {
+    max-width: 740px;
+  margin-top: -100px;
+
+}
+.rightservice h3{
+    color: #3729E1;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.rightservice p{
+ width: 530px;
+}
+.serviceimg {
+    width: 493px;
+    height: 350px;
+   
 }

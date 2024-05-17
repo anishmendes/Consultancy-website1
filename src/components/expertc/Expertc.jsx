@@ -34,15 +34,36 @@ const Expertc = () => {
 
             <div className='service1'>
            <div className='leftsides'>
-            <img src="./images/lecture1.png" alt="lecture1" />
+            <img src="./images/expertpro.png" alt="serviceimg" />
            </div>
-           <div className='rightsides'> 
-           <h3>Senior Web developer</h3>
-           <span>Shreya Dhakal</span>
-           <p>Shreya Dhakal is a highly skilled senior web developer with a passion for crafting elegant and efficient web solutions. With extensive experience in both front-end and back-end development, Shreya excels in turning complex concepts into user-friendly interfaces. Their expertise in HTML, CSS, JavaScript, and various frameworks enables them to create dynamic and visually stunning websites. Known for their strong problem-solving abilities and collaborative approach, Shreya is a valuable asset to any development team, driving projects to success with precision and innovation.</p>
+           <div className='rightservice'> 
+           <h3>Dedicated and professional consulting service</h3>
+           
+           <p>Embark on your international adventure with confidence, supported by our dedicated and professional consulting service. Specializing in sending individuals abroad, we provide tailored guidance and expert assistance every step of the way. From visa applications to cultural adaptation, trust us to ensure your seamless transition to your new destination.</p>
            </div>
          </div>
         
+          </div>
+
+          <div className='servicecard'>
+            <div className='headings'>
+              <h2>We Provide the Best Consulting Service</h2>
+            </div>
+
+            <div className='row1'>
+              <div className='card1'>
+                <img src="./images/servicecard1.png" alt="cardimg1" />
+                <h2>Destination Selection and Planning</h2>
+                <p>Help clients choose the best destination based on their needs, preferences, and goals.</p>
+              </div>
+              <div className='card2'>
+              <img src="./images/servicecard2.png" alt="cardimg1" />
+                <h2>Visa and Immigration Assistance</h2>
+                <p>Guide clients through the complex visa and immigration processes, including gathering necessary documentation.</p>
+              </div>
+              <div className='card3'></div>
+            </div>
+            <div className='row2'></div>
           </div>
     </div>
   )
