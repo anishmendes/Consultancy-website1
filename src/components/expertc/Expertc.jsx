@@ -14,6 +14,16 @@ const Expertc = () => {
        
           <h2 className='ith2'> Experience personalized guidance and expert advice tailored to your needs with our consultancy's premier counseling services.</h2>
           </div>
+
+
+          <div className='expertpro'>
+            <div className='prohead'>
+              <h2>Professional and dedicated consulting solutions</h2>
+            </div>
+          
+            
+
+          </div>
     </div>
   )
 }
