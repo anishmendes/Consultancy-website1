@@ -4,6 +4,7 @@ import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import {  Navigation } from 'swiper/modules';
 import "swiper/swiper-bundle.css";
+import Question from './Question';
 
 const Onlinecourse = () => {
   return (
@@ -107,6 +108,8 @@ Certificate issued
         </div>
         </div>
 
+        
+
 
       
       <div className='lecture'>
@@ -149,18 +152,31 @@ Certificate issued
    
         <div className='reviewbox'>
           <div className='box1'>
-            <p></p>
-            <img src="" alt="" />
-            <span></span>
+            <p>“I never thought an online course could be so engaging and impactful! The content was well-structured, the instructors were knowledgeable, and the interactive elements kept me hooked throughout</p>
+            <img src="./images/review1.png" alt="images" className='review1' />
+            <span>Pragati Dahal (Developer)</span>
+         
           </div>
           <div className='box2'>
-            <p></p>
-            <img src="" alt="" />
-            <span></span>
+            <p>“I never thought an online course could be so engaging and impactful! The content was well-structured, the instructors were knowledgeable, and the interactive elements kept me hooked throughout</p>
+            <img src="./images/review1.png" alt="images" className='review1' />
+            <span>Himanshi Gairee  (UI UX Designer)</span>
+           
           </div>
         </div>
 
        </div>
+
+       <div className='answer'>
+          <div className='anstop'>
+            <h2>Meet answer your questions</h2>
+            <h3>Explore the most frequently asked question</h3>
+          </div>
+          {/* faq section */}
+          <Question/>
+        </div>
+
+
 
     </div>
    

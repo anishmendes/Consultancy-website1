@@ -314,6 +314,25 @@ export const homeAbout = [
       desc: "The guide is aimed at individuals who are interested in pursuing an MBA in Canada and want to understand the various opportunities and benefits that come with an MBA degree. It provides an in-depth analysis of the Canadian MBA landscape and helps individuals make informed decisions regarding their MBA studies.",
     },
   ]
+  export const question = [
+    {
+      title: "Can i return the purchased course ?",
+      desc: "Students from all over the world choose the United Kingdom as the most popular study abroad destination to pursue a higher degree or a standard education. In comparison to other nations, the cost of studying in the United Kingdom is affordable.",
+    },
+    {
+      title: "How often are new courses coming out ?",
+      desc: "Community workers help the neediest people and communities. You can develop an extremely solid and satisfying career if you are committed to helping others who may be struggling in their daily lives.",
+    },
+    {
+      title: "How to watch full course and get certificate ?",
+      desc: "Australia is hugely popular among Nepalese students, offering them a variety of courses in major cities. Because of its pleasant environment and quality education, a massive number of Nepali students now want to study bachelor courses in Australia. Australia has many exciting educational opportunities to shape your future. What is the best bachelor’s degree in Australia? may come to your mind at some point if you are a beginner thinking about completing your studies in Australia.",
+    },
+    {
+      title: "How many days after purchase will  I be able to watch the  course  ?",
+      desc: "Australia has always been one of the most favored international education destinations among the students from different countries like China, India, Brazil, Malaysia, Vietnam, Thailand etc. Nepal is no exception on this, so, as a result, Australia has emerged as one of the top destinations of Nepalese students too. Top universities, beautiful nature, vibrant cities, and several oceans are simply the key reasons why many international students choose Australia to study.",
+    },
+    
+  ]
   export const journel = [
     {
       id: 1,

@@ -298,3 +298,87 @@ border-radius: 10px;
     background: #3729E126;
     margin-top: 100px;
 }
+.studentsheading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3729E1;
+    font-size: 18px;
+}
+
+.reviewbox {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+.box1 {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ background-color: white;
+ max-width: 618px;
+ max-height:600px;
+ border-radius: 10px;
+ margin-left: 30px;
+}
+.box2 {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    max-width: 618px;
+    border-radius: 10px;
+  
+   margin-left: 30px;
+}
+.box1 p{
+    padding-bottom:10px ;
+    font-weight: 400;
+    font-size: 18px;
+}
+.box2 p{
+    padding-bottom:10px ;
+    font-weight: 400;
+    font-size: 18px;
+}
+.review1 {
+    width: 121px;
+    height: 103px;
+    margin-top: 15px;
+    
+}
+.review2 {
+    width: 121px;
+    height: 103px;
+    margin-top: 15px;
+    
+}
+.box1 span {
+    color: #3729E1;
+    font-size: 18px;
+    font-weight:800px;
+    margin-left: 10px;
+    
+
+}
+.box2 span {
+    color: #3729E1;
+    font-size: 18px;
+    font-weight:800px;
+    margin-left: 10px;
+}
+
+.answer {
+    background: #D7222230;
+    margin-top: 100px;
+   
+
+}
+.anstop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3729E1;
+    font-size: 18px;
+    flex-direction: column;
+}
