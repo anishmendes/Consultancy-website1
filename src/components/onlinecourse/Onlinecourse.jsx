@@ -1,6 +1,9 @@
 import './onlinecourse.css'
 
 import React from 'react'
+import { Swiper, SwiperSlide } from "swiper/react";
+import {  Navigation } from 'swiper/modules';
+import "swiper/swiper-bundle.css";
 
 const Onlinecourse = () => {
   return (
@@ -106,9 +109,58 @@ Certificate issued
 
 
       
-        <div className='lecture'>
-         
+      <div className='lecture'>
+         <div className='lecturecol'>
+          <h2>Our Lectures</h2>
+          <p>Our lectures offer a dynamic platform for engaging with cutting-edge ideas and insights.</p>
+         </div>
+
+         {/* swiper component out here  */}
+         <Swiper
+            modules={[ Navigation]}
+            spaceBetween={40}
+            slidesPerView={1}
+            loop={true}
+            
+            
+            navigation={true}
+         >
+
+<SwiperSlide>
+         <div className='swiper1'>
+           <div className='leftsides'>
+            <img src="./images/lecture1.png" alt="lecture1" />
+           </div>
+           <div className='rightsides'> 
+           <h3>Senior Web developer</h3>
+           <span>Shreya Dhakal</span>
+           <p>Shreya Dhakal is a highly skilled senior web developer with a passion for crafting elegant and efficient web solutions. With extensive experience in both front-end and back-end development, Shreya excels in turning complex concepts into user-friendly interfaces. Their expertise in HTML, CSS, JavaScript, and various frameworks enables them to create dynamic and visually stunning websites. Known for their strong problem-solving abilities and collaborative approach, Shreya is a valuable asset to any development team, driving projects to success with precision and innovation.</p>
+           </div>
+         </div>
+        
+         </SwiperSlide>
+         </Swiper>
+      </div>
+
+       <div className='students'>
+         <div className='studentsheading'>
+          <h3> Read our students reviews</h3>
+         </div>
+   
+        <div className='reviewbox'>
+          <div className='box1'>
+            <p></p>
+            <img src="" alt="" />
+            <span></span>
+          </div>
+          <div className='box2'>
+            <p></p>
+            <img src="" alt="" />
+            <span></span>
+          </div>
         </div>
+
+       </div>
 
     </div>
    

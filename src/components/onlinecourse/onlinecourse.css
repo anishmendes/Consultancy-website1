@@ -152,6 +152,7 @@ flex-direction: column; /* Display children elements vertically */
 }
 .data {
     width: 2200px;
+    height: 80vh;
     background: rgba(55, 41, 225, 0.15);
     display: flex;
     flex-direction: row;
@@ -237,5 +238,63 @@ border-radius: 10px;
 
 .lecture {
     background: #3729E126;
-    
+    margin-top: 100px;
+}
+.lecturecol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lecturecol h2{
+    color: #D72222;
+}
+.lecturecol p{
+    color: #3729E1;
+    font-size: 18px;
+   
+    font-weight: 700
+}
+.swiper1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color:#D7222230;
+    margin-top: 50px;
+    padding: 50px;
+ 
+}
+.leftsides {
+    width: 450px;
+    height: 490px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.rightsides {
+    display: flex;
+  
+  justify-self:flex-start;
+    flex-direction: column;
+}
+.rightsides {
+    max-width: 740px;
+  margin-top: -100px;
+
+}
+.rightsides h3{
+    color: #3729E1;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.rightsides span{
+    color: #D72222;
+    font-weight: 700;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.students {
+    background: #3729E126;
+    margin-top: 100px;
 }
