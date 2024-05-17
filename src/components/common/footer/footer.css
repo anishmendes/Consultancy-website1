@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,300;0,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playpen+Sans:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500&family=Work+Sans:wght@300;400;700;900&display=swap');
+
 .newletter {
-    background: rgb(87, 87, 189);
+    background: rgb(38, 38, 239);
     padding: 50px 0;
     color:#f1efef;
     
@@ -14,10 +16,11 @@
 
 
 .newletter h1 {
-    color: #121111;
+    color: #ffffff;
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
 }
 .newletter .right {
     display: flex;
@@ -31,12 +34,14 @@
     border: none;
     outline:none;
     height: 30px;
+  border-radius: 3px;
+  color: #14d7ce;
     
 
 }
 .newletter i {
     padding: 12px;
-    color: rgb(21, 88, 190);
+    color: rgb(232, 96, 23);
     background-color: #d3cdcd;
 }
 footer {

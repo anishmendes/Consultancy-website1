@@ -114,18 +114,31 @@ const Freeit = () => {
           <div className='box1'>
            <h3 className="boxh3">How to choose proper course according to your choice?</h3>
            
-            <span>Read More</span>
+            <span className="boxspan">Read More</span>
          
           </div>
           <div className='box2'>
           <h3 className="boxh3">How to choose proper course according to your choice?</h3>
            
-            <span>Read More</span>
+            <span className="boxspan">Read More</span>
            
           </div>
         </div>
 
        </div>
+
+          <section className='newletter'>
+        <div className='container flexSB'>
+          <div className='left row'>
+            <h1 className="headingwhite">Want to get free trainings and course update?</h1>
+            {/* <span>Nepal Best Visa Services & Education.</span> */}
+          </div>
+          <div className='right row'>
+            <input type='text' placeholder='Enter email address' />
+            <i className='fa fa-paper-plane'></i>
+          </div>
+        </div>
+      </section>
           </div>
     </div>
   )
