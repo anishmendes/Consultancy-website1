@@ -61,7 +61,11 @@ const Expertc = () => {
                 <h2>Visa and Immigration Assistance</h2>
                 <p>Guide clients through the complex visa and immigration processes, including gathering necessary documentation.</p>
               </div>
-              <div className='card3'></div>
+              <div className='card3'>
+              img src="./images/servicecard2.png" alt="cardimg1" />
+                <h2>Visa and Immigration Assistance</h2>
+                <p>Guide clients through the complex visa and immigration processes, including gathering necessary documentation.</p>
+              </div>
             </div>
             <div className='row2'></div>
           </div>
