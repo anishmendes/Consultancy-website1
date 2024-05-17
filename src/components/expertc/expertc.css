@@ -73,3 +73,16 @@
     color: #3729E1;
     padding-top: 30px;
 }
+
+.row1 {
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    
+}
+.row2 {
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+
+}

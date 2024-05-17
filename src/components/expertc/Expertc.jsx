@@ -72,13 +72,13 @@ const Expertc = () => {
             <div className='row2'>
             <div className='card4'>
                 <img src="./images/servicecard4.png" alt="cardimg4" />
-                <h2>Destination Selection and Planning</h2>
-                <p>Help clients choose the best destination based on their needs, preferences, and goals.</p>
+                <h2>Job Search and Placement Services</h2>
+                <p>Assist clients in finding suitable employment opportunities abroad by offering job search support, resume writing assistance.</p>
               </div>
               <div className='card5'>
               <img src="./images/servicecard5.png" alt="cardimg5" />
-                <h2>Visa and Immigration Assistance</h2>
-                <p>Guide clients through the complex visa and immigration processes, including gathering necessary documentation.</p>
+                <h2>Housing and Relocation Support</h2>
+                <p>Help clients secure accommodation in their new country, whether it's temporary housing upon arrival or a permanent residence.</p>
               </div>
               <div className='card6'>
               <img src="./images/servicecard6.png" alt="cardimg6" />
