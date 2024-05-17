@@ -57,17 +57,35 @@ const Expertc = () => {
                 <p>Help clients choose the best destination based on their needs, preferences, and goals.</p>
               </div>
               <div className='card2'>
-              <img src="./images/servicecard2.png" alt="cardimg1" />
+              <img src="./images/servicecard2.png" alt="cardimg2" />
                 <h2>Visa and Immigration Assistance</h2>
                 <p>Guide clients through the complex visa and immigration processes, including gathering necessary documentation.</p>
               </div>
               <div className='card3'>
-              img src="./images/servicecard2.png" alt="cardimg1" />
+              <img src="./images/servicecard3.png" alt="cardimg3" />
+                <h2>Cultural Orientation and Language Training</h2>
+                <p>Provide cultural orientation programs to prepare clients for living and working in a new country.</p>
+              </div>
+            </div>
+
+
+            <div className='row2'>
+            <div className='card4'>
+                <img src="./images/servicecard4.png" alt="cardimg4" />
+                <h2>Destination Selection and Planning</h2>
+                <p>Help clients choose the best destination based on their needs, preferences, and goals.</p>
+              </div>
+              <div className='card5'>
+              <img src="./images/servicecard5.png" alt="cardimg5" />
                 <h2>Visa and Immigration Assistance</h2>
                 <p>Guide clients through the complex visa and immigration processes, including gathering necessary documentation.</p>
               </div>
+              <div className='card6'>
+              <img src="./images/servicecard6.png" alt="cardimg6" />
+                <h2>Cultural Orientation and Language Training</h2>
+                <p>Provide cultural orientation programs to prepare clients for living and working in a new country.</p>
+              </div>
             </div>
-            <div className='row2'></div>
           </div>
     </div>
   )
