@@ -15,7 +15,7 @@
     height: full;
     object-fit: cover;
   
-    background-color:  #1f0cf559    ;
+    background-color:  #1f0cf559 ;
     opacity: 80%;
      
      
@@ -176,4 +176,63 @@
     align-items: flex-end;
     background-color: #D72222;
     color: white;
+}
+.box-3 {
+   
+    max-width: 553px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: floralwhite;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column; 
+    padding-left: 20px;
+ }
+ .rating {
+     padding-top: 10px;
+     color: rgb(221, 115, 15);
+ }
+ .box-3 h3 {
+     padding-top: 8px;
+     color: #3729E1;
+     font-size: 18px;
+     font-weight: 700;
+ }
+ .box-3 span{
+     color: #3729E1;
+     font-size: 18px;
+     font-weight: 400;
+     padding-bottom: 10px;
+ }
+ .box-3 p{
+     font-size: 16px;
+     font-weight: 700;
+     color: black;
+     max-width: 450px;
+ }
+ .train3 {
+    max-width: 460px;
+    border-radius: 10px;
+    padding-right: 30px; 
+ }
+ .box-3 button{
+     display: flex;
+     justify-content: end;
+     align-items: flex-end;
+     background-color: #D72222;
+     color: white;
+ }
+ .mid-num {
+    margin-top: 80px;
+    overflow: hidden;
+ }
+.news h2{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+    color: #D72222;
+
 }

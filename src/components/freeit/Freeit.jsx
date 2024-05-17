@@ -1,5 +1,6 @@
 import "./freeit.css"
 import React from 'react'
+import Num from "./Num"
 
 const Freeit = () => {
   return (
@@ -39,7 +40,8 @@ const Freeit = () => {
               <button>Free</button>
 
               </div>
-              <div className="box-2"><img src="./images/train2.png" alt="train1"  className="train1"/>
+              <div className="box-2">
+                <img src="./images/train2.png" alt="train1"  className="train1"/>
               {/* rating  */}
               <div className='rating'>
                     <i className='fa fa-star'></i>
@@ -53,11 +55,77 @@ const Freeit = () => {
               <span>Credit : 6 hours</span>
               <p>Craft compelling user experiences with our immersive UI/UX design training.</p>
               <button>Free</button></div>
-              <div></div>
+              {/* <div className="box-3">
+              <img src="./images/train3.png" alt="train1"  className="train3"/>
+              
+              <div className='rating'>
+                    <i className='fa fa-star'></i>
+                    <i className='fa fa-star'></i>
+                    <i className='fa fa-star'></i>
+                    <i className='fa fa-star'></i>
+                    <i className='fa fa-star-half'></i>
+                  
+                  </div>
+              <h3>Web development training</h3>
+              <span>Credit : 7 hours</span>
+              <p>Transform your passion into proficiency with our comprehensive web development training.</p>
+              <button>Free</button>
+
+              </div> */}
               <div></div>
               <div></div>
               <div></div>
             </div>
+          </div>
+
+          <div className="mid-num">
+            <Num/>
+           
+          </div>
+
+          <div>
+          <div className='students'>
+         <div className='studentsheading'>
+          <h3> Read our students reviews</h3>
+         </div>
+   
+        <div className='reviewbox'>
+          <div className='box1'>
+            <p>“I never thought an online course could be so engaging and impactful! The content was well-structured, the instructors were knowledgeable, and the interactive elements kept me hooked throughout</p>
+            <img src="./images/review1.png" alt="images" className='review1' />
+            <span>Pragati Dahal (Developer)</span>
+         
+          </div>
+          <div className='box2'>
+            <p>“I never thought an online course could be so engaging and impactful! The content was well-structured, the instructors were knowledgeable, and the interactive elements kept me hooked throughout</p>
+            <img src="./images/review1.png" alt="images" className='review1' />
+            <span>Himanshi Gairee  (UI UX Designer)</span>
+           
+          </div>
+        </div>
+
+       </div>
+          <div className='students'>
+         <div className='news'>
+          <h2>Latest News</h2>
+         </div>
+   
+        <div className='reviewbox'>
+          <div className='box1'>
+           <h3 className="boxh3">How to choose proper course according to your choice?</h3>
+           
+            <span>Read More</span>
+         
+          </div>
+          <div className='box2'>
+          <h3 className="boxh3">How to choose proper course according to your choice?</h3>
+           
+            <span>Read More</span>
+           
+          </div>
+        </div>
+
+       </div>
           </div>
     </div>
   )

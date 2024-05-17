@@ -44,6 +44,29 @@ export const homeAbout = [
       title: "COURSES",
     },
   ]
+  export const num = [
+    {
+      cover: "https://img.icons8.com/dotty/80/ffffff/storytelling.png",
+      data: "500+",
+      title: " Certificate issued",
+    },
+  
+    {
+      cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
+      data: "50+",
+      title: "Free trainings",
+    },
+    {
+      cover: "https://img.icons8.com/ios/80/ffffff/book.png",
+      data: "20+",
+      title: "Professionals trainers",
+    },
+    {
+      cover: "https://img.icons8.com/ios/80/ffffff/macbook--v3.png",
+      data: "600+",
+      title: "Trainees",
+    },
+  ]
   export const coursesCard = [
     {
       id: 1,
