@@ -66,3 +66,10 @@
     background-color:rgba(55, 41, 225, 0.15) ;
     margin-top: 50px; 
 }
+.headings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3729E1;
+    padding-top: 30px;
+}
