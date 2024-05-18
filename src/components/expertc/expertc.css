@@ -182,5 +182,7 @@
     background-color: #dc3610;
 }
 .card6 img {
+    width: 100px; /* Example style */
+    border: 2px solid #000; /* Example style */
     background-color: #dc3610;
 }
