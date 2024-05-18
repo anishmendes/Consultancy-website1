@@ -151,3 +151,8 @@
     flex-direction: row;
 
 }
+.card1 img {
+    /* Your styles here */
+    width: 100px; /* Example style */
+    border: 2px solid #000; /* Example style */
+}
