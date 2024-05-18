@@ -157,38 +157,40 @@
     width: 100px; /* Example style */
     border: 2px solid #000; /* Example style */
     background-color: #e42f0b;
+    
+    border-radius: 50%;
 }
 .card2 img {
     margin: 20px;
     /* Your styles here */
     width: 100px; /* Example style */
-    border: 2px solid #000; /* Example style */
+    border-radius: 50%;
     background-color: #f4490b;
 }
 .card3 img {
     margin: 20px;
     /* Your styles here */
     width: 100px; /* Example style */
-    border: 2px solid #000; /* Example style */
+    border-radius: 50%;
     background-color: #dc3610;
 }
 .card4 img {
     margin: 20px;
     /* Your styles here */
     width: 100px; /* Example style */
-    border: 2px solid #000; /* Example style */
+    border-radius: 50%;
     background-color: #dc3610;
 }
 .card5 img {
     margin: 20px;
     /* Your styles here */
     width: 100px; /* Example style */
-    border: 2px solid #000; /* Example style */
+    border-radius: 50%;
     background-color: #dc3610;
 }
 .card6 img {
     margin: 20px;
     width: 100px; /* Example style */
-    border: 2px solid #000; /* Example style */
+    border-radius: 50%;
     background-color: #dc3610;
 }
