@@ -153,6 +153,7 @@
 }
 .card1 img {
     /* Your styles here */
+    margin: 20px;
     width: 100px; /* Example style */
     border: 2px solid #000; /* Example style */
     background-color: #e42f0b;
