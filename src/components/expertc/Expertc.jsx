@@ -95,15 +95,7 @@ const Expertc = () => {
             </div>
 
            <div>
-           Expertise and Guidance
-
-
-
-
-
-
-
-Legal Compliance and Risk Mitigation
+          
 
 
 
