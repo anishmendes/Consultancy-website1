@@ -99,7 +99,7 @@ const Expertc = () => {
 
 
 
-Access to Resources
+
 
 Customized Solutions
 
@@ -110,7 +110,7 @@ Peace of Mind
           <ul>
             <li>Expertise and Guidance</li>
             <li>Streamlined Processes</li>
-            <li></li>
+            <li>Access to Resources</li>
             <li></li>
             <li></li>
             <li></li>
