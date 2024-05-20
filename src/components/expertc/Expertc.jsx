@@ -95,8 +95,20 @@ const Expertc = () => {
             </div>
 
            <div>
+           Expertise and Guidance
+
+Streamlined Processes
+
+Access to Resources
+
+Customized Solutions
+
+Legal Compliance and Risk Mitigation
+
+Peace of Mind
+
           <ul>
-            <li></li>
+            <li>Expertise and Guidance</li>
             <li></li>
             <li></li>
             <li></li>
