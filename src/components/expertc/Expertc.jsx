@@ -89,7 +89,12 @@ const Expertc = () => {
           </div>
 
 
-          <div className='reasons'></div>
+          <div className='reasons'>
+          <div className='reasonhead'>
+              <h3>Reasons for choosing our consultancy</h3>
+            </div>
+
+          </div>
 
     </div>
   )
