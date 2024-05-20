@@ -87,6 +87,10 @@ const Expertc = () => {
               </div>
             </div>
           </div>
+
+
+          <div className='reasons'></div>
+
     </div>
   )
 }
