@@ -112,7 +112,7 @@ Peace of Mind
             <li>Streamlined Processes</li>
             <li>Access to Resources</li>
             <li>Customized Solutions</li>
-            <li></li>
+            <li>Legal Compliance and Risk Mitigation</li>
             <li></li>
           </ul>
            </div>
