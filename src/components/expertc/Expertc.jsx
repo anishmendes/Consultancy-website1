@@ -105,7 +105,7 @@ const Expertc = () => {
 
 Legal Compliance and Risk Mitigation
 
-Peace of Mind
+
 
           <ul>
             <li>Expertise and Guidance</li>
@@ -113,7 +113,7 @@ Peace of Mind
             <li>Access to Resources</li>
             <li>Customized Solutions</li>
             <li>Legal Compliance and Risk Mitigation</li>
-            <li></li>
+            <li>Peace of Mind</li>
           </ul>
            </div>
 
