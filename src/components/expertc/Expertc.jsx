@@ -97,7 +97,7 @@ const Expertc = () => {
            <div>
            Expertise and Guidance
 
-Streamlined Processes
+
 
 Access to Resources
 
@@ -109,7 +109,7 @@ Peace of Mind
 
           <ul>
             <li>Expertise and Guidance</li>
-            <li></li>
+            <li>Streamlined Processes</li>
             <li></li>
             <li></li>
             <li></li>
