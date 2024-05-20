@@ -101,7 +101,7 @@ const Expertc = () => {
 
 
 
-Customized Solutions
+
 
 Legal Compliance and Risk Mitigation
 
@@ -111,7 +111,7 @@ Peace of Mind
             <li>Expertise and Guidance</li>
             <li>Streamlined Processes</li>
             <li>Access to Resources</li>
-            <li></li>
+            <li>Customized Solutions</li>
             <li></li>
             <li></li>
           </ul>
