@@ -266,3 +266,16 @@
     font-weight: 400;
    margin-left: 20px;
 }
+
+.reasons {
+    background-color:rgba(55, 41, 225, 0.15) ;
+    margin-top: 150px;        
+    /* it could be chnage after adding up section */
+}
+.reasonhead {
+    display: flex;
+  padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    color:#D72222;
+}

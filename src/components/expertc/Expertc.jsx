@@ -94,11 +94,8 @@ const Expertc = () => {
               <h3>Reasons for choosing our consultancy</h3>
             </div>
 
+
            <div>
-          
-
-
-
           <ul>
             <li>Expertise and Guidance</li>
             <li>Streamlined Processes</li>
@@ -113,7 +110,6 @@ const Expertc = () => {
            <div className='right-reason'>
            <img src="./images/expertpro.png" alt="serviceimg" />
            </div>
-
           </div>
 
     </div>
