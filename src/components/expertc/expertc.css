@@ -284,6 +284,7 @@
     align-items: start;
     flex-direction: column;
      margin-left: 30px;
+     
 
 }
 .leftreason ul {
@@ -298,4 +299,10 @@
 .sidemain {
     display: flex;
     flex-direction: row;
+    margin-top: 100px;
+}
+.rightreason {
+    display: flex;
+    justify-content: end;
+    margin-left: 500px;
 }
