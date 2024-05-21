@@ -302,8 +302,14 @@
     flex-direction: row;
     margin-top: 100px;
 }
+
+
+
 .rightreason {
     display: flex;
     justify-content: end;
     margin-left: 500px;
+    max-width: 590px;
+    height: 550;
+    border-radius: 40px;
 }
