@@ -95,7 +95,7 @@ const Expertc = () => {
             </div>
 
 
-           <div className='leftsides'>
+           <div className='leftreason'>
           <ul>
             <li>Expertise and Guidance</li>
             <li>Streamlined Processes</li>
@@ -107,7 +107,7 @@ const Expertc = () => {
            </div>
 
 
-           <div className='rightservice'>
+           <div className='rightreason'>
            <img src="./images/expertpro.png" alt="serviceimg" />
            </div>
           </div>
