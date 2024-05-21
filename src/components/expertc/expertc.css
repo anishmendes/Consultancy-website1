@@ -284,5 +284,13 @@
     align-items: start;
     flex-direction: column;
      margin-left: 30px;
-     
+
+}
+.leftreason ul {
+    list-style-type: circle; 
+    
+}
+
+.leftreason li {
+    margin-bottom: 5px; /* Adds space between list items */
 }
