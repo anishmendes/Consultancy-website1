@@ -295,6 +295,9 @@
 
 .leftreason li {
     margin-bottom: 25px; 
+    color: #D72222;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .sidemain {
