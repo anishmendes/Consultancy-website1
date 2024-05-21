@@ -294,3 +294,8 @@
 .leftreason li {
     margin-bottom: 25px; 
 }
+
+.sidemain {
+    display: flex;
+    flex-direction: row;
+}
