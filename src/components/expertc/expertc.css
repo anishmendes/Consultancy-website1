@@ -279,3 +279,10 @@
     justify-content: center;
     color:#D72222;
 }
+.leftreason {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+     margin-left: 30px;
+     
+}
