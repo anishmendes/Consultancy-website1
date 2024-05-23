@@ -308,6 +308,8 @@
 
 
 
+
+
 .rightreason {
     display: flex;
     justify-content: end;
@@ -316,4 +318,9 @@
     height: 550;
     border-radius: 40px;
     padding-bottom: 120px;
+}
+
+.consel {
+   margin-top: 100px;
+   background-color: #3729E1;
 }
