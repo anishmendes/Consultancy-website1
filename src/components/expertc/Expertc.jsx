@@ -126,7 +126,10 @@ const Expertc = () => {
                 <img src="" alt="" />
                 <span></span>
                 </div> 
-              <div className='conbox2'></div> 
+              <div className='conbox2'>
+                <img src="" alt="" />
+                <span></span>
+                </div> 
 
             </div>
 
