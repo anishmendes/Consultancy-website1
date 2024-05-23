@@ -376,3 +376,9 @@
     max-width:360px ;
     max-height: 300px;
 }
+.conbox2 h3{
+    color: #3729E1;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
