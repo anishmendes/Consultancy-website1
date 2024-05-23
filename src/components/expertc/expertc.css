@@ -332,3 +332,13 @@
       justify-content: center;
       color: #3729E1;
 }
+
+.conselbox {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   max-width: 460px;
+   max-height: 470px;
+   border-radius: 30px;
+   
+}
