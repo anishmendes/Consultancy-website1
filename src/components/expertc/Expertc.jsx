@@ -121,6 +121,12 @@ const Expertc = () => {
             <h2>Our Expert Counselors</h2>
             </div>
 
+            <div className='conselbox'>
+              <div className='conbox1'></div> 
+              <div className='conbox2'></div> 
+
+            </div>
+
           </div>
 
     </div>
