@@ -324,3 +324,11 @@
    margin-top: 100px;
    background-color:rgba(55, 41, 225, 0.15) ;
 }
+
+.conselh {
+    display: flex;
+    padding-top: 50px;
+      align-items: center;
+      justify-content: center;
+      color: #3729E1;
+}
