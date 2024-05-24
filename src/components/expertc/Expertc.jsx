@@ -147,7 +147,7 @@ const Expertc = () => {
                 <p>Choosing ABC consultancy  was one of the best decisions we made for our global mobility needs. Their team's professionalism and commitment to excellence were evident from the start.</p>
               </div>
               <div className="cilentbox2">
-              <img src="./images/review2.png" alt="cilent2" />
+              <img src="./images/review1.png" alt="cilent2" />
                 <p>The support and guidance provided by ABC consultancy were exceptional. Their consultants were knowledgeable, responsive, and always available to address any concerns.</p>
               </div>
             </div>
