@@ -428,9 +428,21 @@
 }
 .cilentbox1 img{
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    padding-top: 10px;
 }
 .cilentbox2 img{
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.cilentbox1 p{
+    margin-left: 10px;
+    max-width: 530px;
+    padding: 20px 20px;
+}
+.cilentbox2 p{
+    margin-left: 10px;
+    max-width: 530px;
+    padding: 20px 20px;
 }
