@@ -387,3 +387,10 @@
     margin-top: 100px;
     background-color:rgba(55, 41, 225, 0.15) ;
 }
+.cilenth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #3729E1;
+}
