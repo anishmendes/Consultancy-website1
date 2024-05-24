@@ -142,8 +142,14 @@ const Expertc = () => {
 
             </div>
             <div className="cilentbox">
-              <div className="cilentbox1"></div>
-              <div className="cilentbox2"></div>
+              <div className="cilentbox1">
+                <img src="" alt="" />
+                <p></p>
+              </div>
+              <div className="cilentbox2">
+              <img src="" alt="" />
+                <p></p>
+              </div>
             </div>
 
           </div>
