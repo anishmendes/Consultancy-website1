@@ -382,3 +382,8 @@
     align-items: center;
     padding-top: 20px;
 }
+
+.cilent {
+    margin-top: 100px;
+    background-color:rgba(55, 41, 225, 0.15) ;
+}
