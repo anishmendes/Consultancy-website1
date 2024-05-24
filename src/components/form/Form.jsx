@@ -240,21 +240,21 @@ const Form = () => {
             >
                 Select your Ans
             </option>
-            <optgroup label="For USA">
+            
                 <option value="1">ITETLS</option>
                 <option value="2">GRE</option>
                 <option value="3">
                     TOFEL
                 </option>
-            </optgroup>
-            <optgroup label="FOR AUS">
+          
+            
                 <option value="4">ITETLS</option>
                 <option value="5">PTE</option>
                 <option value="6">
                     other
                 </option>
                
-            </optgroup>
+          
         </select>
         <label for="about" className='labelform'>About</label>
         <textarea
