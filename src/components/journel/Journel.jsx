@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 const Journel = () => {
   return (
     <>
-      <Back title='Blog Posts' />
+      {/* <Back title='Blog Posts' /> */}
       <section className='blog padding'>
         <motion.div
          

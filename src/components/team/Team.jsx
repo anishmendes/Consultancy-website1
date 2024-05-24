@@ -8,8 +8,11 @@ import "../about/about.css"
 const Team = () => {
   return (
     <>
-    
+     <div className="teamheading">
+      <h1>OUR TEAM</h1>
+     </div>
       <section className='team padding'>
+
         <div className='container grid'>
           <TeamCard />
           

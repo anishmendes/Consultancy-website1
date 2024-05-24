@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,300;0,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playpen+Sans:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500&family=Work+Sans:wght@300;400;700;900&display=swap');
 .team .items {
     transition: 0.5s;
     box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.06);
@@ -74,4 +75,18 @@
     .overlay {
       padding: 10px; /* Decrease padding */
     }
+  }
+
+  .teamheading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background:  #453ae6;
+    height: 200px;
+  }
+  .teamheading h1{
+    font-size: 68px;
+    color: white;
+    font-family:"Poppins", sans-serif;
   }
