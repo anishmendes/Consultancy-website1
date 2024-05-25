@@ -10,7 +10,9 @@ const Team = () => {
   return (
     <>
      <div className="teamheading">
-      <h1>OUR TEAM</h1>
+      <motion.h1   initial={{ opacity: 0, scale: 0.3 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 2 }}>OUR TEAM</motion.h1>
      </div>
       <section className='team padding'>
 
