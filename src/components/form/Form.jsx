@@ -200,7 +200,7 @@ const Form = () => {
             }
         />
         Aus
-        <label for="file" className='labelform'>Upload Your Photo*</label>
+        {/* <label for="file" className='labelform'>Upload Your Photo*</label>
         <input
             type="file"
             name="file"
@@ -210,7 +210,7 @@ const Form = () => {
             }
             placeholder="Enter Upload File"
             required
-        />
+        /> */}
         {/* <label for="url" className='labelform'>Enter URL*</label>
         <input
             type="url"
