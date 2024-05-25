@@ -4,6 +4,7 @@ import JournelCard from "./JournelCard"
 import "./journel.css"
 
 import { motion } from 'framer-motion';
+import { fadeIn } from './../../variants';
 
 
 
@@ -11,7 +12,10 @@ const Journel = () => {
   return (
     <>
     <div className="journelheading">
-      <h1>CHECK OUR JOURNELS</h1>
+      <motion.h1  variants={fadeIn("up", 0.7)}
+       initial="hidden"
+       whileInView={"show"}
+       viewport={{once:false, amount:0.7}}>CHECK OUR JOURNELS</motion.h1>
       </div>
       {/* <Back title='Blog Posts' /> */}
       
