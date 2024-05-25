@@ -42,6 +42,19 @@
 .blog p {
     color:rgb(9, 9, 9);
 }
+.journelheading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background:  #453ae6;
+    height: 200px;
+  }
+  .journelheading h1{
+    font-size: 68px;
+    color: white;
+    font-family:"Poppins", sans-serif;
+  }
 
 
 
