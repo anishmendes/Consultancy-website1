@@ -4,6 +4,7 @@ import TeamCard from "./TeamCard"
 import "./team.css"
 import Awrapper from "../about/Awrapper"
 import "../about/about.css"
+import { motion } from "framer-motion"
 
 const Team = () => {
   return (
