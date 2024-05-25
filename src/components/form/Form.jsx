@@ -211,7 +211,7 @@ const Form = () => {
             placeholder="Enter Upload File"
             required
         />
-        <label for="url" className='labelform'>Enter URL*</label>
+        {/* <label for="url" className='labelform'>Enter URL*</label>
         <input
             type="url"
             name="url"
@@ -221,7 +221,7 @@ const Form = () => {
             }
             placeholder="Enter url"
             required
-        />
+        /> */}
         <label className='labelform'>Select your course</label>
         <select
             name="select"
