@@ -12,7 +12,7 @@ const Journel = () => {
   return (
     <>
     <div className="journelheading">
-      <motion.h1  variants={fadeIn("up", 0.7)}
+      <motion.h1  variants={fadeIn("up", 0.4)}
        initial="hidden"
        whileInView={"show"}
        viewport={{once:false, amount:0.7}}>CHECK OUR JOURNELS</motion.h1>
