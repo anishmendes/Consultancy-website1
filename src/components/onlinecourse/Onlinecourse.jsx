@@ -42,7 +42,7 @@ const Onlinecourse = () => {
             </div>
 
         </div>
-        <div className='rightsidep'>
+        {/* <div className='rightsidep'>
           <div className='boxp'>
           <img src="/images/popular1.png" alt="pop"   className='pop1img'/>
           <h2>CMAT</h2>
@@ -57,7 +57,7 @@ const Onlinecourse = () => {
           
 
           </div>
-        </div>
+        </div> */}
         <button className='onlineb'>See More</button>
       </div>
 
