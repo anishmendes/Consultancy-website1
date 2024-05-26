@@ -313,6 +313,7 @@ border-radius: 10px;
     display: flex;
     flex-direction: row;
     padding: 50px;
+    justify-content: space-between;
 }
 .box1 {
     padding: 20px;
