@@ -63,7 +63,7 @@
 }
 
 .popular {
-border: 2px solid black;
+/* border: 2px solid black; */
 margin-top: 100px;
 display: flex;
 flex-direction: column; /* Display children elements vertically */
