@@ -239,7 +239,8 @@ border-radius: 10px;
 
 .lecture {
     background: #3729E126;
-    margin-top: 100px;
+    margin-top: 30px;
+    padding-top: 100px;
 }
 .lecturecol {
     display: flex;
