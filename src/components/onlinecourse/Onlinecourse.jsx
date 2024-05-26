@@ -58,7 +58,7 @@ const Onlinecourse = () => {
 
           </div>
         </div> */}
-        <button className='onlineb'>See More</button>
+        {/* <button className='onlineb'>See More</button> */}
       </div>
 
       <div className='explorep'>
