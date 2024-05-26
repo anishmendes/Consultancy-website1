@@ -117,7 +117,8 @@ flex-direction: column; /* Display children elements vertically */
     height: full;
     display: flex;
     flex-direction: row;
-    margin-top: 60px;
+    margin-top: 30px;
+    padding-top: 100px;
     
     background: rgba(55, 41, 225, 0.15);
  
