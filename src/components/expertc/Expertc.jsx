@@ -34,7 +34,7 @@ const Expertc = () => {
 
             <div className='service1'>
            <div className='leftsides'>
-            <img src="./images/expertpro.png" alt="serviceimg" />
+            <img src="./images/expertpro.png" alt="serviceimg" />  
            </div>
            <div className='rightservice'> 
            <h3>Dedicated and professional consulting service</h3>
