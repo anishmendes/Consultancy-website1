@@ -16,7 +16,7 @@ const Expertc = () => {
           </div>
 
 
-          <div className='expertpro'>
+          {/* <div className='expertpro'>
             <div className='prohead'>
               <h2>Professional and dedicated consulting solutions</h2>
             </div>
@@ -25,7 +25,7 @@ const Expertc = () => {
           
             
 
-          </div>
+          </div> */}
 
           <div className='service'>
             <div className='servicehead'>
